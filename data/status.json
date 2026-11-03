@@ -1,20 +1,22 @@
 {
- "run_at": "2026-11-03T05:30:39.378Z",
+ "run_at": "2026-11-03T06:01:01.780Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-03T05:30:20.604Z",
-  "stores_ok": 12,
+  "updated": "2026-11-03T06:01:01.419Z",
+  "stores_ok": 13,
   "stores_total": 19,
-  "items": 70772,
-  "rows": 136796,
-  "multi_store_items": 19425,
-  "reused_stores": 0,
+  "items": 80678,
+  "rows": 147596,
+  "multi_store_items": 19513,
+  "reused_stores": 12,
+  "name_matched_offers": 894,
+  "merge_only": true,
   "stores": [
    {
     "name": "Landau's Supermarket",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 10946,
+    "count": 10942,
     "checked": "2026-11-03T05:26:09.844Z",
     "stale": false
    },
@@ -22,7 +24,7 @@
     "name": "Rockland Kosher",
     "city": "Monsey",
     "status": "ok",
-    "count": 31075,
+    "count": 31006,
     "checked": "2026-11-03T05:30:20.371Z",
     "stale": false
    },
@@ -30,7 +32,7 @@
     "name": "Breadberry",
     "city": "Boro Park",
     "status": "ok",
-    "count": 18255,
+    "count": 18252,
     "checked": "2026-11-03T05:27:41.410Z",
     "stale": false
    },
@@ -38,7 +40,7 @@
     "name": "Mega 53",
     "city": "Boro Park",
     "status": "ok",
-    "count": 10745,
+    "count": 10357,
     "checked": "2026-11-03T05:26:06.887Z",
     "stale": false
    },
@@ -46,7 +48,7 @@
     "name": "Mountain Fruit",
     "city": "Flatbush",
     "status": "ok",
-    "count": 8372,
+    "count": 8367,
     "checked": "2026-11-03T05:25:36.976Z",
     "stale": false
    },
@@ -54,7 +56,7 @@
     "name": "Empire Kosher",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 9768,
+    "count": 9744,
     "checked": "2026-11-03T05:25:54.973Z",
     "stale": false
    },
@@ -62,7 +64,7 @@
     "name": "The Market Place (KosherFamily)",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 11256,
+    "count": 11249,
     "checked": "2026-11-03T05:26:13.035Z",
     "stale": false
    },
@@ -70,7 +72,7 @@
     "name": "Koshertown",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 6344,
+    "count": 6342,
     "checked": "2026-11-03T05:25:11.596Z",
     "stale": false
    },
@@ -86,7 +88,7 @@
     "name": "Seasons Lakewood",
     "city": "Lakewood",
     "status": "ok",
-    "count": 11007,
+    "count": 10779,
     "checked": "2026-11-03T05:26:10.354Z",
     "stale": false
    },
@@ -94,7 +96,7 @@
     "name": "Nutmeg Kosher Market",
     "city": "Lakewood",
     "status": "ok",
-    "count": 10151,
+    "count": 10150,
     "checked": "2026-11-03T05:25:59.747Z",
     "stale": false
    },
@@ -102,16 +104,16 @@
     "name": "Seasons Lawrence",
     "city": "Five Towns",
     "status": "ok",
-    "count": 8932,
+    "count": 8900,
     "checked": "2026-11-03T05:28:02.857Z",
     "stale": false
    },
    {
     "name": "Refresh Supermarket",
     "city": "Monroe / Kiryas Joel",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T05:23:53.705Z",
+    "status": "ok",
+    "count": 10832,
+    "checked": "2026-11-03T05:55:37.489Z",
     "stale": false
    },
    {
@@ -119,7 +121,7 @@
     "city": "Monroe / Kiryas Joel",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.947Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    },
    {
@@ -127,7 +129,7 @@
     "city": "Monsey",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.948Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    },
    {
@@ -135,7 +137,7 @@
     "city": "Monsey",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.948Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    },
    {
@@ -143,7 +145,7 @@
     "city": "Williamsburg",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.948Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    },
    {
@@ -151,7 +153,7 @@
     "city": "Crown Heights",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.948Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    },
    {
@@ -159,7 +161,7 @@
     "city": "Lakewood",
     "status": "blocked",
     "count": 0,
-    "checked": "2026-11-03T05:23:52.948Z",
+    "checked": "2026-11-03T06:01:00.651Z",
     "stale": false
    }
   ]
