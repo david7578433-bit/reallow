@@ -95,6 +95,69 @@ async function collectLx(st) {
   return { items: [...seen.values()], total, pages };
 }
 
+// Algolia-search stores (Grand Food Market, Monroe/KJ): the store's own public product search — the same search its
+// shoppers' browsers call. The public search-only key is read from the store's own web page on every run and never
+// stored in this repo. Algolia hands out at most 1000 hits per query, so the catalog is read one department at a time,
+// and a department over 1000 items one subcategory (then brand) at a time. Barcodes (UPC) included.
+async function algoliaCreds(st) {
+  const home = await politeFetch(st.site + '/', {}, DELAY);
+  if (!home.ok) throw new Error(`HTTP ${home.status} home page`);
+  const html = await home.text();
+  const chunks = [...new Set([...html.matchAll(/\/_next\/static\/chunks\/[^"'\s]+?\.js(?:\?[^"'\s]*)?/g)].map((m) => m[0]))]
+    .sort((a, b) => (/layout/.test(b) ? 1 : 0) - (/layout/.test(a) ? 1 : 0));
+  for (const c of chunks) {
+    const r = await politeFetch(st.site + c, {}, 400); if (!r.ok) continue;
+    const t = await r.text();
+    const m = t.match(/algolia:\{appId:"([A-Za-z0-9]+)",searchKey:"([A-Za-z0-9]+)"[\s\S]{0,200}?indexName:[^}]*?"([A-Za-z0-9_\-]+)"\}/);
+    if (m) return { app: m[1], key: m[2], index: m[3] };
+  }
+  throw new Error('could not find the store\'s public search settings on its page');
+}
+async function collectAlgolia(st) {
+  const c = await algoliaCreds(st);
+  const url = `https://${c.app}-dsn.algolia.net/1/indexes/${encodeURIComponent(c.index)}/query`;
+  const H = { 'X-Algolia-Application-Id': c.app, 'X-Algolia-API-Key': c.key, 'Content-Type': 'application/json', Origin: st.site, Referer: st.site + '/' };
+  let pages = 0;
+  const q = async (body) => {
+    const r = await politeFetch(url, { method: 'POST', expectJson: true, headers: H, body: JSON.stringify({ query: '', attributesToHighlight: [], attributesToSnippet: [], ...body }) }, DELAY);
+    if (!r.ok) throw new Error(`HTTP ${r.status} search`);
+    pages++; return r.json();
+  };
+  const total = (await q({ hitsPerPage: 0 })).nbHits;
+  const seen = new Map();
+  const take = (h) => {
+    const price = Number(h.unitPrice); if (!(price > 0 && price < 2000)) return;
+    const was = Number(h.comparePrice);
+    const code = String(h.itemCode || '').trim();
+    const sz = h.size && h.unit ? `${h.size} ${String(h.unit).replace(/\.$/, '')}` : '';
+    let n = [h.brand && !String(h.name || '').toLowerCase().includes(String(h.brand).toLowerCase()) ? h.brand : '', h.name].filter(Boolean).join(' ');
+    if (sz && !/\d\s*(oz|lb|fl|ct|g|kg|ml|l|pk|pack|count)\b/i.test(n)) n += `, ${sz}`;
+    const id = /^\d{4,14}$/.test(code) ? code : encodeURIComponent(String(h.name || h.objectID));
+    const key = h.objectID || id;
+    if (!seen.has(key)) seen.set(key, { n: cleanName(n), p: price, w: was > price ? was : null, u: h.byMeasure ? 'lb' : '', id, b: barcodeKey(code), sp: was > price });
+  };
+  const pull = async (filters) => {
+    for (let p = 0; p < 50; p++) {
+      const j = await q({ filters, hitsPerPage: 1000, page: p });
+      for (const h of j.hits || []) take(h);
+      if (p + 1 >= (j.nbPages || 1)) break;
+    }
+  };
+  // Price bands: split [lo, hi) in half until each band holds at most 1000 items (prices are in cents, so a band
+  // narrower than a cent is one price; such a band over 1000 is read one department at a time).
+  const band = async (lo, hi) => {
+    const f = `unitPrice >= ${lo} AND unitPrice < ${hi}`;
+    const j = await q({ filters: f, hitsPerPage: 0, ...(hi - lo < 0.02 ? { facets: ['departmentIds'], maxValuesPerFacet: 1000 } : {}) });
+    if (!j.nbHits) return;
+    if (j.nbHits <= 1000) return pull(f);
+    if (hi - lo < 0.02) { for (const d of Object.keys((j.facets || {}).departmentIds || {})) await pull(`${f} AND departmentIds:"${d}"`); return; }
+    const mid = Math.round(((lo + hi) / 2) * 100) / 100;
+    await band(lo, mid); await band(mid, hi);
+  };
+  await band(0, 2000);
+  return { items: [...seen.values()], total, pages };
+}
+
 async function collectMcg(st) {
   const out = []; let pages = 1; let total = null;
   for (let p = 1; p <= Math.min(pages, MAX_PAGES); p++) {
@@ -124,7 +187,7 @@ for (const st of cfg.stores) { const h = new URL(st.site).host; if (!byHost.has(
 await Promise.all([...byHost.values()].map(async (group) => {
   for (const st of group) {
     const t0 = Date.now();
-    if (st.platform !== 'mcg' && st.platform !== 'lx') {
+    if (st.platform !== 'mcg' && st.platform !== 'lx' && st.platform !== 'algolia') {
       const bd = await loadBrowserStore(st.id).catch((e) => { console.log(`${st.id}: browser data unreadable: ${e.message}`); return null; });
       if (bd) {
         const stale = Date.now() - Date.parse(bd.checked) > BROWSER_STALE_MS;
@@ -147,7 +210,7 @@ await Promise.all([...byHost.values()].map(async (group) => {
     }
     if (MERGE_ONLY) { results[st.id] = { status: 'reuse', items: [], checked: null }; continue; }
     try {
-      const r = st.platform === 'lx' ? await collectLx(st) : await collectMcg(st);
+      const r = st.platform === 'lx' ? await collectLx(st) : st.platform === 'algolia' ? await collectAlgolia(st) : await collectMcg(st);
       results[st.id] = { status: 'ok', items: r.items, total: r.total, checked: new Date().toISOString(), secs: Math.round((Date.now() - t0) / 1000) };
       console.log(`${st.id}: ${r.items.length} items (${r.pages} pages) in ${results[st.id].secs}s`);
     } catch (e) {

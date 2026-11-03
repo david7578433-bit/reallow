@@ -1,5 +1,5 @@
 {
- "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON (read here every 4 hours). platform mobilezuz = these stores put a Cloudflare bot check in front of honest robots, so they are read in a real browser twice a day off GitHub; that run commits data/browser/*.json and the browser-merge workflow folds them in. Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites). platform lx = LocalExpress public catalog JSON (Chestnut), read here every 4 hours.",
+ "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON (read here every 4 hours). platform mobilezuz = these stores put a Cloudflare bot check in front of honest robots, so they are read in a real browser twice a day off GitHub; that run commits data/browser/*.json and the browser-merge workflow folds them in. Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites). platform lx = LocalExpress public catalog JSON (Chestnut), read here every 4 hours. platform algolia = the store's own public product search (Grand Food Market); its public search-only key is read from the store's page on every run, never stored here.",
  "stores": [
   {
    "id": "landaus",
@@ -199,6 +199,15 @@
    "storeId": 5074,
    "searchUrl": "https://chestnutsupermarket.com/search?q={q}",
    "productUrl": "https://chestnutsupermarket.com/product/{id}"
+  },
+  {
+   "id": "grandfood",
+   "name": "Grand Food Market",
+   "city": "Monroe / Kiryas Joel",
+   "platform": "algolia",
+   "site": "https://grandfoodmarket.com",
+   "searchUrl": "https://grandfoodmarket.com/search/{q}",
+   "productUrl": "https://grandfoodmarket.com/search/{id}"
   }
  ]
 }
