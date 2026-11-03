@@ -27,6 +27,8 @@ jobs:
     timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -61,11 +63,21 @@ jobs:
         run: |
           git config user.name "RealLow robot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals.json data/
-          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
-          git commit -m "Robots: fresh prices $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --autostash -X ours origin main || true
-          git push origin HEAD:main
+          # Commit only the files this job wrote, on top of the LATEST main (other robots and the browser run commit
+          # in between). Never a text merge of two generated files: that mixed two runs' groceries.json once (Nov 3).
+          FILES="deals.json data/groceries.json data/status.json data/api-prices.json"
+          mkdir -p /tmp/fresh
+          for f in $FILES; do if [ -f "$f" ]; then mkdir -p "/tmp/fresh/$(dirname "$f")"; cp "$f" "/tmp/fresh/$f"; fi; done
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            for f in $FILES; do if [ -f "/tmp/fresh/$f" ]; then cp "/tmp/fresh/$f" "$f"; git add "$f"; fi; done
+            if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+            git commit -m "Robots: fresh prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((i * 10))
+          done
+          exit 1
 
   deploy:
     needs: collect
