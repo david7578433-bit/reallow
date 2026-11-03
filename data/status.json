@@ -1,15 +1,15 @@
 {
- "run_at": "2026-11-03T06:24:32.701Z",
+ "run_at": "2026-11-03T14:52:33.624Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-03T06:24:32.186Z",
+  "updated": "2026-11-03T14:52:33.142Z",
   "stores_ok": 19,
   "stores_total": 19,
-  "items": 103406,
-  "rows": 216455,
-  "multi_store_items": 35594,
+  "items": 103461,
+  "rows": 216533,
+  "multi_store_items": 35586,
   "reused_stores": 12,
-  "name_matched_offers": 7192,
+  "name_matched_offers": 7197,
   "merge_only": true,
   "stores": [
    {
@@ -112,8 +112,8 @@
     "name": "Refresh Supermarket",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 10832,
-    "checked": "2026-11-03T05:55:37.489Z",
+    "count": 10834,
+    "checked": "2026-11-03T11:04:30.717Z",
     "stale": false
    },
    {
@@ -121,47 +121,47 @@
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
     "count": 8378,
-    "checked": "2026-11-03T05:58:52.990Z",
+    "checked": "2026-11-03T11:07:24.233Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Monsey)",
     "city": "Monsey",
     "status": "ok",
-    "count": 15463,
-    "checked": "2026-11-03T06:08:40.334Z",
+    "count": 15532,
+    "checked": "2026-11-03T11:18:22.253Z",
     "stale": false
    },
    {
     "name": "Wesley Kosher",
     "city": "Monsey",
     "status": "ok",
-    "count": 16383,
-    "checked": "2026-11-03T06:04:30.003Z",
+    "count": 16385,
+    "checked": "2026-11-03T11:12:46.333Z",
     "stale": false
    },
    {
     "name": "Hatzlacha Kosher",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 8768,
-    "checked": "2026-11-03T06:14:33.512Z",
+    "count": 8769,
+    "checked": "2026-11-03T11:25:55.223Z",
     "stale": false
    },
    {
     "name": "Kahan's Superette",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 7259,
-    "checked": "2026-11-03T06:24:00.639Z",
+    "count": 7263,
+    "checked": "2026-11-03T11:28:40.913Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Lakewood)",
     "city": "Lakewood",
     "status": "ok",
-    "count": 12922,
-    "checked": "2026-11-03T06:12:07.970Z",
+    "count": 12929,
+    "checked": "2026-11-03T11:22:51.329Z",
     "stale": false
    }
   ]
