@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:56:12.791Z",
+ "updated": "2026-11-03T06:16:58.957Z",
  "note": "Prices read in a real browser from each store's own online catalog (these stores block simple robots). Rows: [name, size, regularPrice, salePrice(0=none), catalogProductId, unit, imagePath (after https://d226b0iufwcjmj.cloudfront.net/product-images/), saleText]. Product page: {site}/?catalogProduct={id}.",
  "stores": {
   "refresh": {
@@ -21,61 +21,93 @@
    "name": "Shlomie's",
    "city": "Monroe / Kiryas Joel",
    "site": "https://www.shlomies.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T05:58:52.990Z",
+   "count": 8378,
+   "on_sale": 188,
+   "files": [
+    "shlomies-0.json",
+    "shlomies-1.json",
+    "shlomies-2.json"
+   ]
   },
   "wesley": {
    "name": "Wesley Kosher",
    "city": "Monsey",
    "site": "https://www.wesleykosheronline.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T06:04:30.003Z",
+   "count": 16383,
+   "on_sale": 1232,
+   "files": [
+    "wesley-0.json",
+    "wesley-1.json",
+    "wesley-2.json",
+    "wesley-3.json",
+    "wesley-4.json",
+    "wesley-5.json"
+   ]
   },
   "evergreen-monsey": {
    "name": "Evergreen Kosher (Monsey)",
    "city": "Monsey",
    "site": "https://www.shopevergreenkosher.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T06:08:40.334Z",
+   "count": 15463,
+   "on_sale": 186,
+   "files": [
+    "evergreen-monsey-0.json",
+    "evergreen-monsey-1.json",
+    "evergreen-monsey-2.json",
+    "evergreen-monsey-3.json",
+    "evergreen-monsey-4.json",
+    "evergreen-monsey-5.json"
+   ]
   },
   "evergreen-lakewood": {
    "name": "Evergreen Kosher (Lakewood)",
    "city": "Lakewood",
    "site": "https://www.shopevergreenkosher.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T06:12:07.970Z",
+   "count": 12922,
+   "on_sale": 172,
+   "files": [
+    "evergreen-lakewood-0.json",
+    "evergreen-lakewood-1.json",
+    "evergreen-lakewood-2.json",
+    "evergreen-lakewood-3.json",
+    "evergreen-lakewood-4.json"
+   ]
   },
   "hatzlacha": {
    "name": "Hatzlacha Kosher",
    "city": "Williamsburg",
    "site": "https://www.hatzlachakosher.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T06:14:33.512Z",
+   "count": 8768,
+   "on_sale": 284,
+   "files": [
+    "hatzlacha-0.json",
+    "hatzlacha-1.json",
+    "hatzlacha-2.json"
+   ]
   },
   "kahans": {
    "name": "Kahan's Superette",
    "city": "Crown Heights",
    "site": "https://www.kahanskosher.com",
-   "status": "not run",
-   "note": null,
-   "checked": null,
-   "count": 0,
-   "files": []
+   "status": "ok",
+   "checked": "2026-11-03T06:16:45.788Z",
+   "count": 7259,
+   "on_sale": 80,
+   "files": [
+    "kahans-0.json",
+    "kahans-1.json",
+    "kahans-2.json"
+   ]
   }
  }
 }
