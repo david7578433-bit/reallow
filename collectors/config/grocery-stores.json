@@ -171,6 +171,24 @@
    "site": "https://www.shopevergreenkosher.com",
    "retailerId": 1120,
    "branchId": 2801
+  },
+  {
+   "id": "rosemary",
+   "name": "Rosemary Kosher Supermarket",
+   "city": "Williamsburg",
+   "platform": "mcg",
+   "site": "https://rosemarykosher.com",
+   "storeId": 1,
+   "seo": "williamsburg"
+  },
+  {
+   "id": "foodoo",
+   "name": "Foodoo Kosher",
+   "city": "Williamsburg",
+   "platform": "mobilezuz",
+   "site": "https://www.foodookosher.com",
+   "retailerId": 1527,
+   "branchId": 2899
   }
  ]
 }
