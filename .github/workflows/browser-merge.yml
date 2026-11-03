@@ -37,7 +37,7 @@ jobs:
           git add data/
           if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
           git commit -m "Browser prices merged $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase -X ours origin main || true
+          git pull --rebase --autostash -X ours origin main || true
           git push origin HEAD:main
 
   deploy:
