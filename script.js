@@ -185,6 +185,9 @@
       var c2 = el("div", "card"); c2.appendChild(el("h3", "res-sub", "\uD83D\uDD25 Deals & store prices, cheapest first"));
       var ol2 = el("ol", "feed"); dh.slice(0, 25).forEach(function (x) { ol2.appendChild(dealRow(x)); }); c2.appendChild(ol2); dbox.appendChild(c2);
     }
+    // Put whichever answers the search better on top: groceries for food, deals/store prices for everything else.
+    var gcount = gh ? gh.filter(function (h) { return !h.more; }).length : 0;
+    if (dh.length && (gcount < 5 || dh.length >= gcount)) gbox.parentNode.insertBefore(dbox, gbox); else gbox.parentNode.insertBefore(gbox, dbox);
     var none = gh !== null && !gh.length && !dh.length;
     $("res-stores-h").textContent = none ? "No robot price for \u201C" + q + "\u201D yet \u2014 tap a store to see it there" : "Search \u201C" + q + "\u201D on any store";
     var sbox = $("res-stores"); sbox.innerHTML = "";
