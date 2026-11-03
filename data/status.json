@@ -1,8 +1,8 @@
 {
- "run_at": "2026-11-03T15:52:50.598Z",
+ "run_at": "2026-11-03T16:21:57.201Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-03T15:52:31.481Z",
+  "updated": "2026-11-03T16:21:37.909Z",
   "stores_ok": 22,
   "stores_total": 22,
   "items": 110832,
@@ -17,7 +17,7 @@
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
     "count": 10856,
-    "checked": "2026-11-03T15:48:18.442Z",
+    "checked": "2026-11-03T16:17:24.746Z",
     "stale": false
    },
    {
@@ -25,7 +25,7 @@
     "city": "Monsey",
     "status": "ok",
     "count": 30987,
-    "checked": "2026-11-03T15:52:30.462Z",
+    "checked": "2026-11-03T16:21:36.780Z",
     "stale": false
    },
    {
@@ -33,7 +33,7 @@
     "city": "Boro Park",
     "status": "ok",
     "count": 18200,
-    "checked": "2026-11-03T15:49:49.955Z",
+    "checked": "2026-11-03T16:18:56.271Z",
     "stale": false
    },
    {
@@ -41,7 +41,7 @@
     "city": "Boro Park",
     "status": "ok",
     "count": 10670,
-    "checked": "2026-11-03T15:48:15.455Z",
+    "checked": "2026-11-03T16:17:21.899Z",
     "stale": false
    },
    {
@@ -49,7 +49,7 @@
     "city": "Flatbush",
     "status": "ok",
     "count": 8315,
-    "checked": "2026-11-03T15:47:46.945Z",
+    "checked": "2026-11-03T16:16:53.296Z",
     "stale": false
    },
    {
@@ -57,7 +57,7 @@
     "city": "Crown Heights",
     "status": "ok",
     "count": 9721,
-    "checked": "2026-11-03T15:48:04.973Z",
+    "checked": "2026-11-03T16:17:11.287Z",
     "stale": false
    },
    {
@@ -65,7 +65,7 @@
     "city": "Crown Heights",
     "status": "ok",
     "count": 11225,
-    "checked": "2026-11-03T15:48:22.979Z",
+    "checked": "2026-11-03T16:17:29.299Z",
     "stale": false
    },
    {
@@ -73,7 +73,7 @@
     "city": "Crown Heights",
     "status": "ok",
     "count": 6291,
-    "checked": "2026-11-03T15:47:21.475Z",
+    "checked": "2026-11-03T16:16:27.861Z",
     "stale": false
    },
    {
@@ -81,7 +81,7 @@
     "city": "Crown Heights",
     "status": "ok",
     "count": 709,
-    "checked": "2026-11-03T15:46:10.960Z",
+    "checked": "2026-11-03T16:15:17.357Z",
     "stale": false
    },
    {
@@ -89,7 +89,7 @@
     "city": "Lakewood",
     "status": "ok",
     "count": 10902,
-    "checked": "2026-11-03T15:48:18.514Z",
+    "checked": "2026-11-03T16:17:25.025Z",
     "stale": false
    },
    {
@@ -97,7 +97,7 @@
     "city": "Lakewood",
     "status": "ok",
     "count": 9864,
-    "checked": "2026-11-03T15:48:06.511Z",
+    "checked": "2026-11-03T16:17:12.969Z",
     "stale": false
    },
    {
@@ -105,7 +105,7 @@
     "city": "Five Towns",
     "status": "ok",
     "count": 8860,
-    "checked": "2026-11-03T15:50:09.522Z",
+    "checked": "2026-11-03T16:19:16.035Z",
     "stale": false
    },
    {
@@ -169,7 +169,7 @@
     "city": "Williamsburg",
     "status": "ok",
     "count": 12756,
-    "checked": "2026-11-03T15:48:42.518Z",
+    "checked": "2026-11-03T16:17:49.044Z",
     "stale": false
    },
    {
@@ -185,45 +185,45 @@
     "city": "Williamsburg",
     "status": "ok",
     "count": 8825,
-    "checked": "2026-11-03T15:49:13.521Z",
+    "checked": "2026-11-03T16:18:33.174Z",
     "stale": false
    }
   ]
  },
  "deals": {
-  "updated": "2026-11-03T15:52:31.939Z",
+  "updated": "2026-11-03T16:21:38.385Z",
   "verified": 26,
-  "feed": 392,
+  "feed": 390,
   "sources": [
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/?rss=1&sort=time",
     "ok": true,
-    "kept": 28
+    "kept": 29
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/?rss=1&sort=hotness",
     "ok": true,
-    "kept": 24
+    "kept": 19
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c142/Electronics/?rss=1",
     "ok": true,
-    "kept": 22
+    "kept": 20
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c39/Computers/?rss=1",
     "ok": true,
-    "kept": 17
+    "kept": 15
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c196/Home-Garden/?rss=1",
     "ok": true,
-    "kept": 28
+    "kept": 29
    },
    {
     "src": "DealNews",
@@ -247,7 +247,7 @@
     "src": "TechBargains",
     "url": "https://www.techbargains.com/rss.xml",
     "ok": true,
-    "kept": 263
+    "kept": 268
    }
   ]
  },
