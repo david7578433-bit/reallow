@@ -1,15 +1,15 @@
 {
- "run_at": "2026-11-03T14:52:33.624Z",
+ "run_at": "2026-11-03T15:35:07.838Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-03T14:52:33.142Z",
-  "stores_ok": 19,
-  "stores_total": 19,
-  "items": 103461,
-  "rows": 216533,
-  "multi_store_items": 35586,
+  "updated": "2026-11-03T15:35:07.320Z",
+  "stores_ok": 20,
+  "stores_total": 21,
+  "items": 105475,
+  "rows": 226672,
+  "multi_store_items": 36322,
   "reused_stores": 12,
-  "name_matched_offers": 7197,
+  "name_matched_offers": 8106,
   "merge_only": true,
   "stores": [
    {
@@ -162,6 +162,22 @@
     "status": "ok",
     "count": 12929,
     "checked": "2026-11-03T11:22:51.329Z",
+    "stale": false
+   },
+   {
+    "name": "Rosemary Kosher Supermarket",
+    "city": "Williamsburg",
+    "status": "blocked",
+    "count": 0,
+    "checked": null,
+    "stale": false
+   },
+   {
+    "name": "Foodoo Kosher",
+    "city": "Williamsburg",
+    "status": "ok",
+    "count": 10191,
+    "checked": "2026-11-03T15:25:58.232Z",
     "stale": false
    }
   ]
