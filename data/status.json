@@ -1,15 +1,15 @@
 {
- "run_at": "2026-11-03T06:01:01.780Z",
+ "run_at": "2026-11-03T06:21:16.979Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-03T06:01:01.419Z",
-  "stores_ok": 13,
+  "updated": "2026-11-03T06:21:16.488Z",
+  "stores_ok": 19,
   "stores_total": 19,
-  "items": 80678,
-  "rows": 147596,
-  "multi_store_items": 19513,
+  "items": 103406,
+  "rows": 216455,
+  "multi_store_items": 35594,
   "reused_stores": 12,
-  "name_matched_offers": 894,
+  "name_matched_offers": 7192,
   "merge_only": true,
   "stores": [
    {
@@ -119,49 +119,49 @@
    {
     "name": "Shlomie's",
     "city": "Monroe / Kiryas Joel",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 8378,
+    "checked": "2026-11-03T05:58:52.990Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Monsey)",
     "city": "Monsey",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 15463,
+    "checked": "2026-11-03T06:08:40.334Z",
     "stale": false
    },
    {
     "name": "Wesley Kosher",
     "city": "Monsey",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 16383,
+    "checked": "2026-11-03T06:04:30.003Z",
     "stale": false
    },
    {
     "name": "Hatzlacha Kosher",
     "city": "Williamsburg",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 8768,
+    "checked": "2026-11-03T06:14:33.512Z",
     "stale": false
    },
    {
     "name": "Kahan's Superette",
     "city": "Crown Heights",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 7259,
+    "checked": "2026-11-03T06:16:45.788Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Lakewood)",
     "city": "Lakewood",
-    "status": "blocked",
-    "count": 0,
-    "checked": "2026-11-03T06:01:00.651Z",
+    "status": "ok",
+    "count": 12922,
+    "checked": "2026-11-03T06:12:07.970Z",
     "stale": false
    }
   ]
