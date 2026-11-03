@@ -31,19 +31,20 @@
     <form id="search-form" role="search" autocomplete="off">
       <label class="sr-only" for="q">What are you looking for?</label>
       <div class="search-row">
-        <input id="q" name="q" type="search" placeholder="Try: cream cheese, air fryer, AirPods…" enterkeyhint="search">
+        <input id="q" name="q" type="search" placeholder="Try: milk, fridge, boys shirt, shabbos shoes…" enterkeyhint="search">
         <button type="submit" class="btn btn-go">Search</button>
       </div>
     </form>
-    <p class="hint" id="search-hint">Searches every price our robots collected, cheapest first, then any store in one tap. Tap ☆ to save an item to My list.</p>
+    <p class="hint" id="search-hint">Searches groceries, local appliance and clothing stores, and deals, cheapest first. Typos are OK. Then any store in one tap. Tap ☆ to save an item to My list.</p>
     <p class="robot-line" id="robot-line"></p>
   </section>
 
   <section id="results" class="results" aria-live="polite" hidden>
     <div class="res-head">
       <h2 id="res-h">Results</h2>
-      <label class="res-city"><span class="sr-only">Area for grocery prices</span><select id="res-city"></select></label>
+      <label class="res-city"><span class="sr-only">Area</span><select id="res-city"></select></label>
     </div>
+    <div class="chips" id="res-cats" role="toolbar" aria-label="Show results from"></div>
     <div id="res-amz"></div>
     <div id="res-groceries"></div>
     <div id="res-deals"></div>
@@ -133,6 +134,7 @@
       <label class="sr-only" for="dq">Item to search</label>
       <input id="dq" class="gq" type="search" enterkeyhint="search" placeholder="Type an item, then tap a store">
     </form>
+    <div id="local-shops"></div>
     <div id="dir"></div>
   </section>
 </div>
@@ -149,6 +151,7 @@
 <script src="deals.js"></script>
 <script src="groceries.js"></script>
 <script src="stores.js"></script>
+<script src="search.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

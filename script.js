@@ -1,4 +1,5 @@
-/* RealLow v2 — static site. Prices come from the robots (GitHub Actions, every 4 hours).
+/* RealLow v4 — static site. v4: local appliance + clothing stores (data/shops/), typo-tolerant search (search.js).
+   RealLow v2 — static site. Prices come from the robots (GitHub Actions, every 4 hours).
    Data: deals.json + data/groceries.json (+ data/api-prices.json once store APIs have keys).
    Fallback copies ship as deals.js / groceries.js / stores.js so the page works offline. No trackers. */
 (function () {
@@ -20,7 +21,7 @@
   var API = null; // store API offers
 
   var CATS = [["all", "All"], ["tech", "Tech"], ["home", "Home"], ["kitchen", "Kitchen"], ["kids", "Kids & Baby"], ["tools", "Tools"], ["cleaning", "Cleaning"], ["health", "Health"], ["travel", "Travel"], ["food", "Food"], ["gifts", "Gifts"]];
-  var CITY_ORDER = ["Monroe / Kiryas Joel", "Monsey", "Williamsburg", "Boro Park", "Flatbush", "Crown Heights", "Lakewood", "Five Towns"];
+  var CITY_ORDER = ["Monroe / Kiryas Joel", "Monsey", "Williamsburg", "Boro Park", "Flatbush", "Crown Heights", "Lakewood", "Five Towns", "Passaic"];
 
   var $ = function (id) { return document.getElementById(id); };
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
@@ -95,7 +96,7 @@
     });
     return w;
   }
-  function groceryHits(q, onlyCity, limit) {
+  function oldGroceryHits(q, onlyCity, limit) {
     if (!G) return null;
     var m = matchFn(q); if (!m) return [];
     if (!GN) GN = G.items.map(function (it) { return norm(it[0]); });
@@ -142,11 +143,68 @@
     li.appendChild(el("p", "gi-checked", "checked " + when(st.checked)));
     return li;
   }
-  function dealHits(q) {
+  function oldDealHits(q) {
     var m = matchFn(q); if (!m) return [];
     var all = (DATA.deals || []).map(function (d) { return { d: d, v: true }; }).concat((DATA.feed || []).map(function (d) { return { d: d }; }))
       .concat(API && API.offers ? API.offers.map(function (d) { return { d: d, api: true }; }) : []);
     return all.filter(function (x) { return m(norm(x.d.title + " " + (x.d.store || ""))); }).sort(function (a, b) { return a.d.price - b.d.price; });
+  }
+  /* ---------- v4 search: one typo-tolerant index (search.js) over groceries + local stores; small ones for deals and store names ---------- */
+  var IX = window.RLSearch ? new RLSearch.Index() : null, gIx = false, gIxStarted = false;
+  var ACC = /\b(liners?|filters?|parts?|shel(f|ves)|bins?|covers?|mats?|organizers?|kits?|knobs?|handles?|brackets?|laces?|protectors?|cleaners?|magnets?|bulbs?|gaskets?|hoses?|trays?|deodorizers?|thermometers?|locks?|fender|screws?|bolts?|nuts?|inserts?|insoles?|polish|brush(es)?|sprays?|stickers?|decals?|pads?|cords?|plugs?|adapters?|balloons?|napkins?|foil|pans?|chips|coins|soap|detergent|pods|tablets|accessor(y|ies)|replacement|refills?|caps?|toys?|dolls?|books?|puzzles?|shaped|magnets?|hangers?|keychains?|stencils?|cookie cutters?|molds?|liner|latch(es)?|fresheners?|holders?|bags?|box(es)?|horns?|dividers?|openers?|tapes?|flat washers?|lock washers?|fender washers?|wipes|stain|whiteners?|tabs|installation|install|service|warranty|haul away|pedestals?|stacking|fenders?|hillman|finish washers)\b/;
+  function accessory(title, words) {
+    var m = norm(title).match(ACC); if (!m) return false;
+    var w = RLSearch.stem(m[0].split(" ")[0]); return words.indexOf(w) < 0 && words.indexOf(m[0]) < 0;
+  }
+  function relevance(h, title, nOffers, words) {
+    var n = norm(title), first = RLSearch.stem(n.split(" ")[0] || "");
+    return h.score - n.split(" ").length * 0.06 + Math.min(nOffers || 1, 6) * 0.25 + (words.indexOf(first) > -1 ? 0.3 : 0) - (h.acc ? 2.5 : 0);
+  }
+  // exact words > starts-with > typo matches; parts and accessories after the real thing; then cheapest first
+  // (groceries in "Best match" also weigh how many stores carry the item, like before)
+  function sortHits(out, grocery) {
+    if (grocery && sortMode !== "cheap") out.sort(function (a, b) { return b.rank - a.rank || b.rel - a.rel || a.best - b.best; });
+    else if (sortMode === "cheap") out.sort(function (a, b) { return b.rank - a.rank || (a.acc ? 1 : 0) - (b.acc ? 1 : 0) || a.best - b.best; });
+    else out.sort(function (a, b) { return b.rank - a.rank || (a.acc ? 1 : 0) - (b.acc ? 1 : 0) || Math.floor(b.score * 2 + 0.01) - Math.floor(a.score * 2 + 0.01) || a.best - b.best; });
+  }
+  function ixGroceries() {
+    if (!IX || !G || gIxStarted) return; gIxStarted = true;
+    var i = 0, items = G.items;
+    (function chunk() {
+      var end = Math.min(items.length, i + 6000);
+      for (; i < end; i++) IX.add(items[i][0], "", { k: "g", i: i });
+      if (i < items.length) setTimeout(chunk, 0); else { gIx = true; if (qEl.value.trim()) renderResults(); if ($("gq").value.trim()) renderGroResults(); }
+    })();
+  }
+  function groceryHits(q, onlyCity, limit) {
+    if (!G) return null;
+    ixGroceries();
+    if (!gIx) return oldGroceryHits(q, onlyCity, limit); // the index is still being built (first second or two)
+    var r = IX.search(q, function (ref) { return ref.k === "g"; }), out = [];
+    r.hits.forEach(function (h) {
+      var it = G.items[h.ref.i];
+      var offers = it[2].filter(function (o) { var s = G.stores[o[0]]; return onlyCity === "all" || s.city === onlyCity; });
+      if (!offers.length) return;
+      var x = { name: it[0], unit: it[1], offers: offers, best: offers[0][1], barcode: it[3] || 0, rank: h.rank, acc: accessory(it[0], r.words), score: h.score };
+      x.rel = relevance(x, it[0], offers.length, r.words); out.push(x);
+    });
+    sortHits(out, true);
+    limit = limit || 30;
+    return out.slice(0, limit).concat(out.length > limit ? [{ more: out.length - limit }] : []);
+  }
+  var dIx = null, dIxFor = null;
+  function dealHits(q) {
+    if (!IX) return oldDealHits(q);
+    var key = (DATA.deals || []).length + ":" + (DATA.feed || []).length + ":" + (DATA.updated || "") + ":" + (API && API.offers ? API.offers.length : 0);
+    if (dIxFor !== key) {
+      dIx = new RLSearch.Index(); dIxFor = key;
+      (DATA.deals || []).forEach(function (d) { dIx.add(d.title, d.store || "", { d: d, v: true }); });
+      (DATA.feed || []).forEach(function (d) { dIx.add(d.title, d.store || "", { d: d }); });
+      if (API && API.offers) API.offers.forEach(function (d) { dIx.add(d.title, d.store || "", { d: d, api: true }); });
+    }
+    var r = dIx.search(q, null, true), out = r.hits.map(function (h) { var x = h.ref; x.rank = h.rank; x.best = x.d.price; x.acc = accessory(x.d.title, r.words); x.score = h.score; x.rel = relevance(x, x.d.title, 1, r.words); return x; });
+    sortHits(out);
+    return out;
   }
   function dealRow(x) {
     var d = x.d, li = el("li", "frow");
@@ -167,34 +225,46 @@
     var q = qEl.value.trim();
     $("results").hidden = !q; $("home-blocks").hidden = !!q;
     if (!q) return;
+    loadShops();
     $("res-h").textContent = "Prices for \u201C" + q + "\u201D";
     var ab = $("res-amz"); ab.innerHTML = ""; ab.appendChild(amazonBtn(q, "btn btn-amz wide"));
-    // grocery
-    var gbox = $("res-groceries"); gbox.innerHTML = "";
-    var gh = groceryHits(q, city, 12);
-    if (gh === null) gbox.appendChild(el("p", "hint", "Loading grocery prices\u2026"));
-    else if (gh.length) {
-      var c = el("div", "card"); c.appendChild(el("h3", "res-sub", "\uD83D\uDED2 Kosher grocery prices" + (city === "all" ? "" : " in " + city)));
-      c.appendChild(sortToggle(renderResults));
-      var ol = el("ol", "glist"); gh.forEach(function (h) { if (h.more) { var mo = el("li", "gi-more"); var b = el("a", null, h.more + " more grocery matches \u2192"); b.href = "#groceries"; b.addEventListener("click", function () { $("gq").value = q; }); mo.appendChild(b); ol.appendChild(mo); } else ol.appendChild(groceryRow(h)); });
-      c.appendChild(ol); gbox.appendChild(c);
+    var gh = groceryHits(q, city, rcat === "groceries" ? 40 : 12);
+    var ah = shopHits(q, "appliances"), ch = shopHits(q, "clothing"), dh = dealHits(q), sh = storeHits(q);
+    var gcount = gh ? gh.filter(function (h) { return !h.more; }).length + (gh.length && gh[gh.length - 1].more ? gh[gh.length - 1].more : 0) : null;
+    renderCats({ groceries: gcount, appliances: ah ? ah.length : null, clothing: ch ? ch.length : null, deals: dh.length, stores: sh.length });
+    var box = $("res-groceries"); box.innerHTML = ""; $("res-deals").innerHTML = ""; var sx = $("res-shops"); if (sx) sx.innerHTML = "";
+    var cards = [];
+    function topRank(list) { return list && list.length ? Math.max.apply(null, list.slice(0, 30).map(function (h) { return h.rank || 0; })) : -1; }
+    // groceries
+    if (rcat === "all" || rcat === "groceries") {
+      var c;
+      if (gh === null) { c = el("div", "card"); c.appendChild(el("p", "hint", "Loading grocery prices\u2026")); cards.push([c, 0, 0]); }
+      else if (gh.length) {
+        c = el("div", "card"); c.appendChild(el("h3", "res-sub", "\uD83D\uDED2 Kosher grocery prices" + (city === "all" ? "" : " in " + city)));
+        c.appendChild(sortToggle(renderResults));
+        var ol = el("ol", "glist"); gh.forEach(function (h) { if (h.more) { var mo = el("li", "gi-more"); var b = el("a", null, h.more + " more grocery matches \u2192"); b.href = "#groceries"; b.addEventListener("click", function () { $("gq").value = q; }); mo.appendChild(b); ol.appendChild(mo); } else ol.appendChild(groceryRow(h)); });
+        c.appendChild(ol); cards.push([c, topRank(gh), gcount]);
+      } else if (rcat === "groceries") { c = el("div", "card"); c.appendChild(el("p", "hint", "No grocery price for \u201C" + q + "\u201D" + (city === "all" ? "" : " in " + city) + " yet.")); cards.push([c, 0, 0]); }
     }
-    // deals + store APIs
-    var dbox = $("res-deals"); dbox.innerHTML = "";
-    var dh = dealHits(q);
-    if (dh.length) {
+    if (rcat === "all" || rcat === "appliances") { if (rcat === "appliances" || ah === null || ah.length) cards.push([shopCard("appliances", q, ah, "\uD83D\uDD0C Local appliance stores"), topRank(ah), ah ? ah.length : 0]); }
+    if (rcat === "all" || rcat === "clothing") { if (rcat === "clothing" || (ch && ch.length)) cards.push([shopCard("clothing", q, ch, "\uD83D\uDC54 Local clothing & shoe stores"), topRank(ch), ch ? ch.length : 0]); }
+    if ((rcat === "all" || rcat === "deals") && (dh.length || rcat === "deals")) {
       var c2 = el("div", "card"); c2.appendChild(el("h3", "res-sub", "\uD83D\uDD25 Deals & store prices, cheapest first"));
-      var ol2 = el("ol", "feed"); dh.slice(0, 25).forEach(function (x) { ol2.appendChild(dealRow(x)); }); c2.appendChild(ol2); dbox.appendChild(c2);
+      if (dh.length) { var ol2 = el("ol", "feed"); dh.slice(0, 25).forEach(function (x) { ol2.appendChild(dealRow(x)); }); c2.appendChild(ol2); }
+      else c2.appendChild(el("p", "hint", "No deal for \u201C" + q + "\u201D right now."));
+      cards.push([c2, topRank(dh), dh.length]);
     }
-    // Put whichever answers the search better on top: groceries for food, deals/store prices for everything else.
-    var gcount = gh ? gh.filter(function (h) { return !h.more; }).length : 0;
-    if (dh.length && (gcount < 5 || dh.length >= gcount)) gbox.parentNode.insertBefore(dbox, gbox); else gbox.parentNode.insertBefore(gbox, dbox);
-    var none = gh !== null && !gh.length && !dh.length;
-    $("res-stores-h").textContent = none ? "No robot price for \u201C" + q + "\u201D yet \u2014 tap a store to see it there" : "Search \u201C" + q + "\u201D on any store";
+    if ((rcat === "all" || rcat === "stores") && sh.length) cards.push([storeHitCard(q, sh), rcat === "stores" || sh.some(function (x) { return x.byName; }) ? 9 : -0.5, sh.length]);
+    // best answer first: the card whose top results match the words best, then the one with more results
+    if (rcat === "all") cards.sort(function (a, b) { return b[1] - a[1] || b[2] - a[2]; });
+    cards.forEach(function (x) { box.appendChild(x[0]); });
+    var none = gh !== null && !gh.length && !(ah && ah.length) && !(ch && ch.length) && !dh.length;
+    $("res-stores-h").textContent = none ? "No price for \u201C" + q + "\u201D yet \u2014 tap a store to see it there" : "Search \u201C" + q + "\u201D on any store";
     var sbox = $("res-stores"); sbox.innerHTML = "";
     var top = allStores().filter(function (s) { return s.top; });
     sbox.appendChild(storeGrid(top, q));
-    var more = el("details", "dgroup inres"); more.appendChild(el("summary", null, "All " + allStores().length + " stores"));
+    if (none && SH) { var lw = el("details", "dgroup inres"); lw.open = true; lw.appendChild(el("summary", null, "Local appliance & clothing stores" + (city === "all" ? "" : " in " + city))); lw.appendChild(localStoreButtons("appliances", q)); lw.appendChild(localStoreButtons("clothing", q)); sbox.appendChild(lw); }
+    var more = el("details", "dgroup inres"); more.appendChild(el("summary", null, "All " + allStores().length + " online stores"));
     var inner = el("div"); renderDirectory(inner, q, true); more.appendChild(inner); sbox.appendChild(more);
   }
   var deb;
@@ -362,7 +432,7 @@
   $("gro-search-form").addEventListener("submit", function (e) { e.preventDefault(); $("gq").blur(); renderGroResults(); noteSearch($("gq").value); });
 
   /* ---------- stores tab ---------- */
-  function renderDir() { var n = renderDirectory($("dir"), $("dq").value.trim(), false); $("dir-count").textContent = n + " online stores"; }
+  function renderDir() { loadShops(); renderLocalShops(); var n = renderDirectory($("dir"), $("dq").value.trim(), false); $("dir-count").textContent = n + " online stores"; }
   $("dq").addEventListener("input", renderDir);
   $("dir-form").addEventListener("submit", function (e) { e.preventDefault(); $("dq").blur(); });
 
@@ -433,6 +503,8 @@
       if (info.kind === "g") {
         var it = currentGrocery(k);
         if (it) { var offers = it[2].filter(function (o) { return city === "all" || G.stores[o[0]].city === city; }); if (!offers.length) offers = it[2]; now = offers[0][1]; where = G.stores[offers[0][0]].name; }
+      } else if (info.kind === "s") {
+        var si = shopItemByKey(k, info); if (si) { now = si.price; where = si.store.name; } else loadShops();
       } else {
         var d = (DATA.deals || []).concat(DATA.feed || []).filter(function (x) { return "d" + x.id === k; })[0];
         if (d) { now = d.price; where = d.store; }
@@ -440,7 +512,7 @@
       var a = el("a", "fy-name", info.n); a.href = "#"; a.addEventListener("click", function (e) { e.preventDefault(); location.hash = "#deals"; qEl.value = info.q || info.n; renderResults(); qEl.scrollIntoView({ block: "start" }); });
       li.appendChild(a);
       var p = el("span", "fy-p");
-      if (now == null) p.textContent = G || info.kind !== "g" ? "not in today's prices" : "\u2026";
+      if (now == null) p.textContent = (info.kind === "s" ? shDone >= shTotal && SH : G || info.kind !== "g") ? "not in today's prices" : "\u2026";
       else {
         p.textContent = money(now) + " at " + where;
         if (info.p && now < info.p - 0.009) p.appendChild(el("b", "fy-drop", " \u25BC " + money(info.p - now) + " since you saved it"));
@@ -471,6 +543,185 @@
     if (a) { var q = (a.closest("#gro-results") ? $("gq") : qEl).value; if (q) noteSearch(q); }
   });
 
+  /* ---------- v4: local appliance + clothing stores (collectors/shops.mjs, daily) ---------- */
+  var SH = null, shLoading = false, shDone = 0, shTotal = 0, shRows = 0, shopById = {};
+  var rcat = localStorage.getItem("rl-rcat") || "all";
+  var RCATS = [["all", "All"], ["groceries", "\uD83D\uDED2 Groceries"], ["appliances", "\uD83D\uDD0C Appliances"], ["clothing", "\uD83D\uDC54 Clothing"], ["deals", "\uD83D\uDD25 Deals"], ["stores", "\uD83C\uDFEC Stores"]];
+  function shortCity(c) { return String(c).replace(" / Kiryas Joel", "/KJ"); }
+  function inCity(st) { return city === "all" || (st.cities || []).indexOf(city) > -1; }
+  function loadShops() {
+    if (shLoading) return; shLoading = true;
+    getJSON("data/shops/index.json", function (ix) {
+      SH = ix || { stores: [] };
+      SH.stores.forEach(function (s) { shopById[s.id] = s; });
+      renderLocalShops();
+      var live = SH.stores.filter(function (s) { return s.live; }); shTotal = live.length;
+      var queue = live.slice(), running = 0, pend = [];
+      function pump() {
+        while (running < 6 && queue.length) {
+          (function (s) {
+            running++;
+            getJSON("data/shops/" + s.id + ".json", function (f) { running--; if (f && f.rows) pend.push([s, f]); else shDone++; work(); pump(); });
+          })(queue.shift());
+        }
+      }
+      var busy = false;
+      function work() {
+        if (busy || !pend.length) return; busy = true;
+        var job = pend[0], s = job[0], f = job[1]; f.pos = f.pos || 0;
+        if (!s.file) { s.file = f; }
+        var end = Math.min(f.rows.length, f.pos + 4000);
+        for (var i = f.pos; i < end; i++) { var r = f.rows[i]; IX.add(r[0], r[5] + " " + s.sub + " " + s.name, { k: "s", s: s, r: r }); }
+        f.pos = end;
+        if (f.pos >= f.rows.length) { pend.shift(); shDone++; refreshSoon(); }
+        busy = false;
+        if (pend.length) setTimeout(work, 0);
+      }
+      pump();
+    });
+  }
+  var rtm; function refreshSoon() { clearTimeout(rtm); rtm = setTimeout(function () { if (qEl.value.trim()) renderResults(); }, 350); }
+  function shopUrl(s, r) { return s.file && s.file.base ? s.file.base + r[3] : r[3]; }
+  function shopImg(s, r) {
+    if (!r[4]) return "";
+    var u = /^https?:/.test(r[4]) ? r[4] : (s.file.img || "") + r[4];
+    return /cdn\.shopify\.com|\/cdn\/shop\//.test(u) ? u + "?width=160" : u;
+  }
+  function modelKey(m) { m = String(m || "").toUpperCase().replace(/[^A-Z0-9]/g, ""); return m.length >= 5 && /\d/.test(m) && /[A-Z]/.test(m) ? m : ""; }
+  // shop hits for one category, grouped by model number across stores (appliances)
+  function shopHits(q, cat) {
+    if (!SH || !IX) return null;
+    var r = IX.search(q, function (ref) { return ref.k === "s" && ref.s.cat === cat && inCity(ref.s); });
+    var groups = {}, out = [];
+    r.hits.forEach(function (h) {
+      var s = h.ref.s, row = h.ref.r;
+      var o = { s: s, r: row, price: row[1], was: row[2], hi: row[7] };
+      var mk = cat === "appliances" ? modelKey(row[6]) : "";
+      if (mk && groups[mk]) { var g = groups[mk]; if (!g.offers.some(function (x) { return x.s === s; })) g.offers.push(o); return; }
+      var x = { title: row[0], offers: [o], rank: h.rank, score: h.score, acc: accessory(row[0], r.words) };
+      if (mk) groups[mk] = x;
+      out.push(x);
+    });
+    out.forEach(function (x) { x.offers.sort(function (a, b) { return a.price - b.price; }); x.best = x.offers[0].price; x.rel = relevance(x, x.title, x.offers.length, r.words); });
+    sortHits(out);
+    return out;
+  }
+  function shopRow(x) {
+    var o = x.offers[0], s = o.s, li = el("li", "sitem");
+    var img = shopImg(s, o.r);
+    var th = el("a", "s-th"); ext(th, shopUrl(s, o.r)); th.setAttribute("aria-hidden", "true"); th.tabIndex = -1;
+    if (img) { var im = el("img"); im.loading = "lazy"; im.decoding = "async"; im.alt = ""; im.width = 72; im.height = 72; im.src = img; im.onerror = function () { th.classList.add("noimg"); im.remove(); }; th.appendChild(im); } else th.classList.add("noimg");
+    li.appendChild(th);
+    var body = el("div", "s-body");
+    var top = el("div", "s-top");
+    top.appendChild(ext(el("a", "s-name", x.title), shopUrl(s, o.r)));
+    var k = "s" + s.id + ":" + (o.r[3] || "").slice(-60);
+    top.appendChild(starBtn(k, { kind: "s", n: x.title, p: o.price, q: x.title, st: s.id, h: o.r[3] }));
+    body.appendChild(top);
+    var meta = el("div", "s-meta");
+    meta.appendChild(el("b", "s-p", money(o.price) + (o.hi ? "+" : "")));
+    if (o.was) meta.appendChild(el("s", "s-was", money(o.was)));
+    meta.appendChild(el("span", "s-store", s.name + " \u00B7 " + s.cities.map(shortCity).join(", ")));
+    body.appendChild(meta);
+    if (x.offers.length > 1) {
+      var ul = el("ul", "s-offers");
+      x.offers.slice(1, 5).forEach(function (p) { var li2 = el("li"); li2.appendChild(ext(el("a", null, p.s.name), shopUrl(p.s, p.r))); li2.appendChild(el("span", "gi-city", " \u00B7 " + p.s.cities.map(shortCity).join(", "))); li2.appendChild(el("span", "gi-p", money(p.price))); ul.appendChild(li2); });
+      body.insertBefore(el("p", "s-cmp", "Same model at " + x.offers.length + " stores, cheapest first"), meta.nextSibling);
+      body.appendChild(ul);
+    }
+    body.appendChild(el("p", "gi-checked", "checked " + when(s.checked) + (o.hi ? " \u00B7 price depends on size" : "")));
+    li.appendChild(body);
+    return li;
+  }
+  function localStoresFor(cat) { return SH ? SH.stores.filter(function (s) { return s.cat === cat && inCity(s); }) : []; }
+  function localStoreButtons(cat, q) {
+    var list = localStoresFor(cat);
+    return storeGrid(list.map(function (s) {
+      if (s.live && s.search) return { name: s.name, url: s.search, sub: s.cities.map(shortCity).join(", ") };
+      return { name: s.name, noq: true, url: s.phone ? "tel:" + s.phone.replace(/[^0-9]/g, "") : s.site, sub: (s.phone ? "call " + s.phone : "visit") + " \u00B7 " + s.cities.map(shortCity).join(", ") };
+    }), q);
+  }
+  var shopLimit = { appliances: 12, clothing: 12 };
+  function shopCard(cat, q, hits, title) {
+    var c = el("div", "card"); c.appendChild(el("h3", "res-sub", title + (city === "all" ? "" : " in " + city)));
+    if (hits === null) { c.appendChild(el("p", "hint", "Loading local store prices\u2026")); return c; }
+    if (shDone < shTotal) c.appendChild(el("p", "hint", "Still loading stores (" + shDone + " of " + shTotal + ")\u2026"));
+    if (hits.length) {
+      c.appendChild(sortToggle(renderResults));
+      var ol = el("ol", "slist"); hits.slice(0, shopLimit[cat]).forEach(function (x) { ol.appendChild(shopRow(x)); }); c.appendChild(ol);
+      if (hits.length > shopLimit[cat]) { var b = el("button", "btn btn-light more", "Show more (" + (hits.length - shopLimit[cat]) + ")"); b.type = "button"; b.addEventListener("click", function () { shopLimit[cat] += 24; renderResults(); }); c.appendChild(b); }
+    } else c.appendChild(el("p", "hint", "No online price for \u201C" + q + "\u201D at these stores yet."));
+    var st = localStoresFor(cat);
+    if (st.length) { var d = el("details", "dgroup inres"); if (!hits.length) d.open = true; d.appendChild(el("summary", null, "Check it at a local " + (cat === "appliances" ? "appliance" : "clothing") + " store (" + st.length + ")")); d.appendChild(localStoreButtons(cat, q)); c.appendChild(d); }
+    return c;
+  }
+  var sIx = null, sIxFor = "";
+  function storeHits(q) {
+    var key = (SH ? SH.stores.length : 0) + ":" + (G ? G.stores.length : 0);
+    if (sIxFor !== key || !sIx) {
+      sIx = new RLSearch.Index(); sIxFor = key;
+      allStores().forEach(function (s) { sIx.add(s.name, (s.sub || "") + " online", { t: "o", s: s }); });
+      if (SH) SH.stores.forEach(function (s) { sIx.add(s.name, s.sub + " " + s.cat + " " + s.cities.join(" ") + " " + (s.cat === "appliances" ? "appliance electronics" : "clothing clothes shoes"), { t: "l", s: s }); });
+      if (G) G.stores.forEach(function (s) { sIx.add(s.name, "grocery supermarket food kosher " + s.city, { t: "g", s: s }); });
+    }
+    var r = sIx.search(q, true && function (ref) { return ref.t === "o" || ref.t === "g" ? (city === "all" || ref.t === "o" || ref.s.city === city) : inCity(ref.s); }, true);
+    var strong = r.words.length * 3 - 0.01;
+    r.hits.sort(function (a, b) { return b.rank - a.rank || b.score - a.score; });
+    var out = r.hits.map(function (h) { h.ref.byName = h.score >= strong; return h.ref; });
+    return rcat === "stores" ? out : out.filter(function (x) { return x.byName; }); // in "All": only stores whose name matches
+  }
+  function storeHitCard(q, hits) {
+    var c = el("div", "card"); c.appendChild(el("h3", "res-sub", "\uD83C\uDFEC Stores"));
+    var list = hits.slice(0, 24).map(function (ref) {
+      var s = ref.s;
+      if (ref.t === "o") { var home = s.url; try { home = new URL(s.url.replace(/\{[a-z]+\}/g, "x")).origin; } catch (e) {} return { name: s.name, url: home, noq: true, sub: s.sub || "online" }; }
+      if (ref.t === "g") return { name: s.name, url: s.base || s.search || "#", noq: true, sub: "groceries \u00B7 " + shortCity(s.city) };
+      return { name: s.name, url: s.site, noq: true, sub: s.sub + " \u00B7 " + s.cities.map(shortCity).join(", ") + (s.phone ? " \u00B7 " + s.phone : "") };
+    });
+    c.appendChild(storeGrid(list, ""));
+    return c;
+  }
+  function renderCats(counts) {
+    var w = $("res-cats"); if (!w) return; w.innerHTML = "";
+    RCATS.forEach(function (c) {
+      var b = el("button", "chip", c[1] + (c[0] !== "all" && counts[c[0]] != null ? " " + (counts[c[0]] > 999 ? "999+" : counts[c[0]]) : ""));
+      b.type = "button"; b.setAttribute("aria-pressed", String(rcat === c[0]));
+      b.addEventListener("click", function () { rcat = c[0]; localStorage.setItem("rl-rcat", rcat); renderResults(); });
+      w.appendChild(b);
+    });
+  }
+  function renderLocalShops() {
+    var box = $("local-shops"); if (!box || !SH) return; box.innerHTML = "";
+    var c = el("section", "card"); c.appendChild(el("h2", null, "\uD83D\uDCCD Local appliance & clothing stores"));
+    var sel = el("select"); sel.id = "ls-city"; sel.setAttribute("aria-label", "Area");
+    var lc = localStorage.getItem("rl-lscity") || (city !== "all" ? city : CITY_ORDER[0]);
+    CITY_ORDER.forEach(function (x) { var o = el("option", null, x); o.value = x; if (x === lc) o.selected = true; sel.appendChild(o); });
+    sel.addEventListener("change", function () { localStorage.setItem("rl-lscity", sel.value); renderLocalShops(); });
+    c.appendChild(sel);
+    [["appliances", "\uD83D\uDD0C Appliances & home"], ["clothing", "\uD83D\uDC54 Clothing & shoes"]].forEach(function (cat) {
+      var st = SH.stores.filter(function (s) { return s.cat === cat[0] && s.cities.indexOf(lc) > -1; });
+      c.appendChild(el("h3", "res-sub", cat[1] + " (" + st.length + ")"));
+      var ul = el("ul", "lshops");
+      st.forEach(function (s) {
+        var li = el("li"); var a = ext(el("a", "ls-name", s.name), s.site); li.appendChild(a);
+        li.appendChild(el("span", "ls-sub", " " + s.sub + (s.live ? " \u00B7 " + s.n.toLocaleString() + " prices" : "")));
+        if (s.address) li.appendChild(el("span", "ls-addr", s.address));
+        var acts = el("span", "ls-acts");
+        if (s.phone) { var t = el("a", "chip", "\uD83D\uDCDE " + s.phone); t.href = "tel:" + s.phone.replace(/[^0-9]/g, ""); acts.appendChild(t); }
+        if (!s.live) acts.appendChild(el("span", "ls-note", s.status === "directory" ? "no online prices: call or visit" : "search on store"));
+        li.appendChild(acts); ul.appendChild(li);
+      });
+      if (!st.length) ul.appendChild(el("li", "hint", "None found here yet."));
+      c.appendChild(ul);
+    });
+    box.appendChild(c);
+  }
+  function shopItemByKey(k, info) {
+    var s = info && info.st && shopById[info.st]; if (!s || !s.file) return null;
+    for (var i = 0; i < s.file.rows.length; i++) if (s.file.rows[i][3] === info.h) return { price: s.file.rows[i][1], store: s };
+    return null;
+  }
+
   /* ---------- routing ---------- */
   function route() {
     var h = location.hash.replace("#", "") || "deals";
@@ -488,6 +739,7 @@
     if (gLoading) return; gLoading = true;
     getJSON("data/groceries.json", function (g) { G = g || { stores: [], items: [], stats: { items: 0, stores_ok: 0 }, updated: null }; GN = null; robotLine(); renderForYou(); if (!$("view-groceries").hidden) renderGroceries(); if (qEl.value.trim()) renderResults(); if ($("gq").value.trim()) renderGroResults(); });
   }
+  ["focus", "input"].forEach(function (ev) { qEl.addEventListener(ev, loadShops); });
   ["focus", "input"].forEach(function (ev) { qEl.addEventListener(ev, loadGroceries); $("gq").addEventListener(ev, loadGroceries); });
   window.addEventListener("hashchange", function () { if (location.hash === "#groceries") loadGroceries(); });
   if (location.hash === "#groceries" || Object.keys(me().s).length) loadGroceries(); else setTimeout(loadGroceries, 2500);

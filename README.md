@@ -34,3 +34,10 @@ Static: `index.html`, `styles.css`, `script.js`, `stores.js` (store directory, g
 
 ## Check
 `node --test test/site.test.mjs`
+
+## v4: local appliance + clothing stores, and a smarter search
+Robot C (`collectors/shops.mjs`, `.github/workflows/shops.yml`, daily at 09:41 UTC and on demand) reads the **public online catalogs** of local appliance and clothing/shoe stores in Williamsburg, Boro Park, Flatbush, Crown Heights, Monsey, Monroe/KJ, Lakewood, Five Towns and Passaic: Shopify's public `/products.json` (250 per page) and WooCommerce's public Store API. Same polite rules (robots.txt, 1.5 s between requests per store, stops on a block). It keeps in-stock items with a real price only, skips holiday items (Christmas, Halloween…), gift cards and immodest items, and writes one compact file per store in `data/shops/` plus `data/shops/index.json`. Product photos are the store's own (small, lazy-loaded thumbnails, not copied). A store that fails keeps its last good file with its older "checked" time. Stores with no online catalog are listed with call / visit buttons.
+
+The store list (name, city, address, phone, platform) is `collectors/config/shops.json` — each store was checked on its own website. To add a Shopify store: add a line with `"platform": "shopify"` and its domain; it is read on the next run.
+
+Search (`search.js`, no libraries): one index in the browser over groceries + local store products, built in small steps as files load. Typos are OK ("frige"), plurals ("shirts"), word order ("shirt boys"), synonyms (fridge = refrigerator, washing machine = washer, sneakers ~ shoes, shabbos shoes ~ dress shoes, kippah = yarmulke…). Ranking: exact word > starts-with > typo; parts/accessories after the real thing; then cheapest first. Filters: All / Groceries / Appliances / Clothing / Deals / Stores, plus the area. A search with no price still shows store buttons. Same-model appliances at several stores are shown together, cheapest first.

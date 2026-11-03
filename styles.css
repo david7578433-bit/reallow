@@ -184,3 +184,33 @@ h2{font-size:1.15rem}
 .fy-nudge{margin:8px 0;padding-left:18px;font-size:.9rem;color:#8a5a00}
 .fy-foot{font-size:.78rem;color:var(--mut);margin:10px 0 0}
 .sortbar{display:flex;align-items:center;gap:6px;margin:0 0 10px;font-size:.85rem;color:var(--mut)}.sortbar .chip{min-height:34px;padding:5px 12px;font-size:.82rem}
+
+/* v4: local store products (photos are the store's own, small, lazy) */
+.slist{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.sitem{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-top:1px solid var(--line)}
+.sitem:first-child{border-top:0}
+.s-th{flex:0 0 72px;width:72px;height:72px;border-radius:10px;overflow:hidden;background:#f2f4f3;display:block}
+.s-th img{width:72px;height:72px;object-fit:cover;display:block}
+.s-th.noimg{background:#f2f4f3}
+.s-body{flex:1;min-width:0}
+.s-top{display:flex;gap:6px;align-items:flex-start}
+.s-name{flex:1;font-weight:650;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.s-name:hover,.s-name:focus-visible{text-decoration:underline}
+.s-meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;margin-top:2px}
+.s-p{color:var(--g);font-size:1.08rem}
+.s-was{color:var(--mut);font-size:.82rem}
+.s-store{color:var(--mut);font-size:.84rem}
+.s-cmp{margin:4px 0 0;font-size:.8rem;font-weight:700;color:var(--g)}
+.s-offers{list-style:none;margin:4px 0 0;padding:0;font-size:.88rem}
+.s-offers li{display:flex;gap:6px;align-items:baseline;padding:3px 6px;flex-wrap:wrap}
+.s-offers a{font-weight:700}
+#res-cats{margin:-4px 0 6px}
+.lshops{list-style:none;margin:0 0 8px;padding:0;display:grid;gap:8px}
+.lshops li{padding:8px 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline}
+.ls-name{font-weight:700}
+.ls-sub,.ls-addr{color:var(--mut);font-size:.85rem}
+.ls-addr{flex-basis:100%}
+.ls-acts{display:flex;gap:6px;flex-wrap:wrap;align-items:center;flex-basis:100%}
+.ls-acts .chip{min-height:36px;padding:6px 12px;font-size:.85rem;text-decoration:none}
+.ls-note{font-size:.8rem;color:var(--mut)}
+#ls-city{font:inherit;padding:8px 10px;border-radius:10px;border:1.5px solid var(--line);margin:4px 0 6px;min-height:40px}

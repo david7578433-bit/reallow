@@ -1,0 +1,58 @@
+name: RealLow local stores (appliances + clothing)
+
+# Once a day (and on demand) robot C reads the public online catalogs of local appliance and clothing stores
+# (Shopify /products.json, WooCommerce Store API), writes data/shops/*.json and republishes Pages.
+on:
+  schedule:
+    - cron: "41 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reallow-shops
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Robot C - local appliance and clothing stores
+        run: node collectors/shops.mjs
+      - name: Commit store prices
+        run: |
+          git config user.name "RealLow robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/shops/
+          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+          git commit -m "Local stores: fresh prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            echo "push raced another commit, retrying"; sleep $((i*10))
+          done
+          exit 1
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
