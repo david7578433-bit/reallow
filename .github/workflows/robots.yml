@@ -8,6 +8,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore:
+      - "data/browser/**"
 
 permissions:
   contents: write

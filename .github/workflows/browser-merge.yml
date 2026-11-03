@@ -1,0 +1,58 @@
+name: RealLow browser prices (merge)
+
+# The kosher stores that block simple robots (Refresh, Shlomie's, Evergreen, Wesley, Hatzlacha, Kahan's) are read
+# in a real browser off GitHub, twice a day. That run commits data/browser/*.json and starts this workflow, which
+# merges those prices into data/groceries.json (keeping the other stores' last robot prices) and republishes Pages.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reallow-robots
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Merge real-browser prices
+        env:
+          MERGE_ONLY: "1"
+        run: node collectors/groceries.mjs
+      - name: Run summary
+        run: node collectors/status.mjs
+      - name: Commit merged data
+        run: |
+          git config user.name "RealLow robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+          git commit -m "Browser prices merged $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase -X ours origin main || true
+          git push origin HEAD:main
+
+  deploy:
+    needs: merge
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

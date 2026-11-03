@@ -1,5 +1,5 @@
 {
- "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON. platform mobilezuz = blocked by a Cloudflare bot check for honest robots (shown as 'search on store'). Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites).",
+ "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON (read here every 4 hours). platform mobilezuz = these stores put a Cloudflare bot check in front of honest robots, so they are read in a real browser twice a day off GitHub; that run commits data/browser/*.json and the browser-merge workflow folds them in. Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites).",
  "stores": [
   {
    "id": "landaus",
@@ -123,42 +123,54 @@
    "name": "Shlomie's",
    "city": "Monroe / Kiryas Joel",
    "platform": "mobilezuz",
-   "site": "https://www.shlomies.com"
+   "site": "https://www.shlomies.com",
+   "retailerId": 1180,
+   "branchId": 1355
   },
   {
    "id": "evergreen-monsey",
    "name": "Evergreen Kosher (Monsey)",
    "city": "Monsey",
    "platform": "mobilezuz",
-   "site": "https://www.shopevergreenkosher.com"
+   "site": "https://www.shopevergreenkosher.com",
+   "retailerId": 1120,
+   "branchId": 883
   },
   {
    "id": "wesley",
    "name": "Wesley Kosher",
    "city": "Monsey",
    "platform": "mobilezuz",
-   "site": "https://www.wesleykosheronline.com"
+   "site": "https://www.wesleykosheronline.com",
+   "retailerId": 1068,
+   "branchId": 96
   },
   {
    "id": "hatzlacha",
    "name": "Hatzlacha Kosher",
    "city": "Williamsburg",
    "platform": "mobilezuz",
-   "site": "https://www.hatzlachakosher.com"
+   "site": "https://www.hatzlachakosher.com",
+   "retailerId": 1430,
+   "branchId": 2195
   },
   {
    "id": "kahans",
    "name": "Kahan's Superette",
    "city": "Crown Heights",
    "platform": "mobilezuz",
-   "site": "https://www.kahanskosher.com"
+   "site": "https://www.kahanskosher.com",
+   "retailerId": 1046,
+   "branchId": 1697
   },
   {
    "id": "evergreen-lakewood",
    "name": "Evergreen Kosher (Lakewood)",
    "city": "Lakewood",
    "platform": "mobilezuz",
-   "site": "https://www.shopevergreenkosher.com"
+   "site": "https://www.shopevergreenkosher.com",
+   "retailerId": 1120,
+   "branchId": 2801
   }
  ]
 }

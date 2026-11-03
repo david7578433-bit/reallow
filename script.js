@@ -128,9 +128,10 @@
     h.offers.slice(0, 6).forEach(function (o, i) {
       var s = G.stores[o[0]];
       var row = el("li", i === 0 && h.offers.length > 1 ? "cheapest" : null);
-      var a = ext(el("a", null, s.name), s.base + "/product/" + o[3]);
+      var a = ext(el("a", null, s.name), s.product ? s.product.replace("{id}", o[3]) : s.base + "/product/" + o[3]);
       row.appendChild(a);
       row.appendChild(el("span", "gi-city", " · " + s.city.replace(" / Kiryas Joel", "/KJ")));
+      if (o[4]) { var nm = el("span", "gi-city", " · name match"); nm.title = "Matched by name and size (this store lists no barcode): " + (o[5] || ""); row.appendChild(nm); }
       var p = el("span", "gi-p", money(o[1]) + (h.unit ? "/" + h.unit : "")); row.appendChild(p);
       if (o[2]) row.appendChild(el("s", "gi-was", money(o[2])));
       ul.appendChild(row);

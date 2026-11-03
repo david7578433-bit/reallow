@@ -16,7 +16,7 @@ Search any item and see every store's price, cheapest first.
 
 Polite by design (`collectors/lib/polite.mjs`): honest User-Agent `RealLowBot/1.0`, robots.txt respected, 1.5 s+ between requests per site, stops on any block (bot check, 403/429/503). If a store blocks robots, the site says "search on store" instead of guessing. Every price on the site carries the time it was checked.
 
-Stores that block robots today: Refresh, Shlomie's, Evergreen (Monsey + Lakewood), Wesley, Hatzlacha, Kahan's (Cloudflare bot check). Slickdeals' robots.txt disallows its RSS, so it is not read.
+Stores behind a bot check: Refresh, Shlomie's, Evergreen (Monsey + Lakewood), Wesley, Hatzlacha, Kahan's (Cloudflare). Simple robots get blocked, so these are read in a real browser twice a day (off GitHub, one store at a time, slow). That run commits `data/browser/*.json` and starts the `browser-merge` workflow, which merges them into `data/groceries.json` without re-reading the other stores; the 4-hourly robot run also includes them. These stores list no barcodes: items are joined across those six stores by the shared catalog id, and to barcode stores only when name + size match exactly (shown on the site as "name match"). If a store's browser data is more than 3 days old the site still shows it with its own "checked" time. Slickdeals' robots.txt disallows its RSS, so it is not read.
 
 ## Turning on store APIs (keys go in GitHub secrets, never in this repo)
 Repo → Settings → Secrets and variables → Actions → New repository secret:
