@@ -7,8 +7,9 @@
   var SITE_URL = "https://reallow.sites.tab.bot/";
   var PAGES = "https://david7578433-bit.github.io/reallow/";
   // Amazon Associates tag (e.g. "reallow-20"). Blank = plain Amazon links with no tag.
-  var AMAZON_TAG = "";
+  var AMAZON_TAG = "reallow-20";
   function amazonUrl(q) { return "https://www.amazon.com/s?k=" + encodeURIComponent(String(q).slice(0, 120)).replace(/%20/g, "+") + (AMAZON_TAG ? "&tag=" + encodeURIComponent(AMAZON_TAG) : ""); }
+  function tagAmazon(u) { if (!AMAZON_TAG || !/^https:\/\/(www\.)?amazon\.com\//.test(u) || /[?&]tag=/.test(u)) return u; return u + (u.indexOf("?") > -1 ? "&" : "?") + "tag=" + encodeURIComponent(AMAZON_TAG); }
   function amazonBtn(q, cls) { var a = ext(el("a", cls || "btn btn-amz", "See it on Amazon"), amazonUrl(q)); a.setAttribute("aria-label", "See " + q + " on Amazon"); return a; }
   var BASES = /github\.io$/.test(location.hostname) ? ["./"] : [PAGES, "./"];
 
@@ -149,7 +150,7 @@
   function dealRow(x) {
     var d = x.d, li = el("li", "frow");
     var row = el("div", "f-top");
-    var a = ext(el("a", "f-title", d.title), d.url);
+    var a = ext(el("a", "f-title", d.title), tagAmazon(d.url));
     row.appendChild(a); if (d.id) row.appendChild(starBtn("d" + d.id, { kind: "d", n: d.title, p: d.price })); li.appendChild(row);
     var meta = el("div", "f-meta");
     meta.appendChild(el("b", "f-price", money(d.price)));
@@ -230,10 +231,10 @@
     body.appendChild(pr);
     body.appendChild(el("p", "note", (d.note ? d.note + " \u00B7 " : "") + "Checked on the store page " + d.checked));
     var act = el("div", "d-actions");
-    var go = ext(el("a", "btn btn-deal", "Go to deal \u2192"), d.url);
+    var go = ext(el("a", "btn btn-deal", "Go to deal \u2192"), tagAmazon(d.url));
     var wa = ext(el("a", "btn btn-wa", "Share"), waLink(waText(d))); wa.setAttribute("aria-label", "Share on WhatsApp: " + d.title);
     act.appendChild(go); act.appendChild(wa);
-    if (!/amazon/i.test(d.store)) act.appendChild(amazonBtn(d.title, "btn btn-amz sm"));
+    act.appendChild(amazonBtn(d.title, "btn btn-amz sm"));
     li.appendChild(th); li.appendChild(body); li.appendChild(act);
     return li;
   }
@@ -248,7 +249,7 @@
     feed.slice(0, feedShown).forEach(function (d) {
       var li = dealRow({ d: d });
       var wa = ext(el("a", "f-share", "Share"), waLink(waText(d))); wa.setAttribute("aria-label", "Share on WhatsApp: " + d.title);
-      if (!/amazon/i.test(d.store || "")) li.querySelector(".f-meta").appendChild(ext(el("a", "f-amz", "On Amazon"), amazonUrl(d.title)));
+      li.querySelector(".f-meta").appendChild(ext(el("a", "f-amz", "See it on Amazon"), amazonUrl(d.title)));
       li.querySelector(".f-meta").appendChild(wa);
       fl.appendChild(li);
     });

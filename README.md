@@ -27,7 +27,7 @@ Repo → Settings → Secrets and variables → Actions → New repository secre
 - Amazon Creators API: `AMAZON_CREATORS_CREDENTIAL_ID`, `AMAZON_CREATORS_CREDENTIAL_SECRET`, `AMAZON_PARTNER_TAG`
 Search terms the APIs are asked about: `collectors/config/api-terms.json`.
 
-Amazon Associates tag for the "See it on Amazon" buttons: `AMAZON_TAG` at the top of `script.js` (blank = no tag).
+Amazon Associates tag for the "See it on Amazon" buttons and Amazon deal links: `AMAZON_TAG` at the top of `script.js` (now `reallow-20`; blank = no tag). The footer carries the Amazon Associate disclosure.
 
 ## Site
 Static: `index.html`, `styles.css`, `script.js`, `stores.js` (store directory, grouped), `groceries.js` (store addresses/links by city). No trackers (GoatCounter optional: `GOATCOUNTER_CODE` in `script.js`). "For you" / My list is saved on the visitor's phone only (localStorage) and has a Reset link.

@@ -122,6 +122,10 @@ window.REALLOW_STORES = {
      "top": true
     },
     {
+     "name": "Dollar General",
+     "url": "https://www.dollargeneral.com/product-search?q={q}"
+    },
+    {
      "name": "Five Below",
      "url": "https://www.fivebelow.com/search?q={q}"
     },
