@@ -62,6 +62,39 @@ function barcodeKey(sku) {
   return z;
 }
 
+// LocalExpress stores (e.g. Chestnut): the store's own public catalog JSON. The site hands every visitor an
+// anonymous session cookie (whoami); the robot takes one per run like any shopper's browser. Barcodes (UPC) included.
+async function collectLx(st) {
+  const api = `${st.site}/rest-proxy/v2`;
+  const w = await politeFetch(`${api}/whoami?anonymous=1`, { expectJson: true }, DELAY);
+  if (!w.ok) throw new Error(`HTTP ${w.status} whoami`);
+  const ck = (w.headers.getSetCookie ? w.headers.getSetCookie() : [w.headers.get('set-cookie') || '']).map((c) => c.split(';')[0]).filter(Boolean).join('; ');
+  const H = { Cookie: ck, 'Content-Type': 'application/json', Accept: 'application/json' };
+  const dr = await politeFetch(`${api}/layout/stores/${st.storeId}/departments?storeId=${st.storeId}&fields=id%2Ctitle%2Cslug&mode=pickup`, { expectJson: true, headers: H }, DELAY);
+  if (!dr.ok) throw new Error(`HTTP ${dr.status} departments`);
+  const deps = (await dr.json()).data || [];
+  const seen = new Map(); let total = 0, pages = 0;
+  for (const d of deps) {
+    for (let p = 1; p <= 200; p++) {
+      const r = await politeFetch(`${api}/layout/stores/${st.storeId}/products?mode=pickup&page=${p}&perPage=100`, { method: 'POST', expectJson: true, headers: H, body: JSON.stringify({ departmentId: String(d.id) }) }, DELAY);
+      if (!r.ok) throw new Error(`HTTP ${r.status} ${d.slug} page ${p}`);
+      const j = (await r.json()).data || {}; pages++;
+      const meta = j._meta || {}; if (p === 1) total += meta.totalCount || 0;
+      for (const x of j.result || []) {
+        if (x.hidePrice || x.is_instock === false) continue;
+        const price = Number(x.priceFullDecimal); if (!(price > 0 && price < 2000)) continue;
+        const was = Number(x.priceBeforeDiscountDecimal);
+        const tail = String(x.productPageUrl || '').split('/product/')[1] || x.id;
+        const size = x.volume && x.volumeUnits && !/\d\s*(oz|lb|fl|ct|g|kg|ml|l|pk|pack|count)\b/i.test(x.title || '') ? `, ${x.volume} ${x.volumeUnits}` : '';
+        const u = x.priceUnits && x.priceUnits !== 'each' ? String(x.priceUnits).toLowerCase() : '';
+        if (!seen.has(tail)) seen.set(tail, { n: cleanName(`${x.title || ''}${size}`), p: price, w: was > price ? was : null, u, id: tail, b: barcodeKey(x.upc), sp: was > price });
+      }
+      if (!(j.result || []).length || p >= (meta.pageCount || 1)) break;
+    }
+  }
+  return { items: [...seen.values()], total, pages };
+}
+
 async function collectMcg(st) {
   const out = []; let pages = 1; let total = null;
   for (let p = 1; p <= Math.min(pages, MAX_PAGES); p++) {
@@ -91,7 +124,7 @@ for (const st of cfg.stores) { const h = new URL(st.site).host; if (!byHost.has(
 await Promise.all([...byHost.values()].map(async (group) => {
   for (const st of group) {
     const t0 = Date.now();
-    if (st.platform !== 'mcg') {
+    if (st.platform !== 'mcg' && st.platform !== 'lx') {
       const bd = await loadBrowserStore(st.id).catch((e) => { console.log(`${st.id}: browser data unreadable: ${e.message}`); return null; });
       if (bd) {
         const stale = Date.now() - Date.parse(bd.checked) > BROWSER_STALE_MS;
@@ -114,7 +147,7 @@ await Promise.all([...byHost.values()].map(async (group) => {
     }
     if (MERGE_ONLY) { results[st.id] = { status: 'reuse', items: [], checked: null }; continue; }
     try {
-      const r = await collectMcg(st);
+      const r = st.platform === 'lx' ? await collectLx(st) : await collectMcg(st);
       results[st.id] = { status: 'ok', items: r.items, total: r.total, checked: new Date().toISOString(), secs: Math.round((Date.now() - t0) / 1000) };
       console.log(`${st.id}: ${r.items.length} items (${r.pages} pages) in ${results[st.id].secs}s`);
     } catch (e) {
@@ -129,7 +162,8 @@ let prev = null;
 try { prev = JSON.parse(await fs.readFile(path.join(ROOT, 'data/groceries.json'), 'utf8')); } catch {}
 
 const stores = cfg.stores.map((st) => ({ id: st.id, name: st.name, city: st.city, site: st.site, base: st.seo ? `${st.site}/${st.seo}` : st.site, search: st.seo ? `${st.site}/${st.seo}/search/query={q}` : null,
-  ...(st.platform === 'mobilezuz' ? { product: `${st.site}/?catalogProduct={id}` } : {}) }));
+  ...(st.platform === 'mobilezuz' ? { product: `${st.site}/?catalogProduct={id}` } : {}),
+  ...(st.searchUrl ? { search: st.searchUrl } : {}), ...(st.productUrl ? { product: st.productUrl } : {}) }));
 const sIndex = Object.fromEntries(stores.map((s, i) => [s.id, i]));
 const items = new Map(); // key -> {n, u, offers: [[storeIdx, price, was, productId, nameMatched?, storesOwnName?]]}
 let nameIndex = null;
