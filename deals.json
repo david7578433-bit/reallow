@@ -1,6 +1,6 @@
 {
  "site": "RealLow",
- "updated": "2026-11-03T16:43:23.766Z",
+ "updated": "2026-11-03T22:01:39.440Z",
  "post_of_the_day": "ninja-dz090",
  "how_checked": "Top: deals opened and checked on the store's own page by hand (kept 72 hours). Feed: deals the RealLow robot reads every 4 hours from public deal feeds (Slickdeals, DealNews, TechBargains). A feed deal is kept only when the source states a clear price and the deal is not expired; the store's page is the final word.",
  "hot": 40,
@@ -507,6 +507,301 @@
  ],
  "feed": [
   {
+   "title": "EcoFlow Delta 3 Max 2,048Wh Portable Power Station for $879 + free shipping",
+   "price": 879,
+   "was": 1199,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Eco-Flow-Delta-3-Max-2-048-Wh-Portable-Power-Station-for-879-free-shipping/22342413.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:34:45.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fyNDEzLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 27
+  },
+  {
+   "title": "EcoFlow Delta Pro 3,600Wh Power Station for $1,799 + free shipping",
+   "price": 1799,
+   "was": 2599,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Eco-Flow/Certified-Refurb-Eco-Flow-Delta-Pro-3-600-Wh-Power-Station/469172.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:32:14.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "f5MTcyLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 31
+  },
+  {
+   "title": "Tuffenough Solar Outdoor Motion Sensor Flood Lights 4-Pack for $58 + free shipping",
+   "price": 58,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Tuffenough-Solar-Outdoor-Motion-Sensor-Flood-Lights-4-Pack-for-58-free-shipping/22342403.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:30:37.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fI0MDMuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dr. Air Comfort DAC-CBT01 Twin Air Mattress w/ Built-in Pump for $57 + free shipping",
+   "price": 57,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Dr-Air-Comfort-DAC-CBT01-Twin-Air-Mattress-w-Built-in-Pump-for-57-free-shipping/22342400.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:24:39.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fI0MDAuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dr. air Comfort Queen 18\" Air Mattress w/ Built-in Pump for $63 + free shipping",
+   "price": 63,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Dr-air-Comfort-Queen-18-Air-Mattress-w-Built-in-Pump-for-63-free-shipping/22342396.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:14:30.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fIzOTYuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Shark Rocket Pro DLX Corded Stick Vacuum for $120 + free shipping",
+   "price": 120,
+   "was": 200,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Shark-Rocket-Pro-DLX-Corded-Stick-Vacuum-for-120-free-shipping/22342393.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:57:11.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 30,
+   "id": "fyMzkzLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 40
+  },
+  {
+   "title": "Gorilla Grip Heavy Duty Gel Cushion Knee Pads for $19 + free shipping w/ Prime",
+   "price": 19,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Gorilla-Grip-Heavy-Duty-Gel-Cushion-Knee-Pads-for-19-free-shipping-w-Prime/22342390.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:43:45.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fyMzkwLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Lisen 90W USB-C Car Charger for $10 + free shipping w/ Prime",
+   "price": 10,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Lisen/Lisen-90-W-USB-C-Car-Charger/455363.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:19:20.000Z",
+   "cats": [
+    "tech",
+    "tools"
+   ],
+   "score": 30,
+   "id": "f1MzYzLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "MakeFit 5-Setting Filtered Shower Head for $10 + free shipping w/ Prime",
+   "price": 9.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Make-Fit-5-Setting-Filtered-Shower-Head-for-10-free-shipping-w-Prime/22342376.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:39:59.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fyMzc2Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Lisowod L03Pro Native 1080P Smart Outdoor Projector w/ WiFi & Bluetooth for $162 + free shipping",
+   "price": 162,
+   "was": 366,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Lisowod-L03-Pro-Native-1080-P-Smart-Outdoor-Projector-w-Wi-Fi-Bluetooth-for-162-free-shipping/22342375.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:37:33.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 30,
+   "id": "fMjM3NS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 56
+  },
+  {
+   "title": "Portable Countertop Kitchen Exhaust Fan for $88 + free shipping",
+   "price": 88,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Portable-Countertop-Kitchen-Exhaust-Fan-for-88-free-shipping/22342357.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:03:39.000Z",
+   "cats": [
+    "kitchen",
+    "home"
+   ],
+   "score": 30,
+   "id": "fMjM1Ny5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "X-Sense Indoor Wi-Fi Thermometer Hygrometer 3-Pack w/ Base Station for $35 + free shipping",
+   "price": 35,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/X-Sense-Indoor-Wi-Fi-Thermometer-Hygrometer-3-Pack-w-Base-Station-for-35-free-shipping/22342351.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:49:34.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fyMzUxLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "IdeaPad Slim 3i Intel N150 15.6\" Laptop for $260 + free shipping",
+   "price": 260,
+   "was": 400,
+   "store": "Best Buy",
+   "url": "https://www.dealnews.com/products/Lenovo/Idea-Pad-Slim-3-i-Intel-N150-15-6-Laptop/498533.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:34:02.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 30,
+   "id": "fODUzMy5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 35
+  },
+  {
+   "title": "X-Sense Smart Mailbox Alarm w/ Base Station for $30 + free shipping w/ Prime",
+   "price": 30,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/X-Sense/Sense-Smart-Mailbox-Alarm/484689.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:26:02.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 30,
+   "id": "fQ2ODkuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "MakeFit Filtered Shower Head for Hard Water w/ Press-to-Replace Filter for $48 at checkout + free shipping w/ Prime",
+   "price": 48,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Make-Fit-Filtered-Shower-Head-for-Hard-Water-w-Press-to-Replace-Filter-for-48-at-checkout-free-shipping-w-Prime/22342315.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:18:22.000Z",
+   "cats": [
+    "home",
+    "food"
+   ],
+   "score": 30,
+   "id": "fMjMxNS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Vesteel Stainless Steel 5-Piece Mixing Bowls w/ Lids Set for $17 + free shipping w/ $35",
+   "price": 17,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.dealnews.com/Vesteel-Stainless-Steel-5-Piece-Mixing-Bowls-w-Lids-Set-for-17-free-shipping-w-35/22342299.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:09:47.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 30,
+   "id": "fMjI5OS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dreo HEPA Air Purifier w/ PM2.5 Monitor & Scent Diffuser for $60 + free shipping",
+   "price": 60,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Dreo-HEPA-Air-Purifier-w-PM2-5-Monitor-Scent-Diffuser-for-60-free-shipping/22342278.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:49:56.000Z",
+   "cats": [
+    "tech",
+    "home"
+   ],
+   "score": 30,
+   "id": "fyMjc4Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Fitbit Inspire 3 Health &-Fitness-Tracker for $70 + free shipping",
+   "price": 70,
+   "was": 100,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Fitbit/Fitbit-Inspire-3-Health-Fitness-Tracker-with-Stress-Management-Workout-Intensity-Sleep/463247.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:38:42.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 30,
+   "id": "fMyNDcuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 30
+  },
+  {
+   "title": "Refurb Apple AirPods Max USB-C Wireless Over-Ear Headphones for $300 + free shipping",
+   "price": 300,
+   "was": null,
+   "store": "eBay",
+   "url": "https://www.dealnews.com/Refurb-Apple-Air-Pods-Max-USB-C-Wireless-Over-Ear-Headphones-for-300-free-shipping/22342227.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:08:33.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 30,
+   "id": "fIyMjcuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
    "title": "Refurb Apple AirPods Pro 3 (2025) for $128 + free shipping",
    "price": 128,
    "was": null,
@@ -519,7 +814,7 @@
    ],
    "score": 30,
    "id": "fzNjY5Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Certified Refurb Dyson SV29 Outsize Cordless Handheld Vacuum Cleaner for $212 + free shipping",
@@ -535,7 +830,7 @@
    ],
    "score": 30,
    "id": "fM3OTcuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 65
   },
   {
@@ -551,7 +846,7 @@
    ],
    "score": 30,
    "id": "fQyNDguaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "2-in-1 Extendable Snow Brush & Ice Scraper for $20 + free shipping w/ Prime",
@@ -566,7 +861,7 @@
    ],
    "score": 30,
    "id": "fMTg4MC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 20
   },
   {
@@ -583,22 +878,7 @@
    ],
    "score": 30,
    "id": "fMTc4OS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Giantex Single Panel Room Divider w/ Wheels for $30 + free shipping w/ Prime",
-   "price": 30,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Giantex-Single-Panel-Room-Divider-w-Wheels-for-30-free-shipping-w-Prime/22341756.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T10:29:05.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 30,
-   "id": "fxNzU2Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Samsung The Frame LS03C QN32LS03C 32\" QLED Smart TV for $380 + free shipping w/ Prime",
@@ -613,7 +893,7 @@
    ],
    "score": 30,
    "id": "fxNzUzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 36
   },
   {
@@ -629,40 +909,7 @@
    ],
    "score": 30,
    "id": "fkyNTIuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Dyson 360 Vis Nav Robot Vacuum for $250 + free shipping w/ Prime",
-   "price": 250,
-   "was": null,
-   "store": "Woot! An Amazon Company",
-   "url": "https://www.dealnews.com/products/Dyson/Dyson-360-Vis-Nav-Robot-Vacuum/493145.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T09:41:13.000Z",
-   "cats": [
-    "tools",
-    "home"
-   ],
-   "score": 30,
-   "id": "fMxNDUuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Velcro Easy Hang Extension Cord Holder 3-Pack for $10 + free shipping w/ Prime",
-   "price": 9.62,
-   "was": 12.62,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Velcro/Velcro-Easy-Hang-Extension-Cord-Holder-3-Pack/492133.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T09:18:33.000Z",
-   "cats": [
-    "tools",
-    "home"
-   ],
-   "score": 30,
-   "id": "fyMTMzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 24
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Scosche GoBat Pro 5-in-1 Vehicle Safety Tool for $15 + free shipping w/ Prime",
@@ -677,7 +924,7 @@
    ],
    "score": 30,
    "id": "fxNjc0Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Geekom Air12 Intel 7505 8GB RAM 256GB SSD Mini PC for $269 + free shipping",
@@ -692,7 +939,7 @@
    ],
    "score": 30,
    "id": "f3NDYxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 10
   },
   {
@@ -708,22 +955,7 @@
    ],
    "score": 30,
    "id": "fMTY2Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "French's Crispy Fried Onions for $1.10 via Sub. & Save + free shipping w/ Prime",
-   "price": 1.1,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Frenchs-Crispy-Fried-Onions-for-1-10-via-Sub-Save-free-shipping-w-Prime/22341655.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T08:29:07.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 30,
-   "id": "fxNjU1Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ottomanson 4x7-Foot Non-Slip Waterproof Rug for $22 + free shipping w/ Prime",
@@ -738,7 +970,7 @@
    ],
    "score": 30,
    "id": "fE2MjkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "OtterBox 20W USB-C Wall Charger w/ 1-Meter USB-C Cable Bundle for $1.99 for new customers + free shipping w/ Prime",
@@ -753,38 +985,7 @@
    ],
    "score": 30,
    "id": "fMTYyOC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Shure SM58 Pro XLR Dynamic Vocal Microphone for $89 + free shipping",
-   "price": 89,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Shure-SM58-Pro-XLR-Dynamic-Vocal-Microphone-for-89-free-shipping/22336910.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T19:36:53.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 30,
-   "id": "fY5MTAuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "TCL Q85K 7.1.2-Channel Dolby Atmos Soundbar w/ Wireless Subwoofer for $1,000 + free shipping",
-   "price": 1000,
-   "was": 1500,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/TCL-Q85-K-7-1-2-Channel-Dolby-Atmos-Soundbar-w-Wireless-Subwoofer-for-1-000-free-shipping/22336839.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:39:29.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 30,
-   "id": "f2ODM5Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 33
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "HP OmniBook 16 Ryzen AI 7 445 16\" Touchscreen Laptop PC for $1,300 + free shipping",
@@ -799,23 +1000,7 @@
    ],
    "score": 30,
    "id": "fY4MTMuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Wireless Speaker Double Wall Insulated Stainless 17-oz. Steel Water Bottle for $22 + free shipping w/ Prime",
-   "price": 22,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Wireless-Speaker-Double-Wall-Insulated-Stainless-17-oz-Steel-Water-Bottle-for-22-free-shipping-w-Prime/22336774.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T17:54:02.000Z",
-   "cats": [
-    "tech",
-    "food"
-   ],
-   "score": 30,
-   "id": "fNjc3NC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "eMeet Pixy Dual-Camera AI-Powered PTZ 4K Webcam w/ Tripod for $108 + free shipping",
@@ -831,55 +1016,8 @@
    ],
    "score": 30,
    "id": "fY3NzMuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 40
-  },
-  {
-   "title": "Urlife E26 750W Electric Bike for $234 + free shipping",
-   "price": 234,
-   "was": 284,
-   "store": "AliExpress",
-   "url": "https://www.dealnews.com/Urlife-E26-750-W-Electric-Bike-for-234-free-shipping/22336698.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:59:54.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 30,
-   "id": "fY2OTguaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 18
-  },
-  {
-   "title": "AceMagic K1 AMD Ryzen 3 Pro 7330U Mini PC w/ 16GB RAM & 256GB SSD for $322 at checkout + free shipping",
-   "price": 322,
-   "was": 460,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Ace-Magic-K1-AMD-Ryzen-3-Pro-7330-U-Mini-PC-w-16-GB-RAM-256-GB-SSD-for-322-at-checkout-free-shipping/22336697.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:59:35.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 30,
-   "id": "fY2OTcuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 30
-  },
-  {
-   "title": "Lightweight Laptop Sleeve w/ Pocket for 13.3\" to 14\" Laptops for $9 + free shipping w/ Prime",
-   "price": 9.49,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Lightweight-Laptop-Sleeve-w-Pocket-for-13-3-to-14-Laptops-for-9-free-shipping-w-Prime/22336691.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:52:42.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 30,
-   "id": "fY2OTEuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
   },
   {
    "title": "21-Cu. Ft. Waterproof Car Roof Cargo Carrier Bag for $80 + free shipping",
@@ -894,7 +1032,7 @@
    ],
    "score": 30,
    "id": "fY1MDAuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tailgate Molding Cap Spoiler for 2009-2019 Dodge Ram for $28 + free w/ Prime",
@@ -909,7 +1047,7 @@
    ],
    "score": 30,
    "id": "fNjQ3Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 20
   },
   {
@@ -926,7 +1064,7 @@
    ],
    "score": 30,
    "id": "fkyMzIuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "60A Manual Reset Thermal Circuit Breaker for $10 + free shipping w/ Prime",
@@ -941,7 +1079,7 @@
    ],
    "score": 30,
    "id": "fYzMjMuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Fuel Transfer Pump w/ Auto Stop & 35\" Hose for $25 + free shipping w/ Prime",
@@ -957,23 +1095,1731 @@
    ],
    "score": 30,
    "id": "fIwMTUuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
-   "title": "Wenoker 16-Level Magnetic Rowing Machine for $150 + free shipping",
-   "price": 149.99,
-   "was": 259.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Wenoker-16-Level-Magnetic-Rowing-Machine-for-150-free-shipping/22327946.html",
+   "title": "12-Night Norway, Denmark, and Sweden Flight, Hotel, and Tour Vacation for From $6,498 for 2",
+   "price": 6498,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/12-Night-Norway-Denmark-and-Sweden-Flight-Hotel-and-Tour-Vacation-for-From-6-498-for-2/22341955.html",
    "src": "DealNews",
-   "posted": "2026-11-03T16:40:00.000Z",
+   "posted": "2026-11-03T22:00:00.000Z",
+   "cats": [
+    "travel"
+   ],
+   "score": 0,
+   "id": "fxOTU1Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Manspot Manscape 90min Runtime Groin & Body Hair Trimmer $22.79",
+   "price": 22.79,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B09HZTKLNP",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:59:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMDlIWlRLTE5Q",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Lesusnicy 30W 100,000lm COB LED 9-Mode USB-C Rechargeable Flashlight $8.23",
+   "price": 8.23,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FHB8XNRK",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:58:00.000Z",
+   "cats": [
+    "tech",
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEZIQjhYTlJL",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Cottonelle Ultra Clean Toilet Paper (32 Family Mega Rolls) $22.61",
+   "price": 22.61,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0CM4NY91V",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:54:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMENNNE5ZOTFW",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Acemagic K1 AMD Ryzen 3 5425U Mini Desktop (16GB/512GB) $295.99",
+   "price": 295.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HK3PWQG5",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:53:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhLM1BXUUc1",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "HP HyperX Omen AMD Ryzen 7 8745HX 15.3\" 2K 165Hz Gaming Laptop with GeForce RTX 5060 $1199",
+   "price": 1199,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:52:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMTA2OTU0NTc1",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "ASUS Vivobook 16 AMD Ryzen 5 3501U 16\" 2K Laptop $379.99",
+   "price": 379.99,
+   "was": null,
+   "store": "Best Buy",
+   "url": "https://www.bestbuy.com/product/asus-vivobook-16-16-2k-laptop-amd-ryzen-5-3501u-2026-8gb-memory-256gb-storage-cool-silver/JJGHGSR379/sku/6681028",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:51:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fdS82NjgxMDI4",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Klein Tools 32516HD Knect 16-in-1 Impact-Rated Hybrid Screwdriver $19.98",
+   "price": 19.98,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0DK2H7G5G",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:48:00.000Z",
    "cats": [
     "tools"
    ],
    "score": 0,
-   "id": "f3OTQ2Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 42
+   "id": "fMERLMkg3RzVH",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Quinear Cordless Air Compression Leg & Foot Massager Recovery System (All Sizes) $117.99",
+   "price": 117.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0CQRG91XZ",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:48:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMENRUkc5MVha",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Gihen 17oz Unscented Oil Degreaser Cleaner $8.99",
+   "price": 8.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0DH28DVHR",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:47:00.000Z",
+   "cats": [
+    "home",
+    "food"
+   ],
+   "score": 0,
+   "id": "fMERIMjhEVkhS",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Beyamis Bluetooth Air Tracker Tag (4-Pack) w/ 2-Piece Replaceable Batteries $8.99",
+   "price": 8.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GXTJWKHJ",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:45:00.000Z",
+   "cats": [
+    "tech",
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEdYVEpXS0hK",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Soundcore by Anker P31i Translation Active Noise Cancelling Wireless Earbuds for $33 + free shipping w/ Prime",
+   "price": 33,
+   "was": 60,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Soundcore-by-Anker-P31-i-Translation-Active-Noise-Cancelling-Wireless-Earbuds-for-33-free-shipping-w-Prime/22342415.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:41:20.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fI0MTUuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 45
+  },
+  {
+   "title": "Car Pass Heavy Duty All-Weather Universal Trim-to-Fit Car Floor Mats for $33 + free shipping",
+   "price": 33,
+   "was": 41,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Car-Pass-Heavy-Duty-All-Weather-Universal-Trim-to-Fit-Car-Floor-Mats-for-33-free-shipping/22342414.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:41:01.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fyNDE0Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 20
+  },
+  {
+   "title": "Quinear 2500mAh 3-Mode Heat & Compression Cordless Calf Massager $48",
+   "price": 48,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0DRBWFY5H",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:41:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMERSQldGWTVI",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case Smartwatch $699.99",
+   "price": 699.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HJB6SFRD",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:40:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhKQjZTRlJE",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Baker's Signature 8\" Disposable Unbleached Parchment Air Fryer Liners Sheets (125-Count) $9.49",
+   "price": 9.49,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0C6Y8NYK1",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:39:00.000Z",
+   "cats": [
+    "kitchen",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEM2WThOWUsx",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Philips Norelco Pro 9000 90min Runtime Electric Shaver $67.96",
+   "price": 67.96,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FHJ4ZY62",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:38:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEZISjRaWTYy",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Bosgame P4 Ultra AMD Ryzen 7 7730U Mini Desktop (16GB RAM, 1TB PCIe 3.0 SSD) $419.30",
+   "price": 419.3,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GCH917SW",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:34:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEdDSDkxN1NX",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Gelpal 7-Color LED Light Therapy Face Mask for $22 + free shipping w/ Prime",
+   "price": 22.49,
+   "was": 44.99,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Gelpal-7-Color-LED-Light-Therapy-Face-Mask-for-22-free-shipping-w-Prime/22304949.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:31:02.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "f0OTQ5Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 50
+  },
+  {
+   "title": "Amosa Auto-Tighten & Manual Twist Electric Rechargeable Jar Opener $9.99",
+   "price": 9.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HL7TMWL3",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:30:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEhMN1RNV0wz",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dell Pro Micro Plus Core Ultra 7 265 Mini Desktop PC w/ 32GB RAM & 1TB SSD for $1,600 + free shipping",
+   "price": 1600,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Dell-Pro-Micro-Plus-Core-Ultra-7-265-Mini-Desktop-PC-w-32-GB-RAM-1-TB-SSD-for-1-600-free-shipping/22342402.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:28:20.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fI0MDIuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Reewit 2-in-1 5000Pa Handheld Vacuum Steamer & Iron $28.99",
+   "price": 28.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H9LK9JM2",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:28:00.000Z",
+   "cats": [
+    "kitchen",
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEg5TEs5Sk0y",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Method All-Purpose Cleaner Spray (French Lavender, 28oz) $4.72",
+   "price": 4.72,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0013FRRMK",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:27:00.000Z",
+   "cats": [
+    "kitchen",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMDAxM0ZSUk1L",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Ordovibe 5-Tier Over The Door Organizer with 10x Side Pockets $14.99",
+   "price": 14.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FWYGGWJZ",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:26:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEZXWUdHV0pa",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Glitsh Kids Video Camera Walkie Talkies (2-Pack, 1000ft Range, Games) $11.87",
+   "price": 11.87,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HDC9Y6W8",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:25:00.000Z",
+   "cats": [
+    "tech",
+    "kids"
+   ],
+   "score": 0,
+   "id": "fMEhEQzlZNlc4",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Ekobrit Washing Machine Deep Cleaning Tablets (24-Pack) $8.99",
+   "price": 8.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HFMR24GF",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:24:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhGTVIyNEdG",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Diet Coke 12oz Caffeine Free Soda Soft Drink (12-Pack) $4.45",
+   "price": 4.45,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B000T9UV1U",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:23:00.000Z",
+   "cats": [
+    "food"
+   ],
+   "score": 0,
+   "id": "fMDAwVDlVVjFV",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Microsoft Office 2024 Lifetime License Software Key (Apple macOS) + Complete User Guide $14.99",
+   "price": 14.99,
+   "was": null,
+   "store": "DigitalKeysBox",
+   "url": "https://digitalkeysbox.com/products/microsoft-office-formac-2024-complete-user-guide-170-pages/",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:22:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "f3MC1wYWdlcy8",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Craftsman Gold Oxide Drill Bit Set (14-Piece) $9.98",
+   "price": 9.98,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B07KHG79Z8",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:21:00.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMDdLSEc3OVo4",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "HTM Under Desk Electric Elliptical Exerciser Machine for Seniors $55.43",
+   "price": 55.43,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FHWCZ6QV",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:19:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEZIV0NaNlFW",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Orico 20-in-1 10Gbps USB-C Docking Station (90W PD, 8x USB Ports, More) $34.99",
+   "price": 34.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FC5T7TZZ",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:18:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEZDNVQ3VFpa",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Microsoft Office 2024 Professional Lifetime License (3-PCs, Windows, Digital Delivery) $16",
+   "price": 16,
+   "was": null,
+   "store": "DigitalKeysBox",
+   "url": "https://digitalkeysbox.com/products/microsoft-office-professional-2024-for-windows-10-11-instant-delivery-3pc/",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:17:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "f2ZXJ5LTNwYy8",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dstfer UltraThin Non-Slip Silicone Grip 3000mAh Rechargeable Heated Gloves $59.99",
+   "price": 59.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H8LKNRB6",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:16:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEg4TEtOUkI2",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Cooncxen 85W 10ft USB-C Charger Block with 5-Port (2-Pack) $19.99",
+   "price": 19.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FX4SLBS5",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:15:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEZYNFNMQlM1",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "1min.AI: Lifetime Subscription from $24.97",
+   "price": 24.97,
+   "was": null,
+   "store": "Stack Social",
+   "url": "https://www.stacksocial.com/sales/1minai-pro-plan-lifetime-subscription",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:14:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fzY3JpcHRpb24",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Microsoft Windows 11 Pro + Office Professional 2024 Software Key Bundle $12.99",
+   "price": 12.99,
+   "was": null,
+   "store": "DigitalKeysBox",
+   "url": "https://digitalkeysbox.com/products/microsoft-office-professional-2024-for-windows-and-windows-11-pro/",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:12:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fcy0xMS1wcm8v",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Microsoft Visio 2024 Professional Project Management Software $44.97",
+   "price": 44.97,
+   "was": null,
+   "store": "Stack Social",
+   "url": "https://www.stacksocial.com/sales/microsoft-visio-professional-2024-lifetime-license-for-windows",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:11:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fci13aW5kb3dz",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "MinnARK Over-the-Door Basketball Dual Hoop $20.86",
+   "price": 20.86,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.walmart.com/ip/seort/5333183986",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:10:00.000Z",
+   "cats": [
+    "kids"
+   ],
+   "score": 0,
+   "id": "fMzMzE4Mzk4Ng",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Voleeoa 8MP 1080p Video Recording Bluetooth AI Smart Glasses $47.99",
+   "price": 47.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HPF1PDXW",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:09:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhQRjFQRFhX",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Scramble Cloud 20TB Storage Lifetime Subscription $314.96",
+   "price": 314.96,
+   "was": null,
+   "store": "Stack Social",
+   "url": "https://www.stacksocial.com/sales/scramble-cloud-cloud-storage-lifetime-subscription-20tb",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:07:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "f0aW9uLTIwdGI",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Memoking T02 Bluetooth Mini Thermal Printer AI Sticker Maker (600pcs) $15.47",
+   "price": 15.47,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0BD5BX4HW",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:06:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEJENUJYNEhX",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Chamberlain myQ 1080p Smart WiFi Garage Video Keypad $29.99",
+   "price": 29.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0C386N52S",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:05:00.000Z",
+   "cats": [
+    "tech",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEMzODZONTJT",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dyson Big Ball Turbinehead Canister Vacuum $199.99",
+   "price": 199.99,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.walmart.com/ip/seort/2084195888",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:04:00.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fA4NDE5NTg4OA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Warrky Bluetooth Wireless Audio Reciever Adapter (For Old Speakers) $13.49",
+   "price": 13.49,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FHHJQ93K",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:03:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEZISEpROTNL",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "6,000A Jump Starter and 150-PSI Air Compressor for $60 + free shipping",
+   "price": 59.98,
+   "was": 99.98,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Giroago/Giroago-6-000-A-Jump-Starter-and-150-PSI-Air-Compressor/550595.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:02:53.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fA1OTUuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 40
+  },
+  {
+   "title": "Dyson V10 Animal+ Cordless Vacuum Cleaner (Dyson Refurbished) $199.99",
+   "price": 199.99,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.walmart.com/ip/Dyson-V10-Animal-Cordless-Vacuum-Cleaner-Purple-Refurbished/2439974495",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:02:00.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fQzOTk3NDQ5NQ",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Imagine Cruising 26-Night China & Asia All-Inclusive Cruise, Flight, Hotel, Rail, and Tour Vacation for From $17,998 for 2",
+   "price": 17998,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/Imagine-Cruising-26-Night-China-Asia-All-Inclusive-Cruise-Flight-Hotel-Rail-and-Tour-Vacation-for-From-17-998-for-2/22341937.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T21:00:00.000Z",
+   "cats": [
+    "travel"
+   ],
+   "score": 0,
+   "id": "fE5MzcuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "The Wall Street Journal Sale: $2/Week for 12-Months Digital Subscription",
+   "price": 2,
+   "was": null,
+   "store": "The Wall Street Journal",
+   "url": "https://www.dpbolvw.net/click-7511556-12348616",
+   "src": "TechBargains",
+   "posted": "2026-11-03T21:00:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "f0xMjM0ODYxNg",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Wayfair Holiday Flash Sale: Up to 70% off + free shipping w/ $35",
+   "price": 35,
+   "was": null,
+   "store": "Wayfair",
+   "url": "https://www.dealnews.com/Wayfair-Holiday-Flash-Sale-Up-to-70-off-free-shipping-w-35/22342394.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:58:33.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fIzOTQuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Bosgame P3 AMD Ryzen 9 7940HS Mini Desktop w/ 16GB RAM, 1TB PCIe SSD & Radeon 780M $539.25",
+   "price": 539.25,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0F9T8JHRV",
+   "src": "TechBargains",
+   "posted": "2026-11-03T20:58:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEY5VDhKSFJW",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Lenovo IdeaPad Slim 3i Intel Core 7 350 15.3\" FHD+ IPS Touch Laptop $699.99",
+   "price": 699.99,
+   "was": null,
+   "store": "Best Buy",
+   "url": "https://www.bestbuy.com/product/lenovo-ideapad-slim-3i-15-3-2k-touchscreen-laptop-core-7-processor-350-2026-16gb-memory-256gb-storage-cosmic-blue/JJGH3F2Z4K",
+   "src": "TechBargains",
+   "posted": "2026-11-03T20:58:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fSkdIM0YyWjRL",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "4D Cloud Anti-Fatigue Insoles for $4 + free shipping w/ Prime",
+   "price": 4.05,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/4-D-Cloud-Anti-Fatigue-Insoles-for-4-free-shipping-w-Prime/22304942.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:56:24.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fQ5NDIuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Jumbo Vacuum Storage Bags 9-Pack with Rechargeable Wireless Pump for $11 + free shipping w/ Prime",
+   "price": 11.49,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Jumbo-Vacuum-Storage-Bags-9-Pack-with-Rechargeable-Wireless-Pump-for-11-free-shipping-w-Prime/22322039.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:55:57.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMjAzOS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Temu Lightning Deals for From $1 + shipping varies",
+   "price": 1,
+   "was": null,
+   "store": "Temu",
+   "url": "https://www.dealnews.com/Temu-Lightning-Deals-for-From-1-shipping-varies/22342391.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:54:46.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fyMzkxLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Akluer 2.5HP Under Desk Walking Pad Treadmill for $70 + free shipping",
+   "price": 69.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Akluer/Akluer-2-5-HP-Under-Desk-Walking-Pad-Treadmill/548306.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:54:33.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fODMwNi5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Samsonite Friends & Family Luggage Deals at Macy's: Extra 30% off, up to 76% off, ending today + free shipping w/ $39",
+   "price": 39,
+   "was": null,
+   "store": "Macy's",
+   "url": "https://www.dealnews.com/Samsonite-Friends-Family-Luggage-Deals-at-Macys-Extra-30-off-up-to-76-off-ending-today-free-shipping-w-39/22342387.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:30:52.000Z",
+   "cats": [
+    "travel"
+   ],
+   "score": 0,
+   "id": "fMjM4Ny5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Wenoker Stationary Exercise Bike for $115 + free shipping",
+   "price": 114.99,
+   "was": 189.99,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Wenoker-Stationary-Exercise-Bike-for-115-free-shipping/22290999.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:26:24.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMDk5OS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 39
+  },
+  {
+   "title": "AstroAI L10 Mini 5-Mode 150PSI Battery Powered Portable Air Compressor $15.99",
+   "price": 15.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FL26TWWQ",
+   "src": "TechBargains",
+   "posted": "2026-11-03T20:25:00.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEZMMjZUV1dR",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Bose QuietComfort 2nd Gen Wireless Noise Cancelling Over-Ear Headphones for $199 + free shipping",
+   "price": 199,
+   "was": 359,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Bose-Quiet-Comfort-2-nd-Gen-Wireless-Noise-Cancelling-Over-Ear-Headphones-for-199-free-shipping/22342384.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:15:53.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fyMzg0Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 45
+  },
+  {
+   "title": "Vzpeun Memory Foam Breathable Hooded Travel Pillow $11.99",
+   "price": 11.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H6WNTMNN",
+   "src": "TechBargains",
+   "posted": "2026-11-03T20:15:00.000Z",
+   "cats": [
+    "home",
+    "travel"
+   ],
+   "score": 0,
+   "id": "fMEg2V05UTU5O",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Hollyland Lark A2 Wireless Microphone System for $30 + free shipping w/ Prime",
+   "price": 29.54,
+   "was": 44.99,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-30-free-shipping-w-Prime/22318521.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:14:11.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fg1MjEuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 34
+  },
+  {
+   "title": "Jaszdot 32\"Android Digital Signage Touchscreen Kiosk for $549 + free shipping",
+   "price": 549.45,
+   "was": 999,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Jaszdot/Jaszdot-32-inch-Android-Digital-Signage-Touch-Screen-Display/542293.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:14:03.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMjI5My5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 45
+  },
+  {
+   "title": "Ninja 8-in-1  Flip Toaster, Oven and Air Fryer for $140 + free shipping",
+   "price": 140,
+   "was": 250,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Ninja/Ninja-8-in-1-Flip-Toaster-Oven-and-Air-Fryer/487840.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:13:27.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "fNzg0MC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 44
+  },
+  {
+   "title": "Roborock Qrevo S Pro Robot Vacuum and Mop for $400 + free shipping",
+   "price": 399.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Roborock/Roborock-Qrevo-S-Pro-Robot-Vacuum-and-Mop/508335.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:10:14.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fODMzNS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Workpro 42-in-1 3.7V Rechargeable Mini Electric Screwdriver Set $19.99",
+   "price": 19.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0F2HS56NX",
+   "src": "TechBargains",
+   "posted": "2026-11-03T20:10:00.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEYySFM1Nk5Y",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "International Silversmith Pfaltzgraff Holiday 18-oz. Porcelain Mug for $5 + free shipping w/ $99",
+   "price": 4.99,
+   "was": 9.99,
+   "store": "Belk",
+   "url": "https://www.dealnews.com/International-Silversmith-Pfaltzgraff-Holiday-18-oz-Porcelain-Mug-for-5-free-shipping-w-99/22342382.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:03:57.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMjM4Mi5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 50
+  },
+  {
+   "title": "120-Piece Glow-in-the-Dark Fort Building Kit for $30 + free shipping w/ Prime",
+   "price": 30.09,
+   "was": 48.09,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/120-Piece-Glow-in-the-Dark-Fort-Building-Kit-for-30-free-shipping-w-Prime/22342379.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:00:51.000Z",
+   "cats": [
+    "kids"
+   ],
+   "score": 0,
+   "id": "fIzNzkuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 37
+  },
+  {
+   "title": "Globus 7-Day Introduction to Ireland Tour for From $2,199 per person",
+   "price": 2199,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/Globus-7-Day-Introduction-to-Ireland-Tour-for-From-2-199-per-person/22341883.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T20:00:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fE4ODMuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Citizen Classic Eco-Drive Leather Strap Watch for $210 + free shipping",
+   "price": 210,
+   "was": null,
+   "store": "JCPenney",
+   "url": "https://www.dealnews.com/products/Citizen/Citizen-Classic-Eco-Drive-Leather-Strap-Watch/553542.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:53:46.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMzU0Mi5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Tama Club-JAM Flyer 4-Piece Shell Pack w/ Snare Drum for $480 + free shipping",
+   "price": 480,
+   "was": 530,
+   "store": "Sweetwater",
+   "url": "https://www.dealnews.com/products/Tama/Tama-Club-JAM-Flyer-4-Piece-Shell-Pack-w-Snare-Drum/553541.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:47:05.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMzU0MS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 9
+  },
+  {
+   "title": "Smiseacow 14\" Dual Monitor 1080p USB-C Laptop Screen Extender $87.99",
+   "price": 87.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H1G8J3L8",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:45:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEgxRzhKM0w4",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Wotaste XR-01 Multi-Purpose Steam Mop Cleaner Kit (16.9oz Tank) $29.99",
+   "price": 29.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H9WWHZB4",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:35:00.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEg5V1dIWkI0",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Clouisc 200' Waterproof App & Remote Control RGB+IC Permanent Outdoor Lights $49.99",
+   "price": 49.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H2GZDMRC",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:25:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEgyR1pETVJD",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Fivnion W310 20000mAh 6000A 160PSI Air Compressor Car Jump Starter $69.99",
+   "price": 69.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H4Z85S7H",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:25:00.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEg0Wjg1UzdI",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Kamrui Pinova P2 AMD Ryzen 5425U 4K Mini Desktop (16GB/256GB) $271.98",
+   "price": 271.98,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0BC7S9R5C",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:20:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEJDN1M5UjVD",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple iPad mini 128GB A20 Pro 8.5\" OLED WiFi Tablet $699",
+   "price": 699,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HPBW4WL3",
+   "src": "TechBargains",
+   "posted": "2026-11-03T19:15:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhQQlc0V0wz",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Samsung B-Series HW-B650F 3.1 Ch Soundbar for $200 + free shipping",
+   "price": 200,
+   "was": 350,
+   "store": "Best Buy",
+   "url": "https://www.dealnews.com/products/Samsung/Samsung-B-Series-HW-B650-F-3-1-Ch-Soundbar/518905.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:13:54.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fODkwNS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 43
+  },
+  {
+   "title": "Lenovo IdeaPad Slim 3i 13th-Gen i5 15.6\" Laptop for $480 + free shipping",
+   "price": 480,
+   "was": 900,
+   "store": "Best Buy",
+   "url": "https://www.dealnews.com/products/Lenovo/Lenovo-Idea-Pad-Slim-3-i-13-th-Gen-i5-15-6-Laptop/514070.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:09:16.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fNDA3MC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 47
+  },
+  {
+   "title": "Holland America 7-Night Eastern Caribbean Cruise for From $898 for 2",
+   "price": 898,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/Holland-America-7-Night-Eastern-Caribbean-Cruise-for-From-898-for-2/22341846.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T19:00:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fE4NDYuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "iSpring 1000000-Gal PFAS Removal Water Filter System (Product Only) $2379.49",
+   "price": 2379.49,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FR5D5VGV",
+   "src": "TechBargains",
+   "posted": "2026-11-03T18:55:00.000Z",
+   "cats": [
+    "home",
+    "food"
+   ],
+   "score": 0,
+   "id": "fMEZSNUQ1VkdW",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple 2026 Mac Studio M5 Max 18-Core CPU / 32-Core GPU Desktop w/ 36GB RAM, 512GB SSD $2299.00",
+   "price": 2299,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HGKSQMX6",
+   "src": "TechBargains",
+   "posted": "2026-11-03T18:50:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhHS1NRTVg2",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "DeWalt Tools Online Only Deals at Lowe's: Up to $200 off + free shipping w/ $25",
+   "price": 200,
+   "was": 400,
+   "store": "Lowe's",
+   "url": "https://www.dealnews.com/De-Walt-Tools-Online-Only-Deals-at-Lowes-Up-to-200-off-free-shipping-w-25/22342350.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:48:56.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fIzNTAuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 50
+  },
+  {
+   "title": "Bella PRO SmartCrisp 8-Quart Touchscreen Air Fryer for $55 + free shipping",
+   "price": 55,
+   "was": 130,
+   "store": "Best Buy",
+   "url": "https://www.dealnews.com/products/Bella-Pro/Bella-PRO-Smart-Crisp-8-Quart-Touchscreen-Air-Fryer/494139.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:38:38.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "f0MTM5Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 58
+  },
+  {
+   "title": "Sceptre C248W-1920RN 24\" FHD1080p 75Hz Curved LED Monitor $77.97",
+   "price": 77.97,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B07KXSR99Y",
+   "src": "TechBargains",
+   "posted": "2026-11-03T18:32:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMDdLWFNSOTlZ",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Avenli London 2-3 Person Inflatable Hot Tub Spa w/ Cover for $298 + free shipping",
+   "price": 298,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.dealnews.com/Avenli-London-2-3-Person-Inflatable-Hot-Tub-Spa-w-Cover-for-298-free-shipping/22342318.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:30:18.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fyMzE4Lmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Dick's Sporting Goods Holiday Deal Dash: Up to 88% off + free shipping w/ $49",
+   "price": 49,
+   "was": 99,
+   "store": "Dick's Sporting Goods",
+   "url": "https://www.dealnews.com/Dicks-Sporting-Goods-Holiday-Deal-Dash-Up-to-88-off-free-shipping-w-49/22342316.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:25:58.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fIzMTYuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 51
+  },
+  {
+   "title": "Apple AirPods Pro 3 Active Noise Cancellation Wireless Earbuds $199",
+   "price": 199,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FQFB8FMG",
+   "src": "TechBargains",
+   "posted": "2026-11-03T18:15:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEZRRkI4Rk1H",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Amazon Fire TV Stick 4K Streaming Device (2nd-Gen) with Upgraded Remote $24.99",
+   "price": 24.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0G4XRP464",
+   "src": "TechBargains",
+   "posted": "2026-11-03T18:10:00.000Z",
+   "cats": [
+    "tech",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEc0WFJQNDY0",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Carote 24-Piece Nonstick Cookware Set for $65 + free shipping",
+   "price": 65,
+   "was": null,
+   "store": "Walmart",
+   "url": "https://www.dealnews.com/Carote-24-Piece-Nonstick-Cookware-Set-for-65-free-shipping/22342297.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:03:01.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "fIyOTcuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "6-Night Ireland and Northern Ireland Flight, Hotel, and Tour Vacation for From $2,898 for 2",
+   "price": 2898,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/6-Night-Ireland-and-Northern-Ireland-Flight-Hotel-and-Tour-Vacation-for-From-2-898-for-2/22341808.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T18:00:00.000Z",
+   "cats": [
+    "travel"
+   ],
+   "score": 0,
+   "id": "fE4MDguaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "llano 2-in-1 USB-C 3.0 microSD & SD Card Reader $5.49",
+   "price": 5.49,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GSVLWGPX",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:55:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEdTVkxXR1BY",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Ewaiira 9.8\" Stainless Steel Sink Caddy $11.39",
+   "price": 11.39,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0DSZ9P85N",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:50:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fMERTWjlQODVO",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Gihen 24-Tablet Washing Machine Cleaner (12-Month Supply) $7.99",
+   "price": 7.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H3467W7K",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:45:00.000Z",
+   "cats": [
+    "tech",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEgzNDY3VzdL",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple MacBook Pro M6 12-Core 14\" Laptop for Preorders for $2,000 w/ $100 Costco GC + free shipping",
+   "price": 2000,
+   "was": null,
+   "store": "Costco",
+   "url": "https://www.dealnews.com/Apple-Mac-Book-Pro-M6-12-Core-14-Laptop-for-Preorders-for-2-000-w-100-Costco-GC-free-shipping/22342264.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:42:49.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMjI2NC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Lisen 4-in-1 4.7\"-11.5\" Adjustable iPad Holder Car Tablet Mount $9.99",
+   "price": 9.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0CLLSC4BF",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:40:00.000Z",
+   "cats": [
+    "tech",
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMENMTFNDNEJG",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Mikasa Satin Loft 45-Piece 18/10 Stainless Steel Flatware Set for $60 + free shipping",
+   "price": 60,
+   "was": 80,
+   "store": "Costco",
+   "url": "https://www.dealnews.com/Mikasa-Satin-Loft-45-Piece-18-10-Stainless-Steel-Flatware-Set-for-60-free-shipping/22342261.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:35:51.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fIyNjEuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 25
+  },
+  {
+   "title": "Jet Puffed Bite-Sized Marshmallow(10oz) $0.85",
+   "price": 0.85,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B000VDWXT2",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:35:00.000Z",
+   "cats": [
+    "food"
+   ],
+   "score": 0,
+   "id": "fMDAwVkRXWFQy",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "KitchenAid 5 Ultra Power Speed Hand Mixer for $45 + free shipping",
+   "price": 45,
+   "was": 60,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Kitchen-Aid-5-Ultra-Power-Speed-Hand-Mixer-for-45-free-shipping/22342260.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:32:49.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "fMjI2MC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 25
+  },
+  {
+   "title": "Zonstvys 2-in-1 7\" LCD Writing Tablet w/ Talking Flash Cards $9.91",
+   "price": 9.91,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HJGTT16G",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:30:00.000Z",
+   "cats": [
+    "tech",
+    "kids"
+   ],
+   "score": 0,
+   "id": "fMEhKR1RUMTZH",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple iPad 11\" 128GB A16 Chip Liquid Retina Display Tablet $399",
+   "price": 399,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0DZ77D5HL",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:25:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMERaNzdENUhM",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "iRobot Roomba 105 Combo Robot Vacuum & Mop for $169 + free shipping",
+   "price": 169,
+   "was": 320,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/iRobot/iRobot-Roomba-105-Combo-Robot-Vacuum-Mop/498276.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:23:50.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fODI3Ni5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 47
+  },
+  {
+   "title": "KitchenAid Fruit and Vegetable Spiralizer Mixer Attachment for $90 + free shipping",
+   "price": 90,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Kitchen-Aid/Kitchen-Aid-Fruit-and-Vegetable-Spiralizer-Mixer-Attachment/92863.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:17:32.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "fyODYzLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "iTjq VF250 Native 1080p Auto-Keystone Portable Bluetooth Projector $49.99",
+   "price": 49.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0HNVXL4LT",
+   "src": "TechBargains",
+   "posted": "2026-11-03T17:15:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEhOVlhMNExU",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Holland America 11-Night Mexican Riviera & Sea of Cortez Cruise for From $2,098 for 2",
+   "price": 2098,
+   "was": null,
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/Holland-America-11-Night-Mexican-Riviera-Sea-of-Cortez-Cruise-for-From-2-098-for-2/22341787.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T17:00:00.000Z",
+   "cats": [
+    "home"
+   ],
+   "score": 0,
+   "id": "fE3ODcuaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Asobu Puramic Mini Jug 33-oz. Stainless Steel Insulated Water Bottle w/ Pop-Up Straw for $24 + free w/ Prime",
+   "price": 24,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/Asobu-Puramic-Mini-Jug-33-oz-Stainless-Steel-Insulated-Water-Bottle-w-Pop-Up-Straw-for-24-free-w-Prime/22342210.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T16:58:54.000Z",
+   "cats": [
+    "kitchen",
+    "food"
+   ],
+   "score": 0,
+   "id": "fMjIxMC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Tramontina Pro Series 5\" Santoku Knife for $27 + free shipping",
+   "price": 27,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/products/Tramontina/Tramontina-Pro-Series-5-inch-Santoku-Knife/552218.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T16:55:37.000Z",
+   "cats": [
+    "kitchen"
+   ],
+   "score": 0,
+   "id": "fMjIxOC5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "iTrusou 24\"x16\" 400W 7-Level Electric Food Warming Mat $24.99",
+   "price": 24.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0D4TG6GSV",
+   "src": "TechBargains",
+   "posted": "2026-11-03T16:55:00.000Z",
+   "cats": [
+    "tools",
+    "home"
+   ],
+   "score": 0,
+   "id": "fMEQ0VEc2R1NW",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Greenworks 24V 1/2\" Brushless Cordless Drill (400 In-lbs.) w/ 12000mAh Power Bank & 3.3' Braided Cable $54.99",
+   "price": 54.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0F916XPT8",
+   "src": "TechBargains",
+   "posted": "2026-11-03T16:55:00.000Z",
+   "cats": [
+    "tech",
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMEY5MTZYUFQ4",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "High Speed 18mph 1:14 Scale RC Car for $30 + free shipping w/ Prime",
+   "price": 29.99,
+   "was": 89.99,
+   "store": "Amazon",
+   "url": "https://www.dealnews.com/High-Speed-18-mph-1-14-Scale-RC-Car-for-30-free-shipping-w-Prime/22342208.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T16:54:19.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fIyMDguaHRtbA",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 67
+  },
+  {
+   "title": "AstroAI 6000A Jump Starter with Air Compressor  for $40 + free shipping",
+   "price": 39.99,
+   "was": 139.99,
+   "store": "Walmart",
+   "url": "https://www.dealnews.com/Astro-AI-6000-A-Jump-Starter-with-Air-Compressor-for-40-free-shipping/22342205.html",
+   "src": "DealNews",
+   "posted": "2026-11-03T16:51:19.000Z",
+   "cats": [
+    "tools"
+   ],
+   "score": 0,
+   "id": "fMjIwNS5odG1s",
+   "checked": "2026-11-03T22:01:39.440Z",
+   "pct_off": 71
+  },
+  {
+   "title": "Baseus Bowie MH1 Hi-Res Active Noise Cancelling Wireless Headphones $39.99",
+   "price": 39.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FQC2MYXR",
+   "src": "TechBargains",
+   "posted": "2026-11-03T16:50:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEZRQzJNWVhS",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Acer Active Noise Cancelling Bluetooth Over Ear Headphones $29.99",
+   "price": 29.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0H41PLL42",
+   "src": "TechBargains",
+   "posted": "2026-11-03T16:45:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEg0MVBMTDQy",
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Apple AirPods Max 2 Active Noise Cancelling Wireless Headphones $449",
@@ -988,7 +2834,7 @@
    ],
    "score": 0,
    "id": "fMEdTUzcyR1pK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Anker Prime 67W 3-Port USB Compact Fast Wall Charger $34.99",
@@ -1003,7 +2849,7 @@
    ],
    "score": 0,
    "id": "fMEM0WVRCNTZI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Anshee Spring-Loaded Heavy Duty Kitchen Scissors $8.49",
@@ -1018,22 +2864,22 @@
    ],
    "score": 0,
    "id": "fMEg3QkZGTkxH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
-   "title": "Dayvorax Floral 18-Month 2026-2027 Wall Calendar for $3 + free shipping w/ Prime",
-   "price": 2.82,
+   "title": "Cionum 45W USB-C Wall Charger with 10ft Cable (2-Pack) $10.79",
+   "price": 10.79,
    "was": null,
    "store": "Amazon",
-   "url": "https://www.dealnews.com/Dayvorax-Floral-18-Month-2026-2027-Wall-Calendar-for-3-free-shipping-w-Prime/22342169.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T16:18:55.000Z",
+   "url": "https://www.amazon.com/dp/B0GFW3QSWY",
+   "src": "TechBargains",
+   "posted": "2026-11-03T16:15:00.000Z",
    "cats": [
-    "home"
+    "tech"
    ],
    "score": 0,
-   "id": "fIxNjkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "id": "fMEdGVzNRU1dZ",
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dyson Hot+Cool Gen1 HP10 Air Purifier for $200 + free shipping",
@@ -1048,7 +2894,7 @@
    ],
    "score": 0,
    "id": "fxODc1Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nubwo HG04L Wired Gaming Headset (PS5/PS4, Xbox Series X|S, PC) $11.99",
@@ -1063,7 +2909,7 @@
    ],
    "score": 0,
    "id": "fMEZLVEZNSDJG",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Kids Vanity with LED Mirror and Chair Set for $104 + free shipping",
@@ -1079,23 +2925,8 @@
    ],
    "score": 0,
    "id": "fMjE0OS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 25
-  },
-  {
-   "title": "The Lord of the Rings: 1978 Animated Movie DVD for $5 + free shipping w/ Prime",
-   "price": 5,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/The-Lord-of-the-Rings-1978-Animated-Movie-DVD-for-5-free-shipping-w-Prime/22342148.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T16:06:26.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fIxNDguaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
   },
   {
    "title": "Certified Refurb Dyson Digital Slim SV57 Cordless Stick Vacuum for $200 + free shipping",
@@ -1110,7 +2941,7 @@
    ],
    "score": 0,
    "id": "fMjE0Ny5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Aoben 1/2\" 450ft-lbs Cordless Electric Impact Wrench Kit $39.99",
@@ -1125,22 +2956,7 @@
    ],
    "score": 0,
    "id": "fMENHSFc4WDJa",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Lenovo V14 G5 Intel Core i7-13620H 14\" 1080p Business Laptop w/ 16GB RAM, 1TB SSD $629",
-   "price": 629,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/Lenovo-V14-G5-IRL-14-FHD-Laptops-Intel-Core-i7-13620H-2-4GHz-16GB-DDR5-RAM-1TB-SSD-Win11-Home-83HDA06BUS/20174253333",
-   "src": "TechBargains",
-   "posted": "2026-11-03T16:01:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fxNzQyNTMzMzM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Seabourn 7-Night Alaska Inside Passage Cruise for From $13,996 for 2",
@@ -1155,37 +2971,7 @@
    ],
    "score": 0,
    "id": "fE3NTAuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Apple MacBook Air 13.6\" M5 Chip 10-Core CPU 8-Core GPU 2560x1664 Laptop (16GB/512GB) $1099.99",
-   "price": 1099.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0GR1J6T45",
-   "src": "TechBargains",
-   "posted": "2026-11-03T16:00:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEdSMUo2VDQ1",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "1:14 Scale Fast RC Cars for $45 + free shipping",
-   "price": 44.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/1-14-Scale-Fast-RC-Cars-for-45-free-shipping/22342132.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:57:16.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fyMTMyLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tutellpet 7-Liter Automatic Cat Feeder with Camera for $60 + free shipping",
@@ -1201,7 +2987,7 @@
    ],
    "score": 0,
    "id": "fyMTMxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Popeyes Chicken Bundle for $20",
@@ -1216,7 +3002,7 @@
    ],
    "score": 0,
    "id": "fyMTI5Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tineco Floor One S6 Stretch Steam 3-in-1 Wet Dry Vacuum Mop $279",
@@ -1232,22 +3018,7 @@
    ],
    "score": 0,
    "id": "fMEZMUTY4WFNX",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Apple Watch Ultra 4 GPS + Cellular 49mm Black Titanium Case Smartwatch $699.99",
-   "price": 699.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HJB6SFRD",
-   "src": "TechBargains",
-   "posted": "2026-11-03T15:43:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEhKQjZTRlJE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nadaly 650W 55KPa Brushless Motor 5-Stage Sealed Filtration Cordless Vacuum Cleaner $65.99",
@@ -1263,7 +3034,7 @@
    ],
    "score": 0,
    "id": "fMEgyVFdQWk40",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Honeyuan 3-Stage H13 HEPA Air Purifier (Up to 1095sq ft) $19.49",
@@ -1278,38 +3049,7 @@
    ],
    "score": 0,
    "id": "fMEI5Njc4WjRM",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "65\" Window-Facing Digital Signage Display for $1,689 + free shipping",
-   "price": 1689,
-   "was": 2599,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Jaszdot/Jaszdot-32-3-000-Nit-Digital-Signage-Display/499261.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:33:38.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f5MjYxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 35
-  },
-  {
-   "title": "Typhur Sync Gold Gen2 Wireless Meat Thermometer for $25 + free shipping w/ Prime",
-   "price": 24.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Typhur/Typhur-Sync-Gold-Gen2-Wireless-Meat-Thermometer/553477.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:33:10.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fM0NzcuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Outdoor Basic 150' 1080-LED Waterproof Rope Lights w/ 8 Modes $30.00",
@@ -1324,22 +3064,7 @@
    ],
    "score": 0,
    "id": "fMERMNU03MjQ5",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "NCAA College Hat Deals at Fanatics: Up to 83% off, extra 5% to 25% off + $6.99 shipping",
-   "price": 6.99,
-   "was": null,
-   "store": "Fanatics",
-   "url": "https://www.dealnews.com/NCAA-College-Hat-Deals-at-Fanatics-Up-to-83-off-extra-5-to-25-off-6-99-shipping/22342095.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:26:22.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fIwOTUuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dewalt 20V Max XR L-Shape SDS Plus Rotary Hammer Drill $352.49",
@@ -1354,7 +3079,7 @@
    ],
    "score": 0,
    "id": "fMDFNOFFXMjZM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "200-Foot 120-LED Permanent Outdoor Light String for $192 + free shipping",
@@ -1369,7 +3094,7 @@
    ],
    "score": 0,
    "id": "fMjA5NC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 52
   },
   {
@@ -1386,7 +3111,7 @@
    ],
    "score": 0,
    "id": "fMDc2REo3WlpW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Monster N-Lite 203 AirLinks Bluetooth 5.3 Waterproof Wireless Earbuds $15.99",
@@ -1401,7 +3126,7 @@
    ],
    "score": 0,
    "id": "fMEhHUjhaOFc0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Negenttren 2-in-1 6ft 100W USB-C to USB-C Cable with USB-A Adapter $4.99",
@@ -1416,7 +3141,7 @@
    ],
    "score": 0,
    "id": "fMERZRjgxUTNU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "College Sweatshirts & Hoodies Deals at Fanatics: Up to 84% off, extra 5% to 25% off + $6.99 shipping",
@@ -1431,7 +3156,7 @@
    ],
    "score": 0,
    "id": "fMjA3OC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 74
   },
   {
@@ -1447,7 +3172,7 @@
    ],
    "score": 0,
    "id": "fIwNzcuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "15.6\" Digital Calendar and Picture Frame for $99 + free shipping",
@@ -1462,7 +3187,7 @@
    ],
    "score": 0,
    "id": "fMjA3Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 67
   },
   {
@@ -1478,7 +3203,7 @@
    ],
    "score": 0,
    "id": "fMEdYWDZETEsz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Typhur Sync Gold WiFi Bluetooth Wireless Meat Thermometer (6-Sensors) $24.99",
@@ -1494,52 +3219,7 @@
    ],
    "score": 0,
    "id": "fMERMTkhGWTdT",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "HP HyperX Omen AMD Ryzen 7 8745HX 15.3\" 2K 165Hz Gaming Laptop with GeForce RTX 5060 $1199",
-   "price": 1199,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/HyperX-OMEN-15-inch-Gaming-Laptop-PC-15-gb0070wm/20106954575",
-   "src": "TechBargains",
-   "posted": "2026-11-03T15:02:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMTA2OTU0NTc1",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Niimbot D110 Portable Thermal Label Maker for $8 + free shipping w/ Prime",
-   "price": 7.59,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Niimbot/NIIMBOT-D110-Portable-Thermal-Label-Maker/553463.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:01:48.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fzNDYzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "14-Night Seabourn Ireland, Scotland, Faroe Islands, and Iceland Cruise for From $33,596 for 2",
-   "price": 33596,
-   "was": null,
-   "store": "Dunhill Travel",
-   "url": "https://www.dealnews.com/14-Night-Seabourn-Ireland-Scotland-Faroe-Islands-and-Iceland-Cruise-for-From-33-596-for-2/22341731.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T15:00:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fxNzMxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "3DMakerpro GEO Owl LiDAR Scanner for $1,379 + free shipping",
@@ -1554,86 +3234,23 @@
    ],
    "score": 0,
    "id": "fE5OTAuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 8
   },
   {
-   "title": "Acemagic K1 AMD Ryzen 3 5425U Mini Desktop (16GB/512GB) $295.99",
-   "price": 295.99,
+   "title": "14-Night Seabourn Ireland, Scotland, Faroe Islands, and Iceland Cruise for From $33,596 for 2",
+   "price": 33596,
    "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HK3PWQG5",
-   "src": "TechBargains",
+   "store": "Dunhill Travel",
+   "url": "https://www.dealnews.com/14-Night-Seabourn-Ireland-Scotland-Faroe-Islands-and-Iceland-Cruise-for-From-33-596-for-2/22341731.html",
+   "src": "DealNews",
    "posted": "2026-11-03T15:00:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEhLM1BXUUc1",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Reewit 2-in-1 5000Pa Handheld Vacuum Steamer & Iron $28.99",
-   "price": 28.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H9LK9JM2",
-   "src": "TechBargains",
-   "posted": "2026-11-03T14:57:00.000Z",
-   "cats": [
-    "kitchen",
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMEg5TEs5Sk0y",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "1080P Foldable Mini Drone for $30 + free shipping w/ Prime",
-   "price": 29.99,
-   "was": 49.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/1080-P-Foldable-Mini-Drone-for-30-free-shipping-w-Prime/22324796.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T14:51:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fQ3OTYuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 40
-  },
-  {
-   "title": "Dreame FloorX 110 Plus Cordless Hard Floor Cleaner for $65 + free shipping",
-   "price": 64.99,
-   "was": 169.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Dreame/Dreame-Floor-X-110-Plus-Wet-Dry-Vacuum-and-Mop/525721.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T14:49:43.000Z",
    "cats": [
     "home"
    ],
    "score": 0,
-   "id": "fNTcyMS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 62
-  },
-  {
-   "title": "Voleeoa 8MP 1080p Video Recording Bluetooth AI Smart Glasses $47.99",
-   "price": 47.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HPF1PDXW",
-   "src": "TechBargains",
-   "posted": "2026-11-03T14:47:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEhQRjFQRFhX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "id": "fxNzMxLmh0bWw",
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Garvee 8-Cube Storage Shelf Organizer with 10 Removable Back Panels $59.99",
@@ -1648,7 +3265,7 @@
    ],
    "score": 0,
    "id": "fMEgxTU5aNTZH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Pzlwgm 3-Size Broken Pipe Thread Extraction Tool $4.99",
@@ -1663,7 +3280,7 @@
    ],
    "score": 0,
    "id": "fMEhGTVJRRjdK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Victorinox Rambler 10-Function Swiss Army Knife $26.50",
@@ -1679,23 +3296,7 @@
    ],
    "score": 0,
    "id": "fMDAwTUxRTlpJ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Tineco Floor One i5 Stretch Lite Wet Dry Vacuum for $189 + free shipping",
-   "price": 189,
-   "was": 299,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Tineco/Tineco-Floor-One-i5-Stretch-Lite-Wet-Dry-Vacuum/553026.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T14:30:04.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMwMjYuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 37
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Vizony 1080p 200 ANSI Lumens WiFi 6 & Bluetooth Smart Projector $74.99",
@@ -1710,22 +3311,7 @@
    ],
    "score": 0,
    "id": "fMERONkNLWFAz",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Klein Tools 32516HD Knect 16-in-1 Impact-Rated Hybrid Screwdriver $19.98",
-   "price": 19.98,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0DK2H7G5G",
-   "src": "TechBargains",
-   "posted": "2026-11-03T14:27:00.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMERLMkg3RzVH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Amazon Basics Reusable Steel Wool Soap Pads (10-Count) $1.70",
@@ -1740,23 +3326,7 @@
    ],
    "score": 0,
    "id": "fMEZCWFpLTVZI",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Acemagic K1 Mini PC Ryzen 3 5425U 16GB RAM 512GB SSD for $296 + free shipping",
-   "price": 295.99,
-   "was": 469.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Ace-Magic/Acemagic-Ryzen-7-K1-Mini-PC/491216.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T14:18:52.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fxMjE2Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 37
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Workpro 4\",5\", 6\" Mini Pliers Set (3-Piece) $9.49",
@@ -1771,39 +3341,7 @@
    ],
    "score": 0,
    "id": "fMEI4UUdUVzRT",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Diet Coke 12oz Caffeine Free Soda Soft Drink (12-Pack) $4.45",
-   "price": 4.45,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B000T9UV1U",
-   "src": "TechBargains",
-   "posted": "2026-11-03T14:13:00.000Z",
-   "cats": [
-    "food"
-   ],
-   "score": 0,
-   "id": "fMDAwVDlVVjFV",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Magic Jimmy AI-Powered 3D Printer for Kids for $216 + free shipping",
-   "price": 215.99,
-   "was": 299.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Magic-Jimmy-AI-Powered-3-D-Printer-for-Kids-for-216-free-shipping/22321971.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T14:10:23.000Z",
-   "cats": [
-    "tech",
-    "kids"
-   ],
-   "score": 0,
-   "id": "fxOTcxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 28
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Orico 128GB USB-C & USB-A Dual Flash Drive (Up to 150MB/s) $12.49",
@@ -1819,7 +3357,7 @@
    ],
    "score": 0,
    "id": "fMEcyM1FQTUY0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "SATA 4.3\" IPS Display Articulating IP67 Waterproof Borescope Camera $44.99",
@@ -1835,23 +3373,7 @@
    ],
    "score": 0,
    "id": "fMEZZMlNNUFNZ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Glitsh Kids Video Camera Walkie Talkies (2-Pack, 1000ft Range, Games) $11.87",
-   "price": 11.87,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HDC9Y6W8",
-   "src": "TechBargains",
-   "posted": "2026-11-03T14:03:00.000Z",
-   "cats": [
-    "tech",
-    "kids"
-   ],
-   "score": 0,
-   "id": "fMEhEQzlZNlc4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "8-Night Switzerland Guided Hotel and Tour Vacation for From $9,198 for 2",
@@ -1866,84 +3388,7 @@
    ],
    "score": 0,
    "id": "fxNjY4Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Gihen 17oz Unscented Oil Degreaser Cleaner $8.99",
-   "price": 8.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0DH28DVHR",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:59:00.000Z",
-   "cats": [
-    "home",
-    "food"
-   ],
-   "score": 0,
-   "id": "fMERIMjhEVkhS",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Amosa Auto-Tighten & Manual Twist Electric Rechargeable Jar Opener $9.99",
-   "price": 9.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HL7TMWL3",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:58:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEhMN1RNV0wz",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Lesusnicy 30W 100,000lm COB LED 9-Mode USB-C Rechargeable Flashlight $8.23",
-   "price": 8.23,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FHB8XNRK",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:54:00.000Z",
-   "cats": [
-    "tech",
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMEZIQjhYTlJL",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Bosgame P3 AMD Ryzen 9 7940HS Mini Desktop w/ 16GB RAM, 1TB PCIe SSD & Radeon 780M $539.25",
-   "price": 539.25,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0F9T8JHRV",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:53:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEY5VDhKSFJW",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Campbell's Condensed Cream of Mushroom Soup (10.5oz) $0.47",
-   "price": 0.47,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B000WLEL70",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:48:00.000Z",
-   "cats": [
-    "food"
-   ],
-   "score": 0,
-   "id": "fMDAwV0xFTDcw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Oddire 1080p Foldable WiFi Camera Mini Drone Kit with 2x Batteries $21.99",
@@ -1959,7 +3404,7 @@
    ],
    "score": 0,
    "id": "fMEhHRDVWMkNM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Klein Tools ET310KIT AC Circuit Breaker Kit (3-Piece) $54.99",
@@ -1974,22 +3419,7 @@
    ],
    "score": 0,
    "id": "fMERSOUoyM1A2",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Ekobrit Washing Machine Deep Cleaning Tablets (24-Pack) $8.99",
-   "price": 8.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0HFMR24GF",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:45:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEhGTVIyNEdG",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Saker 40-in-1 Upgraded Magnetic Ratchet Screwdriver Tool Set $26.78",
@@ -2004,7 +3434,7 @@
    ],
    "score": 0,
    "id": "fMEZDTUMxV0RW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "AXB 2K 2-Way Smart Window Camera with Angled Brackets $17.57",
@@ -2020,52 +3450,7 @@
    ],
    "score": 0,
    "id": "fMEhETjY2WDk0",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Craftsman Gold Oxide Drill Bit Set (14-Piece) $9.98",
-   "price": 9.98,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B07KHG79Z8",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:42:00.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMDdLSEc3OVo4",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Bedsure Black Satin Queen Soft Silky Bedsheet Set (4-Piece) $9.99",
-   "price": 9.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0CJ8RYNTS",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:40:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMENKOFJZTlRT",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Depow 8-Outlet 4-USB 1700J Surge Protector Power Strip with 5ft Cord $11.69",
-   "price": 11.69,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0D31QR994",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:37:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEQzMVFSOTk0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nxuoo G10 2-in-1 1200W Handheld Garment Steamer $12.99",
@@ -2080,37 +3465,7 @@
    ],
    "score": 0,
    "id": "fMEhKSFJTQlBY",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Bosgame P4 Ultra AMD Ryzen 7 7730U Mini Desktop (16GB RAM, 1TB PCIe 3.0 SSD) $419.30",
-   "price": 419.3,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0GCH917SW",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:33:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEdDSDkxN1NX",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Lenovo IdeaPad Slim 3i Intel Core 7 350 15.3\" FHD+ IPS Touch Laptop $699.99",
-   "price": 699.99,
-   "was": null,
-   "store": "Best Buy",
-   "url": "https://www.bestbuy.com/product/lenovo-ideapad-slim-3i-15-3-2k-touchscreen-laptop-core-7-processor-350-2026-16gb-memory-256gb-storage-cosmic-blue/JJGH3F2Z4K",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:32:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fSkdIM0YyWjRL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Talix 100W 10000mAh 3-in-1 Power Bank with Built-in USB-C Cable $17.29",
@@ -2125,7 +3480,7 @@
    ],
    "score": 0,
    "id": "fMEdDM1M4U01H",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Frito-Lay 1oz Tangy Favorites Mix Variety Pack (40-Pack) $15.72",
@@ -2140,7 +3495,7 @@
    ],
    "score": 0,
    "id": "fMDhRUEoxV1JU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "BolaButty 20W Waterproof Bluetooth Portable Speaker with LED Lights $19.99",
@@ -2155,7 +3510,7 @@
    ],
    "score": 0,
    "id": "fMEJSS1BWWkI0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Velway 12' x 20' Waterproof Carport Canopy & Portable Garage $198.00",
@@ -2170,7 +3525,7 @@
    ],
    "score": 0,
    "id": "fMEZKMTFLUE1Y",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Glad Crystal Clear Disposable Plastic Forks (24-Pieces) $1.51",
@@ -2185,37 +3540,7 @@
    ],
    "score": 0,
    "id": "fMDhQRFFUNTZU",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Microsoft Office 2024 Lifetime License Software Key (Apple macOS) + Complete User Guide $14.99",
-   "price": 14.99,
-   "was": null,
-   "store": "DigitalKeysBox",
-   "url": "https://digitalkeysbox.com/products/microsoft-office-formac-2024-complete-user-guide-170-pages/",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:22:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f3MC1wYWdlcy8",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Dyson Big Ball Turbinehead Canister Vacuum $199.99",
-   "price": 199.99,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/seort/2084195888",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:21:00.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "fA4NDE5NTg4OA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Armor All Ultra Shine 64oz Car Wash & Wax (3-Pack) $14.16",
@@ -2230,37 +3555,7 @@
    ],
    "score": 0,
    "id": "fMEdLMjZHSDNX",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Warrky Bluetooth Wireless Audio Reciever Adapter (For Old Speakers) $13.49",
-   "price": 13.49,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FHHJQ93K",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:18:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEZISEpROTNL",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Microsoft Office 2024 Professional Lifetime License (3-PCs, Windows, Digital Delivery) $16",
-   "price": 16,
-   "was": null,
-   "store": "DigitalKeysBox",
-   "url": "https://digitalkeysbox.com/products/microsoft-office-professional-2024-for-windows-10-11-instant-delivery-3pc/",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:17:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f2ZXJ5LTNwYy8",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Weslyn ChatGPT-Powered 64GB Storage AI Voice Recorder $34.99",
@@ -2276,37 +3571,7 @@
    ],
    "score": 0,
    "id": "fMEhHOVYyTVJG",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Microsoft Windows 11 Pro + Office Professional 2024 Software Key Bundle $12.99",
-   "price": 12.99,
-   "was": null,
-   "store": "DigitalKeysBox",
-   "url": "https://digitalkeysbox.com/products/microsoft-office-professional-2024-for-windows-and-windows-11-pro/",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:12:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fcy0xMS1wcm8v",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Microsoft Visio 2024 Professional Project Management Software $44.97",
-   "price": 44.97,
-   "was": null,
-   "store": "Stack Social",
-   "url": "https://www.stacksocial.com/sales/microsoft-visio-professional-2024-lifetime-license-for-windows",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:11:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fci13aW5kb3dz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Wegear 140W GaN 4-Port USB-C Smart Display Wall Charger with 240W Cable $32.99",
@@ -2321,7 +3586,7 @@
    ],
    "score": 0,
    "id": "fMEgxNE5SUTM1",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Werner 8-Foot Fiberglass Stepladder for $119 + pickup",
@@ -2336,7 +3601,7 @@
    ],
    "score": 0,
    "id": "fkyMjkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 46
   },
   {
@@ -2352,7 +3617,7 @@
    ],
    "score": 0,
    "id": "fMDcxSzZCRzQ4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Yufam 11.7\"x11.7\"x 52\" 5-Tier Wooden Corner Shelf $23.99",
@@ -2367,38 +3632,7 @@
    ],
    "score": 0,
    "id": "fMEdMOTlXQ1ZM",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "MinnARK Over-the-Door Basketball Dual Hoop $20.86",
-   "price": 20.86,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/seort/5333183986",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:09:00.000Z",
-   "cats": [
-    "kids"
-   ],
-   "score": 0,
-   "id": "fMzMzE4Mzk4Ng",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Dyson V10 Animal+ Cordless Vacuum Cleaner (Dyson Refurbished) $199.99",
-   "price": 199.99,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/Dyson-V10-Animal-Cordless-Vacuum-Cleaner-Purple-Refurbished/2439974495",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:09:00.000Z",
-   "cats": [
-    "tools",
-    "home"
-   ],
-   "score": 0,
-   "id": "fQzOTk3NDQ5NQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Coloer 450-Lumen 5W 12V Brass Waterproof Outdoor Spotlights (4-Pack) $49.99",
@@ -2413,37 +3647,7 @@
    ],
    "score": 0,
    "id": "fMEdXTUhIWlRH",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Scramble Cloud 20TB Storage Lifetime Subscription $314.96",
-   "price": 314.96,
-   "was": null,
-   "store": "Stack Social",
-   "url": "https://www.stacksocial.com/sales/scramble-cloud-cloud-storage-lifetime-subscription-20tb",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:07:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f0aW9uLTIwdGI",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Acer Nitro EDT340CUR 34\" 3440x1440 120Hz Curved Gaming Monitor $174.26",
-   "price": 174.26,
-   "was": null,
-   "store": "Walmart",
-   "url": "https://www.walmart.com/ip/seort/18247950004",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:06:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fyNDc5NTAwMDQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ninja FO100 8-in-1 French Door Smart Surroundair Countertop Oven with Air Fryer $169.00",
@@ -2458,7 +3662,7 @@
    ],
    "score": 0,
    "id": "f0ODIxMTIwOTU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Talix 3.3ft 240W PD3.2 EPR USB-C to USB-C Cable Charging Cable $6.49",
@@ -2473,7 +3677,7 @@
    ],
    "score": 0,
    "id": "fMEdYWUY0OUdY",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "6-Night Ireland Flight, Hotel, and Castle Vacation for From $2,198 for 2",
@@ -2488,37 +3692,7 @@
    ],
    "score": 0,
    "id": "fNjcxOC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "The Wall Street Journal Sale: $2/Week for 12-Months Digital Subscription",
-   "price": 2,
-   "was": null,
-   "store": "The Wall Street Journal",
-   "url": "https://www.dpbolvw.net/click-7511556-12348616",
-   "src": "TechBargains",
-   "posted": "2026-11-03T13:00:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f0xMjM0ODYxNg",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "ASUS Vivobook 16 AMD Ryzen 5 3501U 16\" 2K Laptop $379.99",
-   "price": 379.99,
-   "was": null,
-   "store": "Best Buy",
-   "url": "https://www.bestbuy.com/product/asus-vivobook-16-16-2k-laptop-amd-ryzen-5-3501u-2026-8gb-memory-256gb-storage-cool-silver/JJGHGSR379/sku/6681028",
-   "src": "TechBargains",
-   "posted": "2026-11-03T12:59:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fdS82NjgxMDI4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Refurb Apple MacBook Air 13\" M1 Laptop (2020) for $348 + free shipping",
@@ -2533,7 +3707,7 @@
    ],
    "score": 0,
    "id": "fUwOTEuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Lisen 10' 240W Fast Charging USB-C Cable $9.99",
@@ -2548,7 +3722,7 @@
    ],
    "score": 0,
    "id": "fMEY1UVBGTFJN",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Orico 2-in-1 Dual Bay Hard Drive Docking Station $19.99",
@@ -2563,7 +3737,7 @@
    ],
    "score": 0,
    "id": "fMEMySFhZOUw0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Gku D600 Pro Max 4K Starvis 2 Sensor WiFi GPS Dash Camera with 64GB Card $59.99",
@@ -2579,7 +3753,7 @@
    ],
    "score": 0,
    "id": "fMEg0VFRaM1BE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Lamtto 11\" HD Portable Carplay Screen with Camera $111.99",
@@ -2595,7 +3769,7 @@
    ],
    "score": 0,
    "id": "fMEdZRDlHTjlO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Certified Refurb AOC Q27G41ZDF 27\" QHD Gaming Monitor for $232 + free shipping",
@@ -2610,7 +3784,7 @@
    ],
    "score": 0,
    "id": "fE4ODIuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "11-Night South Korea and Japan Flight, Hotel, and Tour Vacation for From $9,998 for 2",
@@ -2625,7 +3799,7 @@
    ],
    "score": 0,
    "id": "fY2NDUuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 5
   },
   {
@@ -2642,7 +3816,7 @@
    ],
    "score": 0,
    "id": "fMEhHOUdMOTFE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Casio Men's World Time 48mm Dual Movement Digital Sports Watch $19.92",
@@ -2657,7 +3831,7 @@
    ],
    "score": 0,
    "id": "fMTc0NDg5Nzg1",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Jedoubal Stylus Pen for Most iPads $5.93",
@@ -2672,23 +3846,7 @@
    ],
    "score": 0,
    "id": "fMENYWFNNUDdT",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "DoorDash Orders for $15 off $25 w/ Pepsi order",
-   "price": 25,
-   "was": 40,
-   "store": "DoorDash",
-   "url": "https://www.dealnews.com/Door-Dash-Orders-for-15-off-25-w-Pepsi-order/22341831.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T11:34:15.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fxODMxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 38
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "50,000mAh Portable Charger Power Bank w/ 4 Built-In Cables for $31 w/ Prime + free shipping",
@@ -2703,7 +3861,7 @@
    ],
    "score": 0,
    "id": "fE4MjkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Waterh Boost Kids Vacuum Insulated Stainless Steel 16oz Smart Water Bottle $39.99",
@@ -2719,69 +3877,7 @@
    ],
    "score": 0,
    "id": "fMEZOV0pEREpC",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Anthbot M5 Robot Lawn Mower for $645 + free shipping",
-   "price": 645.05,
-   "was": null,
-   "store": "ANTHBOT",
-   "url": "https://www.dealnews.com/products/Anthbot/Anthbot-M5-Robot-Lawn-Mower/499116.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T11:06:34.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fOTExNi5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Fanttik G9 Cordless Electric Spin Scrubber for $36 w/ Prime + free shipping",
-   "price": 36,
-   "was": 70,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Fanttik/Fanttik-G9-Cordless-Electric-Spin-Scrubber/499020.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T11:04:10.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fOTAyMC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 49
-  },
-  {
-   "title": "AstroAI L10 150-PSI Portable Electric Air Pump for $16 + free shipping w/ Prime",
-   "price": 15.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Astro-AI/Astro-AI-L10-150-PSI-Portable-Electric-Air-Pump/501235.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T11:02:08.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMTIzNS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Fohere 47\" x 12\" 3-in-1 Warming Mat for $65 + free shipping",
-   "price": 64.99,
-   "was": 99.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Fohere-47-x-12-3-in-1-Warming-Mat-for-65-free-shipping/22341788.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T11:00:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMTc4OC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 35
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Seabourn 7-Night Sweden, Denmark, and Kiel Canal Cruise for From $9,596 for 2",
@@ -2796,22 +3892,7 @@
    ],
    "score": 0,
    "id": "f2NjE4Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Anthbot M9 Robot Lawn Mower for $712 + free shipping",
-   "price": 711.55,
-   "was": null,
-   "store": "ANTHBOT",
-   "url": "https://www.dealnews.com/products/Anthbot/Anthbot-M9-Robot-Lawn-Mower/553380.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T10:57:25.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMzM4MC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Noorio 2K Wired Portable 2-Way Audio Indoor Camera (SD Card Compatible) $9.99",
@@ -2827,7 +3908,7 @@
    ],
    "score": 0,
    "id": "fMEZYTFhYVFdL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Baseus Bass Hi-Res Audio Waterproof Bluetooth 6.0 Open Ear Earbuds $29.99",
@@ -2842,7 +3923,7 @@
    ],
    "score": 0,
    "id": "fMEhEQ0tOS0pL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "iStone 1080p Brushless Motor Camera Drone Kit $27.99",
@@ -2858,7 +3939,7 @@
    ],
    "score": 0,
    "id": "fMEhKQjQzNDhO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bridgestone Dueler H/P Sport 215/65R16 98H SUV Tire for $88 + free shipping",
@@ -2873,7 +3954,7 @@
    ],
    "score": 0,
    "id": "fxNzc3Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Thereye 10L 11-Safety Operations Open-Top Odor Control Self Cleaning Pet Litter Box $89.99",
@@ -2888,7 +3969,7 @@
    ],
    "score": 0,
    "id": "fMEdaVlhCMjdO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Hinshark 23\" Telescoping Magnetic Flashlight Pickup Tool $8.96",
@@ -2903,7 +3984,7 @@
    ],
    "score": 0,
    "id": "fMEMyMzkzNjlI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Baseus E20 12mm Drivers Bluetooth 5.3 Wireless Earbuds $8.99",
@@ -2918,38 +3999,22 @@
    ],
    "score": 0,
    "id": "fMEZRVkRUU1FQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
-   "title": "Vasagle 35.4\" Vanity Desk for $80 + free shipping",
-   "price": 79.99,
-   "was": 95.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/Vasagle/Vasagle-35-4-Vanity-Desk/553369.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T10:19:53.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMzM2OS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 17
-  },
-  {
-   "title": "Simply Air Filters & Smart Thermostats at Woot for From $22 + free shipping w/ Prime",
-   "price": 22,
+   "title": "Minthouz 12-in-1 4K HDMI Dual 8K DP USB-C Docking Station $27.69",
+   "price": 27.69,
    "was": null,
-   "store": "Woot! An Amazon Company",
-   "url": "https://www.dealnews.com/Simply-Air-Filters-Smart-Thermostats-at-Woot-for-From-22-free-shipping-w-Prime/22341742.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T10:13:32.000Z",
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0FPBZCH1L",
+   "src": "TechBargains",
+   "posted": "2026-11-03T10:15:00.000Z",
    "cats": [
-    "home"
+    "tech"
    ],
    "score": 0,
-   "id": "fMTc0Mi5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "id": "fMEZQQlpDSDFM",
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "AstroAI S8 Ultra 4,000A 12V Lithium Jump Starter for $36 + free shipping",
@@ -2964,7 +4029,7 @@
    ],
    "score": 0,
    "id": "fODMzNy5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 74
   },
   {
@@ -2980,7 +4045,7 @@
    ],
    "score": 0,
    "id": "fNjQxMi5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Hopopro 9\" Adjustable Dual magnetic Showerhead & Handheld Combo $36.99",
@@ -2995,7 +4060,7 @@
    ],
    "score": 0,
    "id": "fMEg4U1lZUjNM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Lexar 512GB Silver SD Memory Card for $100, 1TB for $200 + free shipping w/ Prime",
@@ -3010,7 +4075,7 @@
    ],
    "score": 0,
    "id": "fxNzE0Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 46
   },
   {
@@ -3026,7 +4091,7 @@
    ],
    "score": 0,
    "id": "fxNzEzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Craftsman 13\" & 18\" Zippered Tool Bag Combo (2-Piece) $14.99",
@@ -3041,7 +4106,7 @@
    ],
    "score": 0,
    "id": "fMDlLNFNEVDk1",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Krylon ColorMaxx 12oz Italian Olive Satin Spray Paint & Primer $4.48",
@@ -3057,22 +4122,37 @@
    ],
    "score": 0,
    "id": "fMDdMRllISlk4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
-   "title": "BJ's Wholesale Club 1-Year Membership for From $10 + digital delivery",
-   "price": 10,
+   "title": "Lenovo V14 G5 Intel Core i7-13620H 14\" 1080p Business Laptop w/ 16GB RAM, 1TB SSD $629",
+   "price": 629,
    "was": null,
-   "store": "Groupon",
-   "url": "https://www.dealnews.com/BJs-Wholesale-Club-1-Year-Membership-for-From-10-digital-delivery/22341693.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T09:26:12.000Z",
+   "store": "Walmart",
+   "url": "https://www.walmart.com/ip/Lenovo-V14-G5-IRL-14-FHD-Laptops-Intel-Core-i7-13620H-2-4GHz-16GB-DDR5-RAM-1TB-SSD-Win11-Home-83HDA06BUS/20174253333",
+   "src": "TechBargains",
+   "posted": "2026-11-03T09:33:00.000Z",
    "cats": [
-    "food"
+    "tech"
    ],
    "score": 0,
-   "id": "fxNjkzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "id": "fxNzQyNTMzMzM",
+   "checked": "2026-11-03T22:01:39.440Z"
+  },
+  {
+   "title": "Apple MacBook Air 13.6\" M5 Chip 10-Core CPU 8-Core GPU 2560x1664 Laptop (16GB/512GB) $1099.99",
+   "price": 1099.99,
+   "was": null,
+   "store": "Amazon",
+   "url": "https://www.amazon.com/dp/B0GR1J6T45",
+   "src": "TechBargains",
+   "posted": "2026-11-03T09:32:00.000Z",
+   "cats": [
+    "tech"
+   ],
+   "score": 0,
+   "id": "fMEdSMUo2VDQ1",
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Metapen A8 Magnetic iPad Pencil (Supports Palm Rejection) $6.99",
@@ -3087,7 +4167,7 @@
    ],
    "score": 0,
    "id": "fMDlaVFhWTlZE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Emson Roboseal Electric Mason Jar Vacuum Sealer Kit (50 Lids, Jar Opener, More) $24.97",
@@ -3103,38 +4183,7 @@
    ],
    "score": 0,
    "id": "fMEg5UDhCSldQ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Magnetic Under Hood LED Work Light Bar 2-Pack for $36 + free shipping",
-   "price": 36,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Magnetic-Under-Hood-LED-Work-Light-Bar-2-Pack-for-36-free-shipping/22341686.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T09:10:33.000Z",
-   "cats": [
-    "home",
-    "food"
-   ],
-   "score": 0,
-   "id": "fMTY4Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "DeWalt 265-lb. Load Capacity Vacuum Lifter for $159 + free shipping",
-   "price": 159,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/products/De-Walt/De-Walt-265-lb-Load-Capacity-Vacuum-Lifter/488061.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T08:58:54.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "fODA2MS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Orico 360-Degree Rotation Magnetic Phone Stand For MagSafe $11.99",
@@ -3149,38 +4198,7 @@
    ],
    "score": 0,
    "id": "fMEZaOUZGTDhR",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Mulberry Silk Standard Pillowcase for $6 + free shipping w/ Prime",
-   "price": 5.95,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Mulberry-Silk-Standard-Pillowcase-for-6-free-shipping-w-Prime/22341671.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T08:53:34.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fE2NzEuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Dash Pro Shaved Ice Machine for $37 + free shipping",
-   "price": 37,
-   "was": 100,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Dash-Pro-Shaved-Ice-Machine-for-37-free-shipping/22341670.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T08:52:33.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMTY3MC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 63
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nerf Mini Foam Sports Football Soccer Ball & Basketball Ball Set (3-Piece) $11.99",
@@ -3195,7 +4213,7 @@
    ],
    "score": 0,
    "id": "fMDlHTlFENjc4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Lexivon 2-in-1 130' Large Distance Digital Laser Tape Measure $38.98",
@@ -3211,7 +4229,7 @@
    ],
    "score": 0,
    "id": "fMDdNUDFKQjJa",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Quest Nutrition 11g Protein Peanut Butter Cups (12-Count) $12.67",
@@ -3226,7 +4244,7 @@
    ],
    "score": 0,
    "id": "fMDZYSFNaSEwx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Carhartt Crossbody Zip Bag for $20 + free shipping w/ Prime",
@@ -3241,7 +4259,7 @@
    ],
    "score": 0,
    "id": "fE2NjQuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Craftsman V20 3/8\" Wide Crown Stapler Cordless Staple Gun $79",
@@ -3256,7 +4274,7 @@
    ],
    "score": 0,
    "id": "fMEdRSlYxRlJE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "HW Rechargeable AA NiMH Batteries 8-Pack for $12 + free shipping w/ Prime",
@@ -3271,7 +4289,7 @@
    ],
    "score": 0,
    "id": "fE2NTguaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Acer Nitro 27\" QHD 2560x1440p 240Hz Gaming Monitor $169.99",
@@ -3286,7 +4304,7 @@
    ],
    "score": 0,
    "id": "fMEMxVDM1QkNG",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Phomemo D420D 4x6 Bluetooth Thermal Label Printer with Built-in Label Bin $69.99",
@@ -3301,22 +4319,7 @@
    ],
    "score": 0,
    "id": "fMEdHSFZaQ1pG",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Klein Tools Voltage Tester for $16 + free shipping w/ Prime",
-   "price": 16,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Klein-Tools-Voltage-Tester-for-16-free-shipping-w-Prime/22341654.html",
-   "src": "DealNews",
-   "posted": "2026-11-03T08:24:40.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fE2NTQuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "RVshare RV Rental Deals for 15% off RV rentals of $900+ + free shipping",
@@ -3331,7 +4334,7 @@
    ],
    "score": 0,
    "id": "fMTY1MS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tramontina 10\" Tempo Tri-Ply Base Frying Pan $21.99",
@@ -3346,7 +4349,7 @@
    ],
    "score": 0,
    "id": "fMERXU1ZQWTMz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bose Bluetooth HDMI-ARC TV Speaker with Remote $199.00",
@@ -3361,7 +4364,7 @@
    ],
    "score": 0,
    "id": "fMDg4S1JQQ1FK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Quadratec Deluxe Storage Cart for Half or Full Steel Doors for $200 + free shipping",
@@ -3377,7 +4380,7 @@
    ],
    "score": 0,
    "id": "f3MjQ3Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 39
   },
   {
@@ -3393,7 +4396,7 @@
    ],
    "score": 0,
    "id": "fNzI0Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "TP-Link AXE5400 Tri-Band WiFi 6E Router for $99 + free shipping",
@@ -3408,7 +4411,7 @@
    ],
    "score": 0,
    "id": "fyODUwLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 18
   },
   {
@@ -3424,7 +4427,7 @@
    ],
    "score": 0,
    "id": "f0MTM5Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 19
   },
   {
@@ -3440,23 +4443,7 @@
    ],
    "score": 0,
    "id": "fNzE0Ni5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Hollyland Lark A2 Wireless Microphone System for $30 + free shipping w/ Prime",
-   "price": 29.54,
-   "was": 44.99,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Hollyland-Lark-A2-Wireless-Microphone-System-for-30-free-shipping-w-Prime/22318521.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T22:19:44.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fg1MjEuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 34
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Holland America 6-Night Great Bear Rainforest Cruise for From $1,798 for 2",
@@ -3471,27 +4458,11 @@
    ],
    "score": 0,
    "id": "fYzOTkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
-   "title": "vSeeBox V6 Max 8K HDR Android 14 TV Box for $281 + free shipping",
-   "price": 281,
-   "was": 370,
-   "store": "eBay",
-   "url": "https://www.dealnews.com/vSee-Box-V6-Max-8-K-HDR-Android-14-TV-Box-for-281-free-shipping/22337054.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T21:44:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fNzA1NC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 24
-  },
-  {
-   "title": "Talix 150W GaN 7-in-1 Desktop Fast Charging Station w/ Custom RGB Lighting $47.99",
-   "price": 47.99,
+   "title": "Talix 150W GaN 7-in-1 Desktop Fast Charging Station w/ Custom RGB Lighting $58.99",
+   "price": 58.99,
    "was": null,
    "store": "Amazon",
    "url": "https://www.amazon.com/dp/B0HJ8HDZL7",
@@ -3502,7 +4473,7 @@
    ],
    "score": 0,
    "id": "fMEhKOEhEWkw3",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "StackSkills Unlimited: Lifetime Access Over 1000 Courses $49.99",
@@ -3517,7 +4488,7 @@
    ],
    "score": 0,
    "id": "f1bmxpbWl0ZWQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "9-Night London, Edinburgh, and Dublin Flight and Hotel Vacation for From $2,398 for 2",
@@ -3532,23 +4503,7 @@
    ],
    "score": 0,
    "id": "fYzNDUuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "TCL 40\" Q3CR 1080p QLED Smart TV with Roku for $150 + free shipping",
-   "price": 150,
-   "was": 300,
-   "store": "Best Buy",
-   "url": "https://www.dealnews.com/products/TCL/TCL-40-Q3-CR-1080-p-QLED-Smart-TV-with-Roku/553153.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T20:57:16.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMzE1My5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 50
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Godiva Signature Belgian Chocolate Truffles 15-Piece Gift Box for $40 + free shipping",
@@ -3563,7 +4518,7 @@
    ],
    "score": 0,
    "id": "f2OTYwLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tidetrek 11'6\"x32\"x6\" Inflatable SUP Paddle Board with Accessory Kit (Green) $99.79",
@@ -3578,7 +4533,7 @@
    ],
    "score": 0,
    "id": "fMEZXSlpZWEtT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Craftsman CMCE501D1 V20 Cordless Oscillating Tool Kit $79.00",
@@ -3593,7 +4548,7 @@
    ],
    "score": 0,
    "id": "fMDkyUk02SEpG",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Talix 125W 12800mAh Portable Power Bank with 240W USB-C Cable $19.99",
@@ -3608,7 +4563,7 @@
    ],
    "score": 0,
    "id": "fMEdDNU1DSDJN",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "9-Night Athens, Mykonos, and Santorini Flight and Hotel Vacation for From $3,158 for 2",
@@ -3623,7 +4578,7 @@
    ],
    "score": 0,
    "id": "f2MzI0Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ypi 16\" 1920x1200 HDR IPS USB-C Portable Monitor $45.99",
@@ -3638,7 +4593,7 @@
    ],
    "score": 0,
    "id": "fMEY1V1k0Mko0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Vitalismo 3' Artificial Topiary Cedar Trees (2-Pack) $41.99",
@@ -3653,7 +4608,7 @@
    ],
    "score": 0,
    "id": "fMERCUUw5QjlD",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "RPZ Self Cleaning Cat Litter Box $129.99",
@@ -3668,68 +4623,7 @@
    ],
    "score": 0,
    "id": "fMEhOU0dKMVZW",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Orico 20-in-1 10Gbps USB-C Docking Station (90W PD, 8x USB Ports, More) $34.99",
-   "price": 34.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FC5T7TZZ",
-   "src": "TechBargains",
-   "posted": "2026-11-02T19:25:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEZDNVQ3VFpa",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Almighty Tools Self-Locking Retractable 16-Foot Tape Measure w/ Magnetic Hook for $5 + free shipping w/ Prime",
-   "price": 5,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Almighty-Tools-Self-Locking-Retractable-16-Foot-Tape-Measure-w-Magnetic-Hook-for-5-free-shipping-w-Prime/22336892.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T19:17:22.000Z",
-   "cats": [
-    "tools"
-   ],
-   "score": 0,
-   "id": "f2ODkyLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "9-Night Ireland Flight, Hotel, and Car Rental Vacation for From $2,998 for 2",
-   "price": 2998,
-   "was": null,
-   "store": "Tripmasters",
-   "url": "https://www.dealnews.com/9-Night-Ireland-Flight-Hotel-and-Car-Rental-Vacation-for-From-2-998-for-2/22336306.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T19:00:00.000Z",
-   "cats": [
-    "tools",
-    "travel"
-   ],
-   "score": 0,
-   "id": "fYzMDYuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "TCL QM7L Series 75QM7L 75\" 4K Google Smart TV for $1,198 + free shipping",
-   "price": 1198,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/TCL-QM7-L-Series-75-QM7-L-75-4-K-Google-Smart-TV-for-1-198-free-shipping/22336857.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:58:39.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fNjg1Ny5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "YDNFE 280000 RPM 3-Speed Adjustable Compressed Air Duster with 4 Nozzles $28.98",
@@ -3744,7 +4638,7 @@
    ],
    "score": 0,
    "id": "fMEg0TDRKMVZD",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Siloon 3-Modes LED Cordless Work Light (Tool Only) $16.99",
@@ -3760,7 +4654,7 @@
    ],
    "score": 0,
    "id": "fMEg2RlczNVJL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Gyroor G13 176lbs 7.75mph All-Terrain Off-Road Hoverboard $79.99",
@@ -3775,7 +4669,7 @@
    ],
    "score": 0,
    "id": "fMENDTlBWN05a",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dbpower C16 1080p 4k WiFi and Bluetooth Portable Projector $49.99",
@@ -3790,7 +4684,7 @@
    ],
    "score": 0,
    "id": "fMEZDRlA2WEsy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tovice 13\"-16\" Water-Resistant Laptop Sun Shade $19.99",
@@ -3806,7 +4700,7 @@
    ],
    "score": 0,
    "id": "fMEZQOU5EQ01D",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Shark HP152 NeverChange Air Purifier (Covers 650sq. ft) $149.99",
@@ -3821,23 +4715,7 @@
    ],
    "score": 0,
    "id": "fMENNNlZES1NR",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Costco Holiday Savings: Up to $2,500 off + shipping varies",
-   "price": 2500,
-   "was": 2800,
-   "store": "Costco",
-   "url": "https://www.dealnews.com/Costco-Holiday-Savings-Up-to-2-500-off-shipping-varies/22336816.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:24:15.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fNjgxNi5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 11
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "EF EcoFlow DELTA Pro 3600Wh LiFePO4 Power Station $1799.00",
@@ -3852,7 +4730,7 @@
    ],
    "score": 0,
    "id": "fMEMxWjRHTEtT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Roborock Qrevo S Pro 18500Pa Obstacle Avoidance Robot Vacuum & Mop with All-in-1 Dock $399.99",
@@ -3868,7 +4746,7 @@
    ],
    "score": 0,
    "id": "fMEdHUlNNWEtO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Chefman 11500W 1L Stainless Steel Electric Glass Kettle with Tea Infuser $21.49",
@@ -3884,7 +4762,7 @@
    ],
    "score": 0,
    "id": "fMENDRzFaODZD",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ninja 26oz Tumbler 1200PW BlendBOSS Personal Blender $99.99",
@@ -3899,37 +4777,7 @@
    ],
    "score": 0,
    "id": "fMEZTR0RORkpZ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "AMC Theatres Movie Package w/ Fountain Drinks & Popcorn for 2 (Yellow Tickets) for $28 + email delivery",
-   "price": 28,
-   "was": null,
-   "store": "Giftory",
-   "url": "https://www.dealnews.com/AMC-Theatres-Movie-Package-w-Fountain-Drinks-Popcorn-for-2-Yellow-Tickets-for-28-email-delivery/22336795.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:07:51.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "f2Nzk1Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "AMC Theatres Movie Package w/ Popcorn for 2 Voucher for $22 + instant e-voucher delivery",
-   "price": 22,
-   "was": null,
-   "store": "Giftory",
-   "url": "https://www.dealnews.com/AMC-Theatres-Movie-Package-w-Popcorn-for-2-Voucher-for-22-instant-e-voucher-delivery/22336794.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:05:25.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fNjc5NC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "BN-LINK 6-Outlet Outdoor Power Stake Programmable Digital Timer $23.38",
@@ -3944,22 +4792,7 @@
    ],
    "score": 0,
    "id": "fMDhHUUpOWFRa",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "6-Night Lisbon and Porto Flight, Hotel, and Train Vacation for From $1,798 for 2",
-   "price": 1798,
-   "was": null,
-   "store": "Tripmasters",
-   "url": "https://www.dealnews.com/6-Night-Lisbon-and-Porto-Flight-Hotel-and-Train-Vacation-for-From-1-798-for-2/22336305.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T18:00:00.000Z",
-   "cats": [
-    "travel"
-   ],
-   "score": 0,
-   "id": "f2MzA1Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Acemagic Retro X3 Ryzen 7 H 255 Mini Desktop (16GB/1TB) with Radeon 780M $512.98",
@@ -3974,22 +4807,7 @@
    ],
    "score": 0,
    "id": "fMEdKNFNIWU5U",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Regal Premiere Movie Ticket w/ Soft Drink E-Voucher for 2 for $23 + instant e-voucher delivery",
-   "price": 23,
-   "was": null,
-   "store": "Giftory",
-   "url": "https://www.dealnews.com/Regal-Premiere-Movie-Ticket-w-Soft-Drink-E-Voucher-for-2-for-23-instant-e-voucher-delivery/22336778.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T17:59:52.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fNjc3OC5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Spacekey 34-Pint 3-Speed Dehumidifier (Up to 2500sq ft) $89",
@@ -4004,7 +4822,7 @@
    ],
    "score": 0,
    "id": "fMEhKWlk2SjEx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Werise 80Kpa Built-in Cutter Vacuum Sealer $19.99",
@@ -4020,7 +4838,7 @@
    ],
    "score": 0,
    "id": "fMEhOSlhOVzFL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tineco Carpet One Spot DualHeat 17k/Pa 6-Mode Cleaner $189",
@@ -4035,7 +4853,7 @@
    ],
    "score": 0,
    "id": "fMEhDQlFTOExM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Craftsmans Reciprocating Saw Blades (2058840, 9-Piece) $9.99",
@@ -4050,7 +4868,7 @@
    ],
    "score": 0,
    "id": "fMDdRUFhTQkxI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Craftsman 20-Piece Metric 1/4\" Drive Mechanics Tool Set $19.98",
@@ -4065,7 +4883,7 @@
    ],
    "score": 0,
    "id": "fMENQWkg5TUJK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dewalt General Purpose Kit with Tough Case (DWA425GSET, 5-Piece) $39.49",
@@ -4080,7 +4898,7 @@
    ],
    "score": 0,
    "id": "fMERITFYyM0JE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "TP-Link Roam Wi-Fi 6 AX3000 Dual-Band Travel Router $55.98",
@@ -4096,7 +4914,7 @@
    ],
    "score": 0,
    "id": "fMERZOEsxMjJW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Hisense U6 Pro Series Hi-QLED 85\" 4K UHD HDR 144Hz Smart Fire TV with Built-in Subwoofer $997.99",
@@ -4111,7 +4929,7 @@
    ],
    "score": 0,
    "id": "fMEdUNEcyOTRZ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Logitech M185 Compact Ambidextrous 2.4GHz Wireless Mouse $12.99",
@@ -4126,7 +4944,7 @@
    ],
    "score": 0,
    "id": "fMDA0WUFWRjhJ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bosch 9/64\". x 2-7/8\". Titanium Nitride Coated Metal Drill Bit (TI2136IM) $2.29",
@@ -4141,22 +4959,7 @@
    ],
    "score": 0,
    "id": "fMDFIME5VV0JH",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "J.P. Morgan Self-Directed Investing: Get up to $1,000 w/ new account",
-   "price": 1000,
-   "was": null,
-   "store": "J.P. Morgan",
-   "url": "https://www.dealnews.com/J-P-Morgan-Self-Directed-Investing-Get-up-to-1-000-w-new-account/22154912.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T17:26:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fQ5MTIuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Spriak 1200-Lumen Rechargeable EDC Flat Flashlight (2-Pcs) $14.99",
@@ -4171,7 +4974,7 @@
    ],
    "score": 0,
    "id": "fMEZSOFpUSkhK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Qutool Luxury 20x30\" Queen Size Cooling Pillowcases (2-Pack) $12.57",
@@ -4186,7 +4989,7 @@
    ],
    "score": 0,
    "id": "fMERMQjRQUVM4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Plano Angled Tackle System with Three 3560 Stowaway Boxes $29.98",
@@ -4201,7 +5004,7 @@
    ],
    "score": 0,
    "id": "fMDA2UEtYVkFB",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dewalt DWA2T35IR FlexTorq Impact Screwdriver Bit Set (35-Piece) $29.98",
@@ -4216,7 +5019,7 @@
    ],
    "score": 0,
    "id": "fMDBHOUNMODNR",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Toshiba Z670R Series 65\" 4K QLED 144Hz Mini-LED Smart Fire TV $547.97",
@@ -4231,22 +5034,7 @@
    ],
    "score": 0,
    "id": "fMEdOVENRTTlS",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "6-Night Costa Rica Flight, Hotel, and Transfer Vacation for From $2,998 for 2",
-   "price": 2998,
-   "was": null,
-   "store": "Tripmasters",
-   "url": "https://www.dealnews.com/6-Night-Costa-Rica-Flight-Hotel-and-Transfer-Vacation-for-From-2-998-for-2/22336285.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T17:00:00.000Z",
-   "cats": [
-    "travel"
-   ],
-   "score": 0,
-   "id": "f2Mjg1Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Owala FreeSip Stainless Steel Water Bottle (40oz) $31.99",
@@ -4261,37 +5049,7 @@
    ],
    "score": 0,
    "id": "fMEI2RENOMkNK",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Refurb AOC 15.6\" 1920x1080 Portable Monitor for $36 + free shipping",
-   "price": 36,
-   "was": null,
-   "store": "eBay",
-   "url": "https://www.dealnews.com/products/AOC/AOC-15-6-1920-x1080-Portable-Monitor/510121.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:53:32.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fwMTIxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Certified Refurb Viture Luma XR/AR Glasses for $154 + free shipping",
-   "price": 154,
-   "was": null,
-   "store": "eBay",
-   "url": "https://www.dealnews.com/Certified-Refurb-Viture-Luma-XR-AR-Glasses-for-154-free-shipping/22336690.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:52:24.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fY2OTAuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "IYV IRK300 Semi Hollow Electric Guitar (Sunburst) $121.53",
@@ -4306,7 +5064,7 @@
    ],
    "score": 0,
    "id": "fMDk4VDZEUzNI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "BrizLabs 6-Lamp RGB Color Smart 32.8' Deck Light $9.99",
@@ -4321,22 +5079,7 @@
    ],
    "score": 0,
    "id": "fMEZDRjMzTFBI",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Eco-Worthy 200W Bifacial Portable Solar Panel for $79 + free shipping",
-   "price": 79,
-   "was": null,
-   "store": "AliExpress",
-   "url": "https://www.dealnews.com/Eco-Worthy-200-W-Bifacial-Portable-Solar-Panel-for-79-free-shipping/22336669.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:43:26.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fY2NjkuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Amazon Fresh 16.9oz Italian Extra Virgin Olive Oil $4.39",
@@ -4351,7 +5094,7 @@
    ],
    "score": 0,
    "id": "fMDFOMFNPWlBL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "DeWalt 7\" x 1/8\" Masonry Abrasive Blade (DW3521) $2.21",
@@ -4366,7 +5109,7 @@
    ],
    "score": 0,
    "id": "fMDA5MUE2R0cy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ofispeed 7-Speed 1600W 6\"/7\" Rotary Car Buffer Polisher $53.97",
@@ -4381,7 +5124,7 @@
    ],
    "score": 0,
    "id": "fMEdYMVJQS0cz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Kuaivo Smart Digital Nutrition Food Scale with Nutritional Calculator App $14.99",
@@ -4397,7 +5140,7 @@
    ],
    "score": 0,
    "id": "fMEZLQkM5QlJH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dewalt 4-1/2\" x 7/8\" 120 Grit Zirconia Angle Grinder Flap Disc (DW8310) $3.61",
@@ -4412,7 +5155,7 @@
    ],
    "score": 0,
    "id": "fMDAwQlBTOThP",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Liwan Solar 2K Pan/Tilt WiFi + 4G Cellular Security Camera $49.99",
@@ -4428,23 +5171,7 @@
    ],
    "score": 0,
    "id": "fMEhDWkZUWldW",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Acer 9-in-1 USB-C Hub w/ 4K & 100W Pass-Through Charging for $28 + free shipping w/ Prime",
-   "price": 28,
-   "was": 35,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Acer-9-in-1-USB-C-Hub-w-4-K-100-W-Pass-Through-Charging-for-28-free-shipping-w-Prime/22336623.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:12:42.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fNjYyMy5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 20
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bravely Default: Flying Fairy HD Remaster (Nintendo Switch 2) $29.99",
@@ -4459,7 +5186,7 @@
    ],
    "score": 0,
    "id": "fMEY2NkRIVlI3",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Circle Joy Stainless-Steel Mini Manual Coffee Grinder with 40 External Settings $9.89",
@@ -4474,7 +5201,7 @@
    ],
    "score": 0,
    "id": "fMEZMMldIOEsx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tineco Floor One i5 Stretch Lite 22kPA Self-Clean Wet Dry Vacuum $189",
@@ -4489,7 +5216,7 @@
    ],
    "score": 0,
    "id": "fMEhGTTFHTDZM",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Google Pixel Buds Pro 2 with Active Noise Cancellation $169.00",
@@ -4504,23 +5231,7 @@
    ],
    "score": 0,
    "id": "fMEQ3OU5EM043",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Lenovo Wired VoIP Headset 5000 for $31 + free shipping",
-   "price": 31,
-   "was": 55,
-   "store": "Amazon",
-   "url": "https://www.dealnews.com/Lenovo-Wired-Vo-IP-Headset-5000-for-31-free-shipping/22336621.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T16:07:20.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fY2MjEuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z",
-   "pct_off": 44
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Mukiya Magnetic 25W Wireless Charger with 30W USB-C Charger, Aluminum Stand $18.49",
@@ -4535,22 +5246,7 @@
    ],
    "score": 0,
    "id": "fMEhHRlNUTVlS",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Philips Norelco Pro 9000 90min Runtime Electric Shaver $67.96",
-   "price": 67.96,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FHJ4ZY62",
-   "src": "TechBargains",
-   "posted": "2026-11-02T15:53:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEZISjRaWTYy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Towmax 1800lb Retractable Ratchet Straps (4-Pack) $43.99",
@@ -4565,7 +5261,7 @@
    ],
    "score": 0,
    "id": "fMEc0TTEyOERS",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "NOCO Boost GB70 2000A 12V Jump Starter (Up to 8L gas, 6L diesel) $139.99",
@@ -4580,7 +5276,7 @@
    ],
    "score": 0,
    "id": "fMDE2VUc2UFdF",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Merach UltraWalk W60 12% Auto-Incline Walking Pad Treadmill $197.99",
@@ -4595,7 +5291,7 @@
    ],
    "score": 0,
    "id": "fMEgxV1pKWDZT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Funwater 10'6\" Inflatable Stand Up Paddle Board with SUP Accessories $75.99",
@@ -4610,7 +5306,7 @@
    ],
    "score": 0,
    "id": "fMEdITVBHUDhS",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Sabrent 252W 8-Port Desktop Charging Station with Real-Time LCD Display $59.60",
@@ -4625,7 +5321,7 @@
    ],
    "score": 0,
    "id": "fMERQSk5GS0dN",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Apple AirTag 2nd Generation Tracker (4-Pack) $69.99",
@@ -4640,7 +5336,7 @@
    ],
    "score": 0,
    "id": "fMEdKVFhWTjla",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nongshim Shin 4.23oz Spicy Korean Signature Instant Ramyun Noodle (20-Pack) $13.26",
@@ -4655,7 +5351,7 @@
    ],
    "score": 0,
    "id": "fMDA3NzhCOTBT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Orico FB1 Aluminum Foldable Tablet Stand $12.99",
@@ -4670,7 +5366,7 @@
    ],
    "score": 0,
    "id": "fMEZaOU5aR1RH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Citizen Men's 42.5mm Eco-Drive Sport Casual Stainless Steel Watch $215.55",
@@ -4685,7 +5381,7 @@
    ],
    "score": 0,
    "id": "fMERDODExNURT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Zafro 80-Pint 4500sq ft Dehumidifier (Energy Star Rated) $109.99",
@@ -4701,7 +5397,7 @@
    ],
    "score": 0,
    "id": "fMEhMWkdZUkJH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tagzilo 20W 1800J Surge Protector Power Strip Tower $14.49",
@@ -4716,7 +5412,7 @@
    ],
    "score": 0,
    "id": "fMEdIUVpXUllU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Samsung 65\" M70H Series 4K 3840x2160 120Hz Mini LED Smart TV $377.99",
@@ -4732,7 +5428,7 @@
    ],
    "score": 0,
    "id": "fMEdQOVFONVNO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Pastigio 10.1\" 1280x800 Touch Screen Frameo Smart Digital Frame $39.85",
@@ -4747,7 +5443,7 @@
    ],
    "score": 0,
    "id": "fMEQ0MVpNWUIy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bosch 6\" Impact-Tough Screwdriving Power Bits w/ Laser-Etched Markings (10-Pack) $13.45",
@@ -4762,7 +5458,7 @@
    ],
    "score": 0,
    "id": "fMDdNRE5TRkg1",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "160-PSI 8,000mAh Dual-Powered Portable Tire Inflator for $25 + free shipping w/ Prime",
@@ -4777,7 +5473,7 @@
    ],
    "score": 0,
    "id": "f2NTI2Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Onn Durable Glass by Corning Screen Protector for Nintendo Switch OLED $0.50",
@@ -4792,7 +5488,7 @@
    ],
    "score": 0,
    "id": "fvMTEwMzAzNDQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ulanzi D100H 7-in-1 Bluetooth Wireless Video Editing Keyboard & Dial $27.99",
@@ -4807,7 +5503,7 @@
    ],
    "score": 0,
    "id": "fMEdMMlNRNDc5",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "AstroAI L8 Max 150PSI Electric Bike Pump with Gague $13.49",
@@ -4822,7 +5518,7 @@
    ],
    "score": 0,
    "id": "fMEcyTEwxR0ZK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Workpro 10\" Adjustable Mechanical Wrench Set (3-Piece) w/ Rubberized Anti-Slip Grips $12.99",
@@ -4837,7 +5533,7 @@
    ],
    "score": 0,
    "id": "fMDE1V0g0OThP",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Botanicals Water Lilies Toy Building Set (11511, 259-Piece) $26.99",
@@ -4853,7 +5549,7 @@
    ],
    "score": 0,
    "id": "fMEcyVDI2UjRa",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Xenoblade Chronicles 2 + Expansion Pass DLC Bundle (Nintendo Switch) $38.19",
@@ -4868,7 +5564,7 @@
    ],
    "score": 0,
    "id": "f3NTI4Njc1NTg",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Citizen Men's 42mm Eco-Drive Classic Stainless Steel Watch $176.14",
@@ -4883,7 +5579,7 @@
    ],
    "score": 0,
    "id": "fMDlGNk5DRERY",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LSLYA 7\" Double Din 240W Subwoofer Apple Car Stereo $74.99",
@@ -4898,22 +5594,7 @@
    ],
    "score": 0,
    "id": "fMEgxQ1dXS0dR",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Manspot Manscape 90min Runtime Groin & Body Hair Trimmer $22.79",
-   "price": 22.79,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B09HZTKLNP",
-   "src": "TechBargains",
-   "posted": "2026-11-02T14:10:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMDlIWlRLTE5Q",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bedsure 108\" x 90\" Checkered Soft Cozy Blanket (King Size) $17.54",
@@ -4928,7 +5609,7 @@
    ],
    "score": 0,
    "id": "fMEdGTUdXUzhO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Vantrue 1440p Dual Dash Cam for $127 + free shipping",
@@ -4943,7 +5624,7 @@
    ],
    "score": 0,
    "id": "fM1ODMuaHRtbA",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dawn 51.5oz Platinum Plus PowerSuds Liquid Dish Soap Refill (3-Pack) $22.36",
@@ -4958,7 +5639,7 @@
    ],
    "score": 0,
    "id": "fMERUQzVRWkpI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Blackview 10.1'' Smart Touchscreen Digital Calendar $89.99",
@@ -4973,69 +5654,7 @@
    ],
    "score": 0,
    "id": "fMEgxSE5QN1RD",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Ultra Mobile Ultra-Early Access Savings for 50% off plans, from $6.50/mo.",
-   "price": 6.5,
-   "was": null,
-   "store": "Ultra Mobile",
-   "url": "https://www.dealnews.com/Ultra-Mobile-Ultra-Early-Access-Savings-for-50-off-plans-from-6-50-mo/22336409.html",
-   "src": "DealNews",
-   "posted": "2026-11-02T13:54:29.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fNjQwOS5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Method All-Purpose Cleaner Spray (French Lavender, 28oz) $4.72",
-   "price": 4.72,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0013FRRMK",
-   "src": "TechBargains",
-   "posted": "2026-11-02T13:50:00.000Z",
-   "cats": [
-    "kitchen",
-    "home"
-   ],
-   "score": 0,
-   "id": "fMDAxM0ZSUk1L",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Cottonelle Ultra Clean Toilet Paper (32 Family Mega Rolls) $22.61",
-   "price": 22.61,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0CM4NY91V",
-   "src": "TechBargains",
-   "posted": "2026-11-02T13:49:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMENNNE5ZOTFW",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Baker's Signature 8\" Disposable Unbleached Parchment Air Fryer Liners Sheets (125-Count) $9.49",
-   "price": 9.49,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0C6Y8NYK1",
-   "src": "TechBargains",
-   "posted": "2026-11-02T13:46:00.000Z",
-   "cats": [
-    "kitchen",
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEM2WThOWUsx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Cincom Sequential Cordless Air Compression Leg Massager Recovery System (5-Zones) $145.00",
@@ -5050,22 +5669,7 @@
    ],
    "score": 0,
    "id": "fMEYzQ05UOTVE",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Niimbot D110 Upgrade Mini Label Maker Machine with 1x Roll Label Tape $7.99",
-   "price": 7.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0D1CBDFP3",
-   "src": "TechBargains",
-   "posted": "2026-11-02T13:31:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEQxQ0JERlAz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Wegear 45W 2-Port GaN Foldable USB-C Charger $8.99",
@@ -5080,7 +5684,7 @@
    ],
    "score": 0,
    "id": "fMEZQMVc2WjNW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Gihen 10.15oz Car & Home Multi-Purpose Foam Cleaner Spray $4.99",
@@ -5095,7 +5699,7 @@
    ],
    "score": 0,
    "id": "fMEg0NUxXRDQx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bubclean Washing Machine Deep Cleaning Tablets (24-Pack) $9.49",
@@ -5111,7 +5715,7 @@
    ],
    "score": 0,
    "id": "fMEZXQzdSMkhR",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Orico 4-in-1 USB to 1Gbps Ethernet Adapter $9.09",
@@ -5126,7 +5730,7 @@
    ],
    "score": 0,
    "id": "fMEc1V1oxN0RU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Snowyermine 2-in-1 Compact Beverage Refrigerator with Dual-Zone $229.97",
@@ -5141,7 +5745,7 @@
    ],
    "score": 0,
    "id": "fzOTM2MDQzMDY",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "onn 32\" 720p HD Smart TV (32S2V1) $68",
@@ -5156,7 +5760,7 @@
    ],
    "score": 0,
    "id": "f5NDIyMDU2MzU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Babbel Language Learning Lifetime Subscription (14-Languages) $159",
@@ -5171,7 +5775,7 @@
    ],
    "score": 0,
    "id": "fbm92X2NvbW1z",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ophanie 18\" Elevated Inflatable Queen Air Mattress $59.97",
@@ -5186,7 +5790,7 @@
    ],
    "score": 0,
    "id": "fxMDI1MDMwODc",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Reynolds Kitchens Turkey Oven Roasting Bags (2-Count, Holds Up to 24lbs) $2.84",
@@ -5201,7 +5805,7 @@
    ],
    "score": 0,
    "id": "fMDAwU1JNOEpR",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Klein Tools JTH6E08BE 1/8\" Ball End Hex Key with Journeyman T-Handle $5.49",
@@ -5216,7 +5820,7 @@
    ],
    "score": 0,
    "id": "fMDA0UVcwUjJP",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Costco Membership Offer: Earn $20 Digital Costco Shop Card with 1-Year Gold Star Membership $65",
@@ -5231,23 +5835,7 @@
    ],
    "score": 0,
    "id": "fc2hvcC1jYXJk",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "JBL 20W Modern Corded Electric Partylight Beam Bluetooth Projection $89.95",
-   "price": 89.95,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0D9R3FGD1",
-   "src": "TechBargains",
-   "posted": "2026-11-02T13:03:00.000Z",
-   "cats": [
-    "tech",
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEQ5UjNGR0Qx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Fuspower PKCELL 1.5V Carbon Zinc AA & AAA Batteries (80-Count) $19.99",
@@ -5262,7 +5850,7 @@
    ],
    "score": 0,
    "id": "fA1MTAzMDU1NQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Wegear 4K Sony 1/2.55\" Sensor USB-A 73-Degree FOV Webcam with Dual Microphones $24.99",
@@ -5277,7 +5865,7 @@
    ],
    "score": 0,
    "id": "fMEdYS1I1Wlo0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Enuosuma 1080p Native HDR10 Portable Smart Projector with WiFi and Bluetooth $39.99",
@@ -5292,7 +5880,7 @@
    ],
    "score": 0,
    "id": "fMEdTWjNMWEcx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Great Value No Added Sugar 100% Pure Pumpkin Can (15oz) $1.00",
@@ -5307,7 +5895,7 @@
    ],
    "score": 0,
    "id": "fvMjQ1Mzg3Nzc",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Qutool CertiPUR-US Shredded Memory Foam Queen Pillow (2-Pack) $39.99",
@@ -5322,7 +5910,7 @@
    ],
    "score": 0,
    "id": "fMDdUN1c3VlIz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "ESR 15W MagSafe Magnetic Wireless Car Mount Charger $8.99",
@@ -5338,23 +5926,7 @@
    ],
    "score": 0,
    "id": "fMENNM0RDV1FZ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Beyamis Bluetooth Air Tracker Tag (4-Pack) w/ 2-Piece Replaceable Batteries $8.99",
-   "price": 8.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0GXTJWKHJ",
-   "src": "TechBargains",
-   "posted": "2026-11-02T12:20:00.000Z",
-   "cats": [
-    "tech",
-    "tools"
-   ],
-   "score": 0,
-   "id": "fMEdYVEpXS0hK",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Makefit 2-in-1 10-Modes Dual Handheld Shower Head Combo with Built-in Power Wash Chrome $34.99",
@@ -5369,7 +5941,7 @@
    ],
    "score": 0,
    "id": "fMEYxWFk0U004",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "CorkLatta 31\"-80\" Heavy Duty Black Shower Curtain Rod $9.65",
@@ -5384,7 +5956,7 @@
    ],
    "score": 0,
    "id": "fMEM2S0hHSzQy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "DEWALT ToughSystem 2.0 Deep Compact Organizer $19.98",
@@ -5400,7 +5972,7 @@
    ],
    "score": 0,
    "id": "fMDhEMzRISDZC",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Merach Q1S 16-Level Electromagnetic Resistance Rowing Machine $159.99",
@@ -5415,7 +5987,7 @@
    ],
    "score": 0,
    "id": "fMEI5TVRXMU1I",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ploath Electric Wearable Shawl Wraps Heated Blanket (10-Heat Settings, 40x70\") $25.99",
@@ -5430,7 +6002,7 @@
    ],
    "score": 0,
    "id": "fMEg4MkdMNlpX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Gaiatop 3-Heat Levels Magnetic Avocado Rechargeable Hand Warmers (2-Pack) $8.99",
@@ -5445,7 +6017,7 @@
    ],
    "score": 0,
    "id": "fMEdXUjVNUkgz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Fiskars FiberComp Lightweight & Rustproof Hand Trowel $2.19",
@@ -5460,7 +6032,7 @@
    ],
    "score": 0,
    "id": "fMDAwMllWRFNX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Spigen Dock Compatible Dual Grip for Nintendo Switch 2 $16.99",
@@ -5475,7 +6047,7 @@
    ],
    "score": 0,
    "id": "fMERRNjdKR1hX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "YaberAuto 6000A Portable Jump Starter with OBD2 Scanner & Built-in Powerbank $65.99",
@@ -5490,7 +6062,7 @@
    ],
    "score": 0,
    "id": "fMEdYOTdORlZa",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Amazon Grocery 16oz Whole Pinto Beans $0.76",
@@ -5505,7 +6077,7 @@
    ],
    "score": 0,
    "id": "fMDlTSEdDOTFS",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Tapo C207 1080p Pan/Tilt Indoor/Outdoor HybridCam Security Camera $24.99",
@@ -5521,7 +6093,7 @@
    ],
    "score": 0,
    "id": "fMEY1RzQ0WFpI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Wkoncldy 12\" 5000K 3200-Lumen LED Flush Mount Ceiling Light (4-Pack) $29.81",
@@ -5536,7 +6108,7 @@
    ],
    "score": 0,
    "id": "fMDk2Wk1ONUxC",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Jif Creamy 16oz Peanut Butter (6-Pack) $10.49",
@@ -5551,7 +6123,7 @@
    ],
    "score": 0,
    "id": "fMEZaRFdHRFNU",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Contigo Byron 2.0 16oz Double-Wall Insulation Travel Mug (2-Pack) $19.49",
@@ -5567,7 +6139,7 @@
    ],
    "score": 0,
    "id": "fMEQyUE5UMVcx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEXIVON 7\" Aluminum Multi-Purpose Digital Angle Finder Gauge $19.78",
@@ -5582,7 +6154,7 @@
    ],
    "score": 0,
    "id": "fMEQ4Sjg1SE1L",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Black Magic for $11.80 + free shipping w/ Prime",
@@ -5597,7 +6169,7 @@
    ],
    "score": 0,
    "id": "f2MDMxLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 41
   },
   {
@@ -5613,7 +6185,7 @@
    ],
    "score": 0,
    "id": "fMDBKQVA0NE1R",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Anker Nano Neo Dynamic 65W Max USB C Charger Block $19.99",
@@ -5628,7 +6200,7 @@
    ],
    "score": 0,
    "id": "fMEg3QzZNOTE2",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Costco 1-Year Gold Star Membership for $65 w/ $45 Costco Shop Card + free shipping",
@@ -5643,7 +6215,7 @@
    ],
    "score": 0,
    "id": "f2MDA3Lmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Dewalt DWST08205 Tough System Open Tote Case $24.47",
@@ -5658,7 +6230,7 @@
    ],
    "score": 0,
    "id": "fMDE4WVI0R1lH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Polymaker 95A Flexible Black TPU Filament (1.75mm, 4kg) $54.99",
@@ -5673,7 +6245,7 @@
    ],
    "score": 0,
    "id": "fMEhDNExGWTQy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "365 by Whole Foods Market Ripe Large Pitted Olives (6oz) $1.74",
@@ -5688,7 +6260,7 @@
    ],
    "score": 0,
    "id": "fMDc0SDczSjFT",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Ephaclad 12-Cup Non-stick Silicone Muffin Pan $8.99",
@@ -5703,7 +6275,7 @@
    ],
    "score": 0,
    "id": "fMEdYNFpCTFo3",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Miss Vickie's 1.37oz Kettle Cooked Smokehouse BBQ Potato Chips (64-Pack) $35.43",
@@ -5719,7 +6291,7 @@
    ],
    "score": 0,
    "id": "fMDAwUjdYRUQ2",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Annie's 4oz Organic Cheddar Cheesy Smiles Baked Corn Puffs $2.55",
@@ -5734,7 +6306,7 @@
    ],
    "score": 0,
    "id": "fMDZYRDJWSkw4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Contigo x Ally Love Jackson Chill 2.0 Stainless Steel Spill Proof Water Bottle (24oz) $19.59",
@@ -5750,7 +6322,7 @@
    ],
    "score": 0,
    "id": "fMERDR1FYVlI4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bekady 5L 3 Mist Levels Auto Shutoff Top Fill Humidifier $24.99",
@@ -5765,7 +6337,7 @@
    ],
    "score": 0,
    "id": "fMEhQOE03SEZZ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "10 Strawberry Street 12oz Double Line Mugs (6-Pack) $13.99",
@@ -5780,7 +6352,7 @@
    ],
    "score": 0,
    "id": "fMDlUV1BNWVRE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Kohler 22169-G-CP Forte 1.75GPM 3-Function Showerhead $34.74",
@@ -5795,7 +6367,7 @@
    ],
    "score": 0,
    "id": "fMDdNRFhGM1hH",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Hyleton 140W 4-Port GaN Fast Wall Charger with Smart Display $27.49",
@@ -5810,7 +6382,7 @@
    ],
    "score": 0,
    "id": "fMEg3SENENThO",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "EF Ecoflow 45W 3-in-1 USB-C GaN Wall Charger with Type-C Cable $11.99",
@@ -5825,7 +6397,7 @@
    ],
    "score": 0,
    "id": "fMEZIQjhCUFky",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Xiauma TX19 iOS & Android Bluetooth Tracker Tags (4-Pack) $15.99",
@@ -5840,7 +6412,7 @@
    ],
    "score": 0,
    "id": "fMEhHMVQ3Wk5Y",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Method Foaming Hand Wash (Sweet Water, 10oz, 6-Pack) $10.01",
@@ -5856,7 +6428,7 @@
    ],
    "score": 0,
    "id": "fMDAwRUYxRlc4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "McCormick Culinary 17oz High Quality Minced Onion $6.32",
@@ -5871,7 +6443,7 @@
    ],
    "score": 0,
    "id": "fMDA4T0dDTVRZ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "MUYIWEIDEN Weighted Cordless Training Ropes $12.99",
@@ -5886,7 +6458,7 @@
    ],
    "score": 0,
    "id": "fMEZXWktUTDhX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nature's Eats Recovery 32oz Gluten Free Muscle Mix $5.51",
@@ -5901,7 +6473,7 @@
    ],
    "score": 0,
    "id": "fMDk1VE5LUVQz",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Intex 64757E 10\" Dura-Beam Twin Standard Downy Air Mattress $11.45",
@@ -5916,7 +6488,7 @@
    ],
    "score": 0,
    "id": "fMDk4OUpMRkdX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Baseus Spacemate RD1 10-in-1 120W USB-C Mini Docking Station $109.98",
@@ -5931,7 +6503,7 @@
    ],
    "score": 0,
    "id": "fMEhHUjRGR1BQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Cuisinart MCP66-28N 12-Quart MultiClad Pro Stainless Steel Skillet with Cover $130.49",
@@ -5947,7 +6519,7 @@
    ],
    "score": 0,
    "id": "fMDA5VzI4VVFJ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "MTM Water Resistant Survivor Dry Box (Orange, Large) with O-Ring Seal $10.16",
@@ -5962,7 +6534,7 @@
    ],
    "score": 0,
    "id": "fMDAyS0VOV1pZ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Vesteel Nesting Stainless Steel Mixing Bowls (5-Pack, Multi-Color) $16.98",
@@ -5977,7 +6549,7 @@
    ],
    "score": 0,
    "id": "fMTM5NDkwMTIw",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Contigo SnapSeal 30oz Stainless Steel Vacuum Insulated Tumbler $18.19",
@@ -5993,7 +6565,7 @@
    ],
    "score": 0,
    "id": "fMEdIOEs4MkpL",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Nature's Eats 10oz Gluten Free Sun Dried Turkish Apricots $4.20",
@@ -6008,7 +6580,7 @@
    ],
    "score": 0,
    "id": "fMDk1VEhTRENQ",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "365 by Whole Foods Market 32oz Organic Original Almond Milk $1.84",
@@ -6023,7 +6595,7 @@
    ],
    "score": 0,
    "id": "fMDc0SDU3ODI4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Contigo 24oz DualSip Stainless Steel Vacuum-Insulated Water Bottle $15.73",
@@ -6039,7 +6611,7 @@
    ],
    "score": 0,
    "id": "fMEdIOTMxMjNE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Miisso 25W Qi2.2 Magnetic Wireless Car Mount Charger with Cooling Fan $19.99",
@@ -6055,23 +6627,7 @@
    ],
    "score": 0,
    "id": "fMEg1QkhUSEo2",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Saker 400ml Water Tank 20000mAh Portable Camping Misting Fan with Stand $29.99",
-   "price": 29.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H1WJDV1H",
-   "src": "TechBargains",
-   "posted": "2026-11-01T13:45:00.000Z",
-   "cats": [
-    "home",
-    "food"
-   ],
-   "score": 0,
-   "id": "fMEgxV0pEVjFI",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "AliExpress Singles Day Sale: Up to 77% off + extra $3 to $155 off + free shipping",
@@ -6086,7 +6642,7 @@
    ],
    "score": 0,
    "id": "fzMDMzLmh0bWw",
-   "checked": "2026-11-03T16:43:23.766Z",
+   "checked": "2026-11-03T22:01:39.440Z",
    "pct_off": 98
   },
   {
@@ -6102,7 +6658,7 @@
    ],
    "score": 0,
    "id": "fMDAxWUpCTENX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "iSinbox 1080p Native HDR10+ Smart Auto Focus Short Throw Projector $197.99",
@@ -6117,7 +6673,7 @@
    ],
    "score": 0,
    "id": "fMEg0M1k2WlQ5",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Bose QuietComfort 24Hr Playtime Active Noise Cancelling Bluetooth Over Ear Headphones $169",
@@ -6132,7 +6688,7 @@
    ],
    "score": 0,
    "id": "fMENDWjI2QjVW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Purina Fancy Feast 3oz Gravy Lovers Wet Cat Food (30-Pack) $23.85",
@@ -6147,7 +6703,7 @@
    ],
    "score": 0,
    "id": "fMDBKTjlJV05H",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Kvaok OK90 3800PSI Power Washer with 4 Quick Connect Nozzles, Foam Cannon $139.99",
@@ -6162,22 +6718,7 @@
    ],
    "score": 0,
    "id": "fMEhCTUQxSFA1",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Dstfer UltraThin Non-Slip Silicone Grip 3000mAh Rechargeable Heated Gloves $59.99",
-   "price": 59.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H8LKNRB6",
-   "src": "TechBargains",
-   "posted": "2026-11-01T11:55:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEg4TEtOUkI2",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Star Wars: The Mandalorian Mando and Grogu's N-1 Starfighter Building Set (75410, 92-Piece) $17.99",
@@ -6192,22 +6733,7 @@
    ],
    "score": 0,
    "id": "fMERKMTg3VlhM",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Lisen 0.3\" Slim 5000mAh Qi2 15W Wireless Magnetic Power Bank $16.99",
-   "price": 16.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H468Q9Q1",
-   "src": "TechBargains",
-   "posted": "2026-11-01T11:40:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEg0NjhROVEx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Happrun Native 1080P Bluetooth Mini Portable Projector $29.99",
@@ -6222,7 +6748,7 @@
    ],
    "score": 0,
    "id": "fMEIyOEc1WTRS",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "IK Multimedia TONEX Stereo Multi-Effects Guitar and Bass Pedal $299.99",
@@ -6237,7 +6763,7 @@
    ],
    "score": 0,
    "id": "fMEJWMlo4WVlX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Star Wars Clone Shock Trooper Mech Building Toy (75448, 151-Piece) $11.99",
@@ -6252,7 +6778,7 @@
    ],
    "score": 0,
    "id": "fMEZNUzg4S1A2",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Star Wars Millennium Falcon 25th Anniversary Collectible Building Set (75375, 921-Piece) $67.99",
@@ -6267,7 +6793,7 @@
    ],
    "score": 0,
    "id": "fMENHWTNaQjI0",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Funko Pop Animation: One Piece Edison Mini Vinyl Figure $3.98",
@@ -6282,7 +6808,7 @@
    ],
    "score": 0,
    "id": "fMDhISjhQVjU4",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Star Wars: Ahsoka Chopper (C1-10P) Astromech Droid Building Set (1039-Piece) $66.99",
@@ -6297,7 +6823,7 @@
    ],
    "score": 0,
    "id": "fMERKMUJMVDUx",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Creator 3-in-1 Retro Camera Building Set (31147, 261-Piece) $15.99",
@@ -6313,7 +6839,7 @@
    ],
    "score": 0,
    "id": "fMENHWTNGSERS",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "LEGO Creator 3-in-1 Wild Animals: Colorful Hummingbird Building Toy (31384, 312-Piece) $23.95",
@@ -6328,7 +6854,7 @@
    ],
    "score": 0,
    "id": "fMEZNUzdZSkZN",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "OIGAE 50\"x70\" Snowflake Print Soft Breathable Cooling Blanket $9.99",
@@ -6343,22 +6869,7 @@
    ],
    "score": 0,
    "id": "fMERTTDE4UldX",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "HTM Under Desk Electric Elliptical Exerciser Machine for Seniors $55.43",
-   "price": 55.43,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0FHWCZ6QV",
-   "src": "TechBargains",
-   "posted": "2026-11-01T10:30:00.000Z",
-   "cats": [
-    "home"
-   ],
-   "score": 0,
-   "id": "fMEZIV0NaNlFW",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Insignia F40 Series 32\" LED Full HD Smart Fire TV $89.99",
@@ -6373,7 +6884,7 @@
    ],
    "score": 0,
    "id": "fMEhHVFZWVkpX",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Itrusou 35x16\" XL 500W Electric Food Warming Mat Tray $31.49",
@@ -6389,7 +6900,7 @@
    ],
    "score": 0,
    "id": "fMEdNR0sxVzRE",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   },
   {
    "title": "Goodyear Wrangler Authority A/T 275/60R20 115S All-Terrain Tire for $186 + free shipping",
@@ -6404,52 +6915,7 @@
    ],
    "score": 0,
    "id": "fMzY1Mi5odG1s",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "TP-Link Deco XE75 WiFi 6E AXE5400 Tri-Band Mesh System (3-Pack) $169.99",
-   "price": 169.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0B88T5RDY",
-   "src": "TechBargains",
-   "posted": "2026-10-31T18:55:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEI4OFQ1UkRZ",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Wegear 45W GaN USB-C Nano Phone Charger (2-Pack) $12.49",
-   "price": 12.49,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B0H3YRXCBN",
-   "src": "TechBargains",
-   "posted": "2026-10-31T18:10:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMEgzWVJYQ0JO",
-   "checked": "2026-11-03T16:43:23.766Z"
-  },
-  {
-   "title": "Atuvos Bluetooth Air Tracker Tags (4-Pack) $19.99",
-   "price": 19.99,
-   "was": null,
-   "store": "Amazon",
-   "url": "https://www.amazon.com/dp/B09YXTLST2",
-   "src": "TechBargains",
-   "posted": "2026-10-31T17:50:00.000Z",
-   "cats": [
-    "tech"
-   ],
-   "score": 0,
-   "id": "fMDlZWFRMU1Qy",
-   "checked": "2026-11-03T16:43:23.766Z"
+   "checked": "2026-11-03T22:01:39.440Z"
   }
  ],
  "sources": [
@@ -6457,13 +6923,13 @@
    "src": "DealNews",
    "url": "https://www.dealnews.com/?rss=1&sort=time",
    "ok": true,
-   "kept": 28
+   "kept": 36
   },
   {
    "src": "DealNews",
    "url": "https://www.dealnews.com/?rss=1&sort=hotness",
    "ok": true,
-   "kept": 17
+   "kept": 21
   },
   {
    "src": "DealNews",
@@ -6481,7 +6947,7 @@
    "src": "DealNews",
    "url": "https://www.dealnews.com/c196/Home-Garden/?rss=1",
    "ok": true,
-   "kept": 29
+   "kept": 36
   },
   {
    "src": "DealNews",
@@ -6493,7 +6959,7 @@
    "src": "DealNews",
    "url": "https://www.dealnews.com/c238/Tools-Hardware/?rss=1",
    "ok": true,
-   "kept": 13
+   "kept": 14
   },
   {
    "src": "DealNews",
@@ -6505,7 +6971,7 @@
    "src": "TechBargains",
    "url": "https://www.techbargains.com/rss.xml",
    "ok": true,
-   "kept": 271
+   "kept": 295
   }
  ]
 }
