@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:16:58.957Z",
+ "updated": "2026-11-03T06:24:04.000Z",
  "note": "Prices read in a real browser from each store's own online catalog (these stores block simple robots). Rows: [name, size, regularPrice, salePrice(0=none), catalogProductId, unit, imagePath (after https://d226b0iufwcjmj.cloudfront.net/product-images/), saleText]. Product page: {site}/?catalogProduct={id}.",
  "stores": {
   "refresh": {
@@ -15,7 +15,10 @@
     "refresh-1.json",
     "refresh-2.json",
     "refresh-3.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "shlomies": {
    "name": "Shlomie's",
@@ -29,7 +32,10 @@
     "shlomies-0.json",
     "shlomies-1.json",
     "shlomies-2.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "wesley": {
    "name": "Wesley Kosher",
@@ -46,7 +52,10 @@
     "wesley-3.json",
     "wesley-4.json",
     "wesley-5.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "evergreen-monsey": {
    "name": "Evergreen Kosher (Monsey)",
@@ -63,7 +72,10 @@
     "evergreen-monsey-3.json",
     "evergreen-monsey-4.json",
     "evergreen-monsey-5.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "evergreen-lakewood": {
    "name": "Evergreen Kosher (Lakewood)",
@@ -79,7 +91,10 @@
     "evergreen-lakewood-2.json",
     "evergreen-lakewood-3.json",
     "evergreen-lakewood-4.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "hatzlacha": {
    "name": "Hatzlacha Kosher",
@@ -93,14 +108,17 @@
     "hatzlacha-0.json",
     "hatzlacha-1.json",
     "hatzlacha-2.json"
-   ]
+   ],
+   "last_attempt": null,
+   "last_attempt_status": "not run",
+   "last_attempt_note": null
   },
   "kahans": {
    "name": "Kahan's Superette",
    "city": "Crown Heights",
    "site": "https://www.kahanskosher.com",
    "status": "ok",
-   "checked": "2026-11-03T06:16:45.788Z",
+   "checked": "2026-11-03T06:24:00.639Z",
    "count": 7259,
    "on_sale": 80,
    "files": [
