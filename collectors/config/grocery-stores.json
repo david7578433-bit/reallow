@@ -1,5 +1,5 @@
 {
- "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON (read here every 4 hours). platform mobilezuz = these stores put a Cloudflare bot check in front of honest robots, so they are read in a real browser twice a day off GitHub; that run commits data/browser/*.json and the browser-merge workflow folds them in. Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites).",
+ "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON (read here every 4 hours). platform mobilezuz = these stores put a Cloudflare bot check in front of honest robots, so they are read in a real browser twice a day off GitHub; that run commits data/browser/*.json and the browser-merge workflow folds them in. Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites). platform lx = LocalExpress public catalog JSON (Chestnut), read here every 4 hours.",
  "stores": [
   {
    "id": "landaus",
@@ -189,6 +189,16 @@
    "site": "https://www.foodookosher.com",
    "retailerId": 1527,
    "branchId": 2899
+  },
+  {
+   "id": "chestnut",
+   "name": "Chestnut Supermarket",
+   "city": "Williamsburg",
+   "platform": "lx",
+   "site": "https://chestnutsupermarket.com",
+   "storeId": 5074,
+   "searchUrl": "https://chestnutsupermarket.com/search?q={q}",
+   "productUrl": "https://chestnutsupermarket.com/product/{id}"
   }
  ]
 }
