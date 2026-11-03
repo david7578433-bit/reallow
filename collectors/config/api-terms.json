@@ -1,0 +1,30 @@
+{
+ "note": "Search terms the store-API adapters ask about each run (once keys exist). Keep it modest: APIs have daily call limits.",
+ "terms": [
+  "airpods",
+  "air fryer",
+  "stroller",
+  "car seat",
+  "diapers",
+  "laptop",
+  "ipad",
+  "tv",
+  "headphones",
+  "vacuum",
+  "instant pot",
+  "blender",
+  "coffee maker",
+  "drill",
+  "lego",
+  "monitor",
+  "printer",
+  "nintendo switch",
+  "kitchenaid mixer",
+  "mattress",
+  "luggage",
+  "baby monitor",
+  "water filter",
+  "paper towels",
+  "laundry detergent"
+ ]
+}

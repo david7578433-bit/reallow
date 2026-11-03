@@ -1,0 +1,164 @@
+{
+ "note": "Kosher grocery stores the robot reads. platform mcg = My Cloud Grocer public catalog JSON. platform mobilezuz = blocked by a Cloudflare bot check for honest robots (shown as 'search on store'). Never add kj-grocery-prices / monsey-groceries / williamsburg-kosher-groceries (other people's sites).",
+ "stores": [
+  {
+   "id": "landaus",
+   "name": "Landau's Supermarket",
+   "city": "Monroe / Kiryas Joel",
+   "platform": "mcg",
+   "site": "https://landauskj.com",
+   "storeId": 1,
+   "seo": "monroe-kiryas-joel"
+  },
+  {
+   "id": "rockland",
+   "name": "Rockland Kosher",
+   "city": "Monsey",
+   "platform": "mcg",
+   "site": "https://rocklandkosher.com",
+   "storeId": 1,
+   "seo": "Monsey"
+  },
+  {
+   "id": "breadberry",
+   "name": "Breadberry",
+   "city": "Boro Park",
+   "platform": "mcg",
+   "site": "https://breadberry.com",
+   "storeId": 1,
+   "seo": "Brooklyn"
+  },
+  {
+   "id": "mega53",
+   "name": "Mega 53",
+   "city": "Boro Park",
+   "platform": "mcg",
+   "site": "https://mega53market.com",
+   "storeId": 1,
+   "seo": "Brooklyn-New-York"
+  },
+  {
+   "id": "mountainfruit",
+   "name": "Mountain Fruit",
+   "city": "Flatbush",
+   "platform": "mcg",
+   "site": "https://shopmountainfruit.com",
+   "storeId": 1,
+   "seo": "Brooklyn-Midwood-BoroPark"
+  },
+  {
+   "id": "empire",
+   "name": "Empire Kosher",
+   "city": "Crown Heights",
+   "platform": "mcg",
+   "site": "https://empirekoshersupermarket.com",
+   "storeId": 1,
+   "seo": "empire"
+  },
+  {
+   "id": "marketplace",
+   "name": "The Market Place (KosherFamily)",
+   "city": "Crown Heights",
+   "platform": "mcg",
+   "site": "https://kosherfamily.com",
+   "storeId": 1,
+   "seo": "Brooklyn-Crown-Heights"
+  },
+  {
+   "id": "koshertown",
+   "name": "Koshertown",
+   "city": "Crown Heights",
+   "platform": "mcg",
+   "site": "https://koshertown.com",
+   "storeId": 1,
+   "seo": "brooklyn"
+  },
+  {
+   "id": "houseofglatt",
+   "name": "House of Glatt",
+   "city": "Crown Heights",
+   "platform": "mcg",
+   "site": "https://thehouseofglatt.com",
+   "storeId": 1,
+   "seo": "Brooklyn"
+  },
+  {
+   "id": "seasons-lakewood",
+   "name": "Seasons Lakewood",
+   "city": "Lakewood",
+   "platform": "mcg",
+   "site": "https://seasonskosher.com",
+   "storeId": 4,
+   "seo": "Lakewood"
+  },
+  {
+   "id": "nutmeg",
+   "name": "Nutmeg Kosher Market",
+   "city": "Lakewood",
+   "platform": "mcg",
+   "site": "https://nutmegkoshermarket.com",
+   "storeId": 1,
+   "seo": "Lakewood-NJ"
+  },
+  {
+   "id": "seasons-lawrence",
+   "name": "Seasons Lawrence",
+   "city": "Five Towns",
+   "platform": "mcg",
+   "site": "https://seasonskosher.com",
+   "storeId": 2,
+   "seo": "Lawrence"
+  },
+  {
+   "id": "refresh",
+   "name": "Refresh Supermarket",
+   "city": "Monroe / Kiryas Joel",
+   "platform": "mobilezuz",
+   "site": "https://www.refreshsupermarket.com",
+   "retailerId": 1336,
+   "branchId": 1990
+  },
+  {
+   "id": "shlomies",
+   "name": "Shlomie's",
+   "city": "Monroe / Kiryas Joel",
+   "platform": "mobilezuz",
+   "site": "https://www.shlomies.com"
+  },
+  {
+   "id": "evergreen-monsey",
+   "name": "Evergreen Kosher (Monsey)",
+   "city": "Monsey",
+   "platform": "mobilezuz",
+   "site": "https://www.shopevergreenkosher.com"
+  },
+  {
+   "id": "wesley",
+   "name": "Wesley Kosher",
+   "city": "Monsey",
+   "platform": "mobilezuz",
+   "site": "https://www.wesleykosheronline.com"
+  },
+  {
+   "id": "hatzlacha",
+   "name": "Hatzlacha Kosher",
+   "city": "Williamsburg",
+   "platform": "mobilezuz",
+   "site": "https://www.hatzlachakosher.com"
+  },
+  {
+   "id": "kahans",
+   "name": "Kahan's Superette",
+   "city": "Crown Heights",
+   "platform": "mobilezuz",
+   "site": "https://www.kahanskosher.com"
+  },
+  {
+   "id": "evergreen-lakewood",
+   "name": "Evergreen Kosher (Lakewood)",
+   "city": "Lakewood",
+   "platform": "mobilezuz",
+   "site": "https://www.shopevergreenkosher.com"
+  }
+ ]
+}

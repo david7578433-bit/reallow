@@ -1,0 +1,255 @@
+{
+ "run_at": "2026-11-03T05:20:56.385Z",
+ "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
+ "groceries": {
+  "updated": "2026-11-03T05:16:29.219Z",
+  "stores_ok": 12,
+  "stores_total": 19,
+  "items": 70772,
+  "rows": 136796,
+  "multi_store_items": 19425,
+  "reused_stores": 0,
+  "stores": [
+   {
+    "name": "Landau's Supermarket",
+    "city": "Monroe / Kiryas Joel",
+    "status": "ok",
+    "count": 10946,
+    "checked": "2026-11-03T05:09:17.259Z",
+    "stale": false
+   },
+   {
+    "name": "Rockland Kosher",
+    "city": "Monsey",
+    "status": "ok",
+    "count": 31075,
+    "checked": "2026-11-03T05:16:28.794Z",
+    "stale": false
+   },
+   {
+    "name": "Breadberry",
+    "city": "Boro Park",
+    "status": "ok",
+    "count": 18255,
+    "checked": "2026-11-03T05:13:33.835Z",
+    "stale": false
+   },
+   {
+    "name": "Mega 53",
+    "city": "Boro Park",
+    "status": "ok",
+    "count": 10745,
+    "checked": "2026-11-03T05:08:57.936Z",
+    "stale": false
+   },
+   {
+    "name": "Mountain Fruit",
+    "city": "Flatbush",
+    "status": "ok",
+    "count": 8372,
+    "checked": "2026-11-03T05:08:33.508Z",
+    "stale": false
+   },
+   {
+    "name": "Empire Kosher",
+    "city": "Crown Heights",
+    "status": "ok",
+    "count": 9768,
+    "checked": "2026-11-03T05:08:45.671Z",
+    "stale": false
+   },
+   {
+    "name": "The Market Place (KosherFamily)",
+    "city": "Crown Heights",
+    "status": "ok",
+    "count": 11256,
+    "checked": "2026-11-03T05:09:10.792Z",
+    "stale": false
+   },
+   {
+    "name": "Koshertown",
+    "city": "Crown Heights",
+    "status": "ok",
+    "count": 6344,
+    "checked": "2026-11-03T05:08:00.263Z",
+    "stale": false
+   },
+   {
+    "name": "House of Glatt",
+    "city": "Crown Heights",
+    "status": "ok",
+    "count": 708,
+    "checked": "2026-11-03T05:06:48.954Z",
+    "stale": false
+   },
+   {
+    "name": "Seasons Lakewood",
+    "city": "Lakewood",
+    "status": "ok",
+    "count": 11007,
+    "checked": "2026-11-03T05:09:20.589Z",
+    "stale": false
+   },
+   {
+    "name": "Nutmeg Kosher Market",
+    "city": "Lakewood",
+    "status": "ok",
+    "count": 10151,
+    "checked": "2026-11-03T05:08:48.741Z",
+    "stale": false
+   },
+   {
+    "name": "Seasons Lawrence",
+    "city": "Five Towns",
+    "status": "ok",
+    "count": 8932,
+    "checked": "2026-11-03T05:11:22.769Z",
+    "stale": false
+   },
+   {
+    "name": "Refresh Supermarket",
+    "city": "Monroe / Kiryas Joel",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:41.032Z",
+    "stale": false
+   },
+   {
+    "name": "Shlomie's",
+    "city": "Monroe / Kiryas Joel",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.805Z",
+    "stale": false
+   },
+   {
+    "name": "Evergreen Kosher (Monsey)",
+    "city": "Monsey",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.805Z",
+    "stale": false
+   },
+   {
+    "name": "Wesley Kosher",
+    "city": "Monsey",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.805Z",
+    "stale": false
+   },
+   {
+    "name": "Hatzlacha Kosher",
+    "city": "Williamsburg",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.805Z",
+    "stale": false
+   },
+   {
+    "name": "Kahan's Superette",
+    "city": "Crown Heights",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.806Z",
+    "stale": false
+   },
+   {
+    "name": "Evergreen Kosher (Lakewood)",
+    "city": "Lakewood",
+    "status": "blocked",
+    "count": 0,
+    "checked": "2026-11-03T05:06:40.805Z",
+    "stale": false
+   }
+  ]
+ },
+ "deals": {
+  "updated": "2026-11-03T05:16:21.242Z",
+  "verified": 26,
+  "feed": 380,
+  "sources": [
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/?rss=1&sort=time",
+    "ok": true,
+    "kept": 37
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/?rss=1&sort=hotness",
+    "ok": true,
+    "kept": 24
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c142/Electronics/?rss=1",
+    "ok": true,
+    "kept": 30
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c39/Computers/?rss=1",
+    "ok": true,
+    "kept": 16
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c196/Home-Garden/?rss=1",
+    "ok": true,
+    "kept": 37
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c206/Home-Garden/Kitchen/?rss=1",
+    "ok": true,
+    "kept": 16
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c238/Tools-Hardware/?rss=1",
+    "ok": true,
+    "kept": 10
+   },
+   {
+    "src": "DealNews",
+    "url": "https://www.dealnews.com/c220/Toys/?rss=1",
+    "ok": true,
+    "kept": 2
+   },
+   {
+    "src": "TechBargains",
+    "url": "https://www.techbargains.com/rss.xml",
+    "ok": true,
+    "kept": 246
+   }
+  ]
+ },
+ "store_apis": [
+  {
+   "id": "ebay",
+   "name": "eBay",
+   "state": "waiting for keys"
+  },
+  {
+   "id": "impact",
+   "name": "Impact (Walmart / Target)",
+   "state": "waiting for keys"
+  },
+  {
+   "id": "cj",
+   "name": "CJ Affiliate",
+   "state": "waiting for keys"
+  },
+  {
+   "id": "rakuten",
+   "name": "Rakuten Advertising",
+   "state": "waiting for keys"
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon Creators API",
+   "state": "waiting for keys"
+  }
+ ]
+}

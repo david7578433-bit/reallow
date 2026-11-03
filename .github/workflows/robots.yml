@@ -1,0 +1,84 @@
+name: RealLow robots (price collectors)
+
+# Every 4 hours (and on demand) the robots read store catalogs and deal feeds,
+# commit fresh data to this repo, and publish the site on GitHub Pages.
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reallow-robots
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Robot A - kosher grocery catalogs
+        continue-on-error: true
+        run: node collectors/groceries.mjs
+      - name: Robot B - deals feeds
+        continue-on-error: true
+        run: node collectors/deals.mjs
+      - name: Store APIs (eBay, Impact, CJ, Rakuten, Amazon - run only when keys exist)
+        continue-on-error: true
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          EBAY_CAMPAIGN_ID: ${{ secrets.EBAY_CAMPAIGN_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN }}
+          IMPACT_CATALOG_IDS: ${{ secrets.IMPACT_CATALOG_IDS }}
+          CJ_PERSONAL_TOKEN: ${{ secrets.CJ_PERSONAL_TOKEN }}
+          CJ_COMPANY_ID: ${{ secrets.CJ_COMPANY_ID }}
+          CJ_WEBSITE_ID: ${{ secrets.CJ_WEBSITE_ID }}
+          RAKUTEN_CLIENT_ID: ${{ secrets.RAKUTEN_CLIENT_ID }}
+          RAKUTEN_CLIENT_SECRET: ${{ secrets.RAKUTEN_CLIENT_SECRET }}
+          RAKUTEN_SID: ${{ secrets.RAKUTEN_SID }}
+          AMAZON_CREATORS_CREDENTIAL_ID: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_ID }}
+          AMAZON_CREATORS_CREDENTIAL_SECRET: ${{ secrets.AMAZON_CREATORS_CREDENTIAL_SECRET }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+        run: node collectors/store-apis.mjs
+      - name: Run summary
+        run: node collectors/status.mjs
+      - name: Commit fresh data
+        run: |
+          git config user.name "RealLow robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deals.json data/
+          if git diff --cached --quiet; then echo "No data changes."; exit 0; fi
+          git commit -m "Robots: fresh prices $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase -X ours origin main || true
+          git push origin HEAD:main
+
+  deploy:
+    needs: collect
+    if: ${{ always() && (needs.collect.result == 'success' || needs.collect.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

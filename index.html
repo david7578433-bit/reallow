@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name='impact-site-verification' value='8d3a682e-0a66-4728-bd6b-7e1029d7a392'>
 <title>RealLow — only real low prices</title>
-<meta name="description" content="RealLow: the biggest real deals on top, every price checked on the store page, plus one-tap price compare across Amazon, Walmart, Target, eBay, AliExpress and more.">
+<meta name="description" content="RealLow: search any item and see every store's price, cheapest first. Kosher grocery prices from the stores' own sites, real deals checked every 4 hours, and one-tap search on 60+ online stores.">
 <meta name="theme-color" content="#0f5132">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
@@ -19,7 +20,8 @@
 
 <nav class="tabs wrap" aria-label="Sections">
   <a class="tab" href="#deals" id="tab-deals" aria-current="page">🔥 Deals</a>
-  <a class="tab" href="#groceries" id="tab-groceries">🛒 Kosher Groceries</a>
+  <a class="tab" href="#groceries" id="tab-groceries">🛒 Groceries</a>
+  <a class="tab" href="#stores" id="tab-stores">🏬 Stores</a>
 </nav>
 
 <main class="wrap" id="main">
@@ -29,14 +31,36 @@
     <form id="search-form" role="search" autocomplete="off">
       <label class="sr-only" for="q">What are you looking for?</label>
       <div class="search-row">
-        <input id="q" name="q" type="search" placeholder="Try: air fryer, AirPods, stroller…" enterkeyhint="search">
-        <button type="submit" class="btn btn-go">Compare</button>
+        <input id="q" name="q" type="search" placeholder="Try: cream cheese, air fryer, AirPods…" enterkeyhint="search">
+        <button type="submit" class="btn btn-go">Search</button>
       </div>
     </form>
-    <p class="hint" id="search-hint">Type anything, then tap a store. Each opens that store's own search.</p>
-    <div class="stores" id="stores" aria-label="Search on a store"></div>
+    <p class="hint" id="search-hint">Searches every price our robots collected, cheapest first, then any store in one tap. Tap ☆ to save an item to My list.</p>
+    <p class="robot-line" id="robot-line"></p>
   </section>
 
+  <section id="results" class="results" aria-live="polite" hidden>
+    <div class="res-head">
+      <h2 id="res-h">Results</h2>
+      <label class="res-city"><span class="sr-only">Area for grocery prices</span><select id="res-city"></select></label>
+    </div>
+    <div id="res-amz"></div>
+    <div id="res-groceries"></div>
+    <div id="res-deals"></div>
+    <div class="card" id="res-stores-card">
+      <h3 class="res-sub" id="res-stores-h">Search it on any store</h3>
+      <div id="res-stores"></div>
+    </div>
+  </section>
+
+  <div id="home-blocks">
+  <section class="card foryou" id="foryou" aria-labelledby="fy-h" hidden>
+    <h2 id="fy-h">⭐ For you</h2>
+    <div id="foryou-saved"><p class="hint">Your list, with today's cheapest price.</p><ul class="fy-list" id="foryou-list"></ul></div>
+    <ul class="fy-nudge" id="foryou-nudge"></ul>
+    <div id="foryou-usual-wrap" hidden><p class="hint">You often look up:</p><div class="chips" id="foryou-usual"></div></div>
+    <p class="fy-foot">Saved on this phone only. Nothing is sent anywhere. <a href="#" id="foryou-reset">Reset my data</a></p>
+  </section>
   <section class="potd card" id="potd" aria-labelledby="potd-h" hidden>
     <div class="potd-head">
       <h2 id="potd-h">📤 Post of the day</h2>
@@ -56,63 +80,75 @@
     </div>
     <div class="chips" id="chips" role="toolbar" aria-label="Categories"></div>
     <ol class="deals" id="deals"></ol>
-    <p class="empty" id="empty" hidden>No deals in this category today. Check back tomorrow.</p>
+    <p class="empty" id="empty" hidden>No deals in this category right now. Check back in a few hours.</p>
+    <div id="feed-wrap" hidden>
+      <div class="deals-head"><h2 id="feed-h">More deals the robot found</h2><p class="checked" id="feed-line"></p></div>
+      <ol class="feed" id="feed"></ol>
+      <button type="button" class="btn btn-light more" id="feed-more" hidden>Show more deals</button>
+    </div>
   </section>
 
   <section class="how card" aria-labelledby="how-h">
-    <h2 id="how-h">How RealLow picks deals</h2>
+    <h2 id="how-h">How RealLow gets its prices</h2>
     <ul>
-      <li>Every price here was opened and checked on the store's own page. If we couldn't check it, it's not here.</li>
-      <li>Biggest real savings go on top. 🔥 HOT = 40% off or more.</li>
-      <li>Clean deals only: no Halloween, no holiday-themed junk, no immodest stuff.</li>
-      <li>Prices move fast. The store's page is always the final word.</li>
+      <li><b>Robots every 4 hours:</b> they read the kosher stores' own online catalogs and public deal feeds, and every price shows when it was checked.</li>
+      <li><b>Top deals</b> were opened and checked on the store's own page. Feed deals show the price the deal site posted.</li>
+      <li>If a store blocks robots, we never guess: you get a button to search on that store.</li>
+      <li>Clean deals only: no Halloween, no holiday-themed junk, no immodest stuff. The store's page is always the final word.</li>
     </ul>
   </section>
+  </div>
 </div>
 
 <div id="view-groceries" hidden>
   <section aria-labelledby="gro-h">
     <div class="deals-head">
-      <h1 id="gro-h">🛒 Kosher groceries near you</h1>
+      <h1 id="gro-h">🛒 Kosher grocery prices</h1>
       <p class="checked" id="gro-checked"></p>
     </div>
-    <p class="hint">Pick your area. Each store links to its own website, online ordering or weekly specials.</p>
     <div class="chips" id="city-chips" role="toolbar" aria-label="Cities"></div>
-    <section class="card" id="gro-search" aria-labelledby="gq-h" hidden>
-      <h2 id="gq-h">Find it in your area</h2>
+    <section class="card" aria-labelledby="gq-h">
+      <h2 id="gq-h">Who's cheapest?</h2>
       <form id="gro-search-form" role="search" autocomplete="off">
         <label class="sr-only" for="gq">Grocery item</label>
-        <input id="gq" class="gq" type="search" enterkeyhint="search">
+        <input id="gq" class="gq" type="search" enterkeyhint="search" placeholder="cream cheese, challah, chicken…">
       </form>
-      <p class="hint">Opens each store's own online search.</p>
-      <div class="stores" id="gro-search-stores"></div>
+      <p class="hint" id="gq-hint">Every store's price for that item, cheapest first. Prices are from each store's own website.</p>
+      <div id="gro-results"></div>
     </section>
-    <section class="card" id="staples" aria-labelledby="staples-h" hidden>
-      <h2 id="staples-h">Staples: who's cheapest online</h2>
-      <p class="hint">Cheapest listing on each store's own website, Nov 2, 2026. Brands and sizes differ, and store prices can differ from online.</p>
-      <ul class="staples" id="staples-list"></ul>
-    </section>
-    <h2 class="gro-stores-h">Stores</h2>
+    <h2 class="gro-stores-h">Stores in this area</h2>
     <ol class="stores-list" id="gro-list"></ol>
     <section class="card" id="gro-online-wrap" aria-labelledby="gro-online-h" hidden>
       <h2 id="gro-online-h">🚚 Order online, delivered</h2>
       <ul class="online" id="gro-online"></ul>
     </section>
-    <p class="empty" id="gro-empty" hidden>Grocery list is coming soon.</p>
-    <p class="note">Hours change before Shabbos and Yom Tov. Call the store before you go.</p>
+    <p class="note">Online prices can differ from the shelf, and delivery fees are not included. Hours change before Shabbos and Yom Tov.</p>
+  </section>
+</div>
+
+<div id="view-stores" hidden>
+  <section aria-labelledby="dir-h">
+    <div class="deals-head"><h1 id="dir-h">🏬 Search any store</h1><p class="checked" id="dir-count"></p></div>
+    <form id="dir-form" role="search" autocomplete="off" class="card">
+      <label class="sr-only" for="dq">Item to search</label>
+      <input id="dq" class="gq" type="search" enterkeyhint="search" placeholder="Type an item, then tap a store">
+    </form>
+    <div id="dir"></div>
   </section>
 </div>
 </main>
 
 <footer class="foot">
   <div class="wrap">
-    <p><b>RealLow</b> · only real low prices · <span id="foot-date"></span></p>
-    <p class="small">Plain store links, no tracking cookies. Deals refresh daily.</p>
+    <p><b>RealLow</b> · only real low prices</p>
+    <details class="robots" id="robots-box"><summary>🤖 Robot status</summary><div id="robots-status">Loading…</div></details>
+    <p class="small">Plain store links, no tracking cookies. Prices refresh every 4 hours.</p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="deals.js"></script>
 <script src="groceries.js"></script>
+<script src="stores.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
