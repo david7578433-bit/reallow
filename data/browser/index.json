@@ -1,0 +1,81 @@
+{
+ "updated": "2026-11-03T05:56:12.791Z",
+ "note": "Prices read in a real browser from each store's own online catalog (these stores block simple robots). Rows: [name, size, regularPrice, salePrice(0=none), catalogProductId, unit, imagePath (after https://d226b0iufwcjmj.cloudfront.net/product-images/), saleText]. Product page: {site}/?catalogProduct={id}.",
+ "stores": {
+  "refresh": {
+   "name": "Refresh Supermarket",
+   "city": "Monroe / Kiryas Joel",
+   "site": "https://www.refreshsupermarket.com",
+   "status": "ok",
+   "checked": "2026-11-03T05:55:37.489Z",
+   "count": 10832,
+   "on_sale": 588,
+   "files": [
+    "refresh-0.json",
+    "refresh-1.json",
+    "refresh-2.json",
+    "refresh-3.json"
+   ]
+  },
+  "shlomies": {
+   "name": "Shlomie's",
+   "city": "Monroe / Kiryas Joel",
+   "site": "https://www.shlomies.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  },
+  "wesley": {
+   "name": "Wesley Kosher",
+   "city": "Monsey",
+   "site": "https://www.wesleykosheronline.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  },
+  "evergreen-monsey": {
+   "name": "Evergreen Kosher (Monsey)",
+   "city": "Monsey",
+   "site": "https://www.shopevergreenkosher.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  },
+  "evergreen-lakewood": {
+   "name": "Evergreen Kosher (Lakewood)",
+   "city": "Lakewood",
+   "site": "https://www.shopevergreenkosher.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  },
+  "hatzlacha": {
+   "name": "Hatzlacha Kosher",
+   "city": "Williamsburg",
+   "site": "https://www.hatzlachakosher.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  },
+  "kahans": {
+   "name": "Kahan's Superette",
+   "city": "Crown Heights",
+   "site": "https://www.kahanskosher.com",
+   "status": "not run",
+   "note": null,
+   "checked": null,
+   "count": 0,
+   "files": []
+  }
+ }
+}
