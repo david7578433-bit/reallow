@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T21:33:20.380Z",
+ "updated": "2026-11-04T11:25:41.056Z",
  "note": "Prices read in a real browser from each store's own online catalog (these stores block simple robots). Rows: [name, size, regularPrice, salePrice(0=none), catalogProductId, unit, imagePath (after https://d226b0iufwcjmj.cloudfront.net/product-images/), saleText]. Product page: {site}/?catalogProduct={id}.",
  "stores": {
   "refresh": {
@@ -7,9 +7,9 @@
    "city": "Monroe / Kiryas Joel",
    "site": "https://www.refreshsupermarket.com",
    "status": "ok",
-   "checked": "2026-11-03T21:05:15.682Z",
-   "count": 10828,
-   "on_sale": 587,
+   "checked": "2026-11-04T11:03:36.756Z",
+   "count": 10373,
+   "on_sale": 566,
    "files": [
     "refresh-0.json",
     "refresh-1.json",
@@ -22,8 +22,8 @@
    "city": "Monroe / Kiryas Joel",
    "site": "https://www.shlomies.com",
    "status": "ok",
-   "checked": "2026-11-03T21:07:59.647Z",
-   "count": 8435,
+   "checked": "2026-11-04T11:06:00.440Z",
+   "count": 8360,
    "on_sale": 236,
    "files": [
     "shlomies-0.json",
@@ -36,8 +36,8 @@
    "city": "Monsey",
    "site": "https://www.wesleykosheronline.com",
    "status": "ok",
-   "checked": "2026-11-03T21:13:22.739Z",
-   "count": 16403,
+   "checked": "2026-11-04T11:10:20.700Z",
+   "count": 16372,
    "on_sale": 1223,
    "files": [
     "wesley-0.json",
@@ -53,9 +53,9 @@
    "city": "Monsey",
    "site": "https://www.shopevergreenkosher.com",
    "status": "ok",
-   "checked": "2026-11-03T21:21:50.876Z",
-   "count": 15548,
-   "on_sale": 184,
+   "checked": "2026-11-04T11:14:38.511Z",
+   "count": 15411,
+   "on_sale": 183,
    "files": [
     "evergreen-monsey-0.json",
     "evergreen-monsey-1.json",
@@ -70,9 +70,9 @@
    "city": "Lakewood",
    "site": "https://www.shopevergreenkosher.com",
    "status": "ok",
-   "checked": "2026-11-03T21:25:26.649Z",
-   "count": 13045,
-   "on_sale": 172,
+   "checked": "2026-11-04T11:18:11.960Z",
+   "count": 12906,
+   "on_sale": 171,
    "files": [
     "evergreen-lakewood-0.json",
     "evergreen-lakewood-1.json",
@@ -86,9 +86,9 @@
    "city": "Williamsburg",
    "site": "https://www.hatzlachakosher.com",
    "status": "ok",
-   "checked": "2026-11-03T21:28:28.052Z",
-   "count": 8840,
-   "on_sale": 287,
+   "checked": "2026-11-04T11:20:37.598Z",
+   "count": 8800,
+   "on_sale": 227,
    "files": [
     "hatzlacha-0.json",
     "hatzlacha-1.json",
@@ -100,8 +100,8 @@
    "city": "Crown Heights",
    "site": "https://www.kahanskosher.com",
    "status": "ok",
-   "checked": "2026-11-03T21:30:48.532Z",
-   "count": 7272,
+   "checked": "2026-11-04T11:22:46.645Z",
+   "count": 7264,
    "on_sale": 80,
    "files": [
     "kahans-0.json",
@@ -114,18 +114,15 @@
    "city": "Williamsburg",
    "site": "https://www.foodookosher.com",
    "status": "ok",
-   "checked": "2026-11-03T15:25:58.232Z",
-   "count": 10191,
-   "on_sale": 128,
+   "checked": "2026-11-04T11:25:37.545Z",
+   "count": 10183,
+   "on_sale": 123,
    "files": [
     "foodoo-0.json",
     "foodoo-1.json",
     "foodoo-2.json",
     "foodoo-3.json"
-   ],
-   "last_attempt": "2026-11-03T21:33:17.035Z",
-   "last_attempt_status": "blocked",
-   "last_attempt_note": "HTTP 403 (bot check)"
+   ]
   }
  }
 }
