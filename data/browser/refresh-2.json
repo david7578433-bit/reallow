@@ -1,9 +1,4 @@
-{"store":"refresh","checked":"2026-11-04T11:03:36.756Z","items":[
-["Fini Fruit Attack","1.3000000000000003",9.99,0,3300144,"lb","1336/7450829/9653828/medium.jpg",""],
-["Gedilla Cherry Bears","0.75",7.99,0,3300421,"lb","1336/7444679/9379445/medium.jpg",""],
-["Blue Sky Trading Gold Rim White Plates Combo","32 ct",12.99,0,3301503,"","global/3301503/1190109/medium.jpg",""],
-["Kiwi","",1.29,0,3302161,"","1336/7441756/998416/medium.jpg","Buy 5 units for $5"],
-["Red Onion","0.35",2.99,0,3302162,"lb","1336/7445799/995895/medium.jpg",""],
+{"store":"refresh","checked":"2026-11-04T21:03:43.573Z","items":[
 ["Onion Spanish Large","0.9",1.99,1.49,3302163,"lb","1336/7445793/995805/medium.jpg","Only $1.49/Lb"],
 ["Onion White","0.9",2.49,1.99,3302167,"lb","1336/7445806/996122/medium.jpg","Only $1.99/Lb"],
 ["Tomatoes Beef Back Yard","0.6",4.99,3.9899999999999998,3302503,"lb","1336/7445267/999144/medium.jpg","Only $3.99/Lb"],
@@ -989,7 +984,6 @@
 ["Tuscanini Peeled Ready To Snack Salt & Pepper Italian Chestnuts","3.5 Oz",3.99,0,5557235,"","global/5557235/12503756/medium.jpg","Buy 2 units for $6"],
 ["Crayola Ultra Clean Washable Markers 10 ct","10 ct",4.99,0,5557243,"","","Buy 2 units for $6"],
 ["Tuscanini Original Peeled Ready To Snack Italian Chestnuts","3.5 Oz",3.99,0,5559773,"","global/5559773/12503752/medium.jpg","Buy 2 units for $6"],
-["Sunset Sugar Bombs Tomatoes 12Z","",6.99,0,5559943,"","global/5559943/10041808/medium.jpg",""],
 ["Sander's Bakery Dairy Wafer Cake","",15.99,0,5560602,"","1336/14419091/9652214/medium.jpg",""],
 ["Paskesz Light Crispy French Wafers with Rich Tiramisu Creme","4 Oz",3.99,0,5561399,"","global/5561399/8702277/medium.jpg",""],
 ["Bazic Hi Quality Pencil Lead Refill 3 pk","3 pk",1.99,0,5562033,"","",""],
@@ -1260,7 +1254,6 @@
 ["Ice Cream House Heaven Layer's of Vanilla, Mocha & Strawberry Non-Dairy Frozen Desert","",37.99,0,5860482,"","global/5860482/11419403/medium.jpg",""],
 ["Hand Over Heart Pure Baby Shampoo & Body Wash with Aloe Vera Coconut and Vitamin E","12 fl oz",11.99,0,5860971,"","global/5860971/9970233/medium.jpg",""],
 ["Royo Bread Co. Low Carb Artisan Sliced Bread","21 Oz",12.99,0,5864034,"","global/5864034/11301106/medium.jpg",""],
-["Savoura Tomato Cherry","150 gram",3.99,0,5864977,"","global/5864977/9569082/medium.jpg","Buy 2 units for $6"],
 ["Gold Nut Dried Strawberry Rolls","",5.99,0,5865525,"","global/5865525/9569673/medium.jpg",""],
 ["Haddar Double Chocolate Chip Soft Baked Cookies","10 Oz",4.99,0,5865823,"","global/5865823/12503034/medium.jpg","Buy 2 units for $7"],
 ["Shout Color Catcher Dye Trapping Sheet 24 ct","24 ct",5.99,0,5865879,"","global/5865879/11063195/medium.jpg",""],
@@ -2998,5 +2991,12 @@
 ["Frishtig & Beyond Baked Ziti Rstr Pan","",120,0,7837520,"","1336/19168068/11970364/medium.jpg",""],
 ["Frishtig & Beyond Cheese Stuffed Shells W/Marina Sauce 9x13 Pan","",85,0,7837521,"","1336/19168069/11970363/medium.jpg",""],
 ["Frishtig & Beyond Cheese Stuffed Shells W/Marina Sauce Rstr Pan","",160,0,7837522,"","1336/19168070/11970362/medium.jpg",""],
-["Frishtig & Beyond Eggplant Parmesan 9x13 Pan","",70,0,7837523,"","1336/19168071/11970361/medium.jpg",""]
+["Frishtig & Beyond Eggplant Parmesan 9x13 Pan","",70,0,7837523,"","1336/19168071/11970361/medium.jpg",""],
+["Frishtig & Beyond Eggplant Parmesan Rstr Pan","",130,0,7837524,"","1336/19168072/11970360/medium.jpg",""],
+["Frishtig & Beyond Fettuccine Alfredo Rstr Pan","",150,0,7837526,"","1336/19168074/11970358/medium.jpg",""],
+["Frishtig & Beyond Fettuccine W/Truffle Mushroom Sauce 9x13 Pan","",80,0,7837527,"","1336/19168075/11970357/medium.jpg",""],
+["Frishtig & Beyond Fettuccine W/Truffle Mushroom Sauce Rstr Pan","",150,0,7837528,"","1336/19168076/11970356/medium.jpg",""],
+["Frishtig & Beyond Cheese Ravioli In Marinara Sauce","",80,0,7837529,"","1336/19168077/11970355/medium.jpg",""],
+["Frishtig & Beyond Cheese Ravioli In Marinara Sauce Rstr Pan","",160,0,7837530,"","1336/19168078/11970354/medium.jpg",""],
+["Frishtig & Beyond Mushroom Ravioli In Cream Sauce 9x13 Pan","",85,0,7837531,"","1336/19168079/11970353/medium.jpg",""]
 ]}
