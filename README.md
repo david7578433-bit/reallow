@@ -41,3 +41,10 @@ Robot C (`collectors/shops.mjs`, `.github/workflows/shops.yml`, daily at 09:41 U
 The store list (name, city, address, phone, platform) is `collectors/config/shops.json` — each store was checked on its own website. To add a Shopify store: add a line with `"platform": "shopify"` and its domain; it is read on the next run.
 
 Search (`search.js`, no libraries): one index in the browser over groceries + local store products, built in small steps as files load. Typos are OK ("frige"), plurals ("shirts"), word order ("shirt boys"), synonyms (fridge = refrigerator, washing machine = washer, sneakers ~ shoes, shabbos shoes ~ dress shoes, kippah = yarmulke…). Ranking: exact word > starts-with > typo; parts/accessories after the real thing; then cheapest first. Filters: All / Groceries / Appliances / Clothing / Deals / Stores, plus the area. A search with no price still shows store buttons. Same-model appliances at several stores are shown together, cheapest first.
+
+
+## Backup / run without Tab
+
+All the code for the site, the GitHub robots and the browser collector is in this repo (the collector is in `browser-collector/`,
+added Nov 4 2026). The site is static and runs on GitHub Pages from `main` with no server. The GitHub robots run on GitHub Actions
+by themselves. Only the twice-a-day browser collector runs on Tab; see `browser-collector/README.md` for how to run it elsewhere.

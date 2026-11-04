@@ -1,0 +1,6 @@
+.env
+out/
+export/
+logs/
+last-index.json
+node_modules/

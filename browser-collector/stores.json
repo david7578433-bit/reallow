@@ -1,0 +1,69 @@
+{
+ "note": "Kosher stores on the Mobilezuz-type platform. Their product JSON sits behind a bot check, so this collector reads it from inside a real browser page. Branch ids checked Nov 3 2026 (Evergreen 883 = default branch of shopevergreenkosher.com; the run log prints every branch it sees).",
+ "stores": [
+  {
+   "id": "refresh",
+   "name": "Refresh Supermarket",
+   "city": "Monroe / Kiryas Joel",
+   "site": "https://www.refreshsupermarket.com",
+   "retailerId": 1336,
+   "branchId": 1990
+  },
+  {
+   "id": "shlomies",
+   "name": "Shlomie's",
+   "city": "Monroe / Kiryas Joel",
+   "site": "https://www.shlomies.com",
+   "retailerId": 1180,
+   "branchId": 1355
+  },
+  {
+   "id": "wesley",
+   "name": "Wesley Kosher",
+   "city": "Monsey",
+   "site": "https://www.wesleykosheronline.com",
+   "retailerId": 1068,
+   "branchId": 96
+  },
+  {
+   "id": "evergreen-monsey",
+   "name": "Evergreen Kosher (Monsey)",
+   "city": "Monsey",
+   "site": "https://www.shopevergreenkosher.com",
+   "retailerId": 1120,
+   "branchId": 883
+  },
+  {
+   "id": "evergreen-lakewood",
+   "name": "Evergreen Kosher (Lakewood)",
+   "city": "Lakewood",
+   "site": "https://www.shopevergreenkosher.com",
+   "retailerId": 1120,
+   "branchId": 2801
+  },
+  {
+   "id": "hatzlacha",
+   "name": "Hatzlacha Kosher",
+   "city": "Williamsburg",
+   "site": "https://www.hatzlachakosher.com",
+   "retailerId": 1430,
+   "branchId": 2195
+  },
+  {
+   "id": "kahans",
+   "name": "Kahan's Superette",
+   "city": "Crown Heights",
+   "site": "https://www.kahanskosher.com",
+   "retailerId": 1046,
+   "branchId": 1697
+  },
+  {
+   "id": "foodoo",
+   "name": "Foodoo Kosher",
+   "city": "Williamsburg",
+   "site": "https://www.foodookosher.com",
+   "retailerId": 1527,
+   "branchId": 2899
+  }
+ ]
+}
