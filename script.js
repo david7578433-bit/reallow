@@ -19,6 +19,7 @@
   var DIR = window.REALLOW_STORES || { groups: [] };
   var G = null; // robot grocery catalog
   var API = null; // store API offers
+  var ONLINE = null; // online deals (Amazon, Walmart, Target), each price read on the store's own product page: data/online-deals.json
 
   var CATS = [["all", "All"], ["tech", "Tech"], ["home", "Home"], ["kitchen", "Kitchen"], ["kids", "Kids & Baby"], ["tools", "Tools"], ["cleaning", "Cleaning"], ["health", "Health"], ["travel", "Travel"], ["food", "Food"], ["gifts", "Gifts"]];
   var CITY_ORDER = ["Monroe / Kiryas Joel", "Monsey", "Williamsburg", "Boro Park", "Flatbush", "Crown Heights", "Lakewood", "Five Towns", "Passaic"];
@@ -195,12 +196,13 @@
   var dIx = null, dIxFor = null;
   function dealHits(q) {
     if (!IX) return oldDealHits(q);
-    var key = (DATA.deals || []).length + ":" + (DATA.feed || []).length + ":" + (DATA.updated || "") + ":" + (API && API.offers ? API.offers.length : 0);
+    var key = (DATA.deals || []).length + ":" + (DATA.feed || []).length + ":" + (DATA.updated || "") + ":" + (API && API.offers ? API.offers.length : 0) + ":" + (ONLINE ? ONLINE.deals.length + (ONLINE.updated || "") : 0);
     if (dIxFor !== key) {
       dIx = new RLSearch.Index(); dIxFor = key;
       (DATA.deals || []).forEach(function (d) { dIx.add(d.title, d.store || "", { d: d, v: true }); });
       (DATA.feed || []).forEach(function (d) { dIx.add(d.title, d.store || "", { d: d }); });
       if (API && API.offers) API.offers.forEach(function (d) { dIx.add(d.title, d.store || "", { d: d, api: true }); });
+      if (ONLINE) ONLINE.deals.forEach(function (o) { var d = onlineAsDeal(o); dIx.add(d.title, d.store || "", { d: d, on: true }); });
     }
     var r = dIx.search(q, null, true), out = r.hits.map(function (h) { var x = h.ref; x.rank = h.rank; x.best = x.d.price; x.acc = accessory(x.d.title, r.words); x.score = h.score; x.rel = relevance(x, x.d.title, 1, r.words); return x; });
     sortHits(out);
@@ -215,6 +217,7 @@
     meta.appendChild(el("b", "f-price", money(d.price)));
     if (d.was && d.was > d.price) meta.appendChild(el("s", "f-was", money(d.was)));
     meta.appendChild(el("span", "f-store", d.store || ""));
+    if (x.on) { if (d.pct_off) meta.appendChild(el("span", "f-off", d.pct_off + "% off")); meta.appendChild(el("span", "f-when", "online deal \u00B7 price when checked " + when(d.checked) + "; may change")); li.appendChild(meta); return li; }
     meta.appendChild(el("span", "f-when", x.v ? "store-checked " + (d.checked || "") : (x.api ? "store price, checked " : "via " + d.src + ", checked ") + (x.v ? "" : when(d.checked))));
     li.appendChild(meta);
     return li;
@@ -722,13 +725,71 @@
     return null;
   }
 
+
+  /* ---------- online deals (data/online-deals.json, refreshed daily) ---------- */
+  var onStore = "all";
+  function onlineAsDeal(o) {
+    return { id: o.id, title: o.title, store: o.store, price: o.price, was: o.was && o.was > o.price ? o.was : null, url: o.url, checked: o.checked_at, cats: o.cats || [], pct_off: o.pct_off, image: o.image, was_label: o.was_label };
+  }
+  function onlineShare(d) {
+    return [d.title, money(d.price) + (d.was ? " (" + (d.was_label || "was") + " " + money(d.was) + ", " + d.pct_off + "% off)" : "") + " at " + d.store, tagAmazon(d.url), "", "Price when checked " + when(d.checked) + "; may change.", "More real deals: " + SITE_URL + "#online"].join("\n");
+  }
+  function onlineCard(o) {
+    var d = onlineAsDeal(o), li = el("li", "deal on-deal");
+    var th = el("div", "thumb");
+    var noimg = function () { th.innerHTML = '<span class="noimg" aria-hidden="true">\uD83D\uDECD\uFE0F</span>'; };
+    if (d.image) { var img = document.createElement("img"); img.src = d.image; img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.width = 110; img.height = 110; img.referrerPolicy = "no-referrer"; img.onerror = noimg; th.appendChild(img); } else noimg();
+    var body = el("div", "d-body"), badges = el("div", "badges");
+    if (d.pct_off) badges.appendChild(el("span", "b b-off", d.pct_off + "% OFF"));
+    badges.appendChild(el("span", "b b-store b-" + String(d.store).toLowerCase(), d.store));
+    var sb = starBtn("d" + d.id, { kind: "d", n: d.title, p: d.price }); sb.classList.add("star-card"); li.appendChild(sb);
+    body.appendChild(badges); body.appendChild(el("h3", "d-title", d.title));
+    var pr = el("div", "prices"); pr.appendChild(el("span", "now", money(d.price)));
+    if (d.was) { var w = el("span", "was", money(d.was)); w.title = d.was_label || "Regular price"; pr.appendChild(w); pr.appendChild(el("span", "save", "save " + money(d.was - d.price))); }
+    body.appendChild(pr);
+    body.appendChild(el("p", "note", (d.was && d.was_label && d.was_label !== "Was" ? "Crossed price = the store's " + d.was_label + ". " : "") + "Price when checked " + when(d.checked) + "; may change."));
+    var act = el("div", "d-actions");
+    act.appendChild(ext(el("a", "btn btn-deal", "Go to " + d.store + " \u2192"), tagAmazon(d.url)));
+    var wa = ext(el("a", "btn btn-wa", "Share"), waLink(onlineShare(d))); wa.setAttribute("aria-label", "Share on WhatsApp: " + d.title); act.appendChild(wa);
+    li.appendChild(th); li.appendChild(body); li.appendChild(act);
+    return li;
+  }
+  function renderOnline() {
+    var list = $("on-list"); if (!list) return;
+    if (!ONLINE) { list.innerHTML = ""; list.appendChild(el("li", "hint", "Loading online deals\u2026")); return; }
+    var all = ONLINE.deals.slice().sort(function (a, b) { return (b.pct_off || 0) - (a.pct_off || 0); });
+    var stores = []; all.forEach(function (o) { if (stores.indexOf(o.store) < 0) stores.push(o.store); });
+    if (onStore !== "all" && stores.indexOf(onStore) < 0) onStore = "all";
+    var ch = $("on-chips"); ch.innerHTML = "";
+    [["all", "All"]].concat(stores.map(function (s) { return [s, s]; })).forEach(function (c) {
+      var n = c[0] === "all" ? all.length : all.filter(function (o) { return o.store === c[0]; }).length;
+      var b = el("button", "chip"); b.type = "button"; b.setAttribute("aria-pressed", String(onStore === c[0]));
+      b.appendChild(el("span", null, c[1])); b.appendChild(el("span", "n", String(n)));
+      b.addEventListener("click", function () { onStore = c[0]; renderOnline(); });
+      ch.appendChild(b);
+    });
+    var shown = all.filter(function (o) { return onStore === "all" || o.store === onStore; });
+    list.innerHTML = ""; shown.forEach(function (o) { list.appendChild(onlineCard(o)); });
+    $("on-empty").hidden = shown.length > 0;
+    var newest = all.reduce(function (m, o) { return o.checked_at > m ? o.checked_at : m; }, "");
+    $("on-count").textContent = all.length ? all.length + " deals \u00B7 " + stores.join(", ") : "";
+    $("on-time").textContent = newest ? when(newest) : "today";
+    var t = $("on-teaser"); if (t) { t.hidden = !all.length; $("on-teaser-n").textContent = String(all.length); }
+  }
+  function applyOnline(j) {
+    if (!j || !Array.isArray(j.deals)) return;
+    ONLINE = { updated: j.updated, deals: j.deals.filter(function (o) { return o && o.title && o.url && o.price > 0; }) };
+    dIxFor = null; renderOnline(); if (qEl.value.trim()) renderResults();
+  }
+
   /* ---------- routing ---------- */
   function route() {
     var h = location.hash.replace("#", "") || "deals";
-    if (["deals", "groceries", "stores"].indexOf(h) < 0) h = "deals";
-    ["deals", "groceries", "stores"].forEach(function (k) { $("view-" + k).hidden = k !== h; var t = $("tab-" + k); if (k === h) t.setAttribute("aria-current", "page"); else t.removeAttribute("aria-current"); });
+    if (["deals", "groceries", "stores", "online"].indexOf(h) < 0) h = "deals";
+    ["deals", "groceries", "stores", "online"].forEach(function (k) { $("view-" + k).hidden = k !== h; var t = $("tab-" + k); if (k === h) t.setAttribute("aria-current", "page"); else t.removeAttribute("aria-current"); });
     if (h === "groceries") { renderGroceries(); }
     if (h === "stores") renderDir();
+    if (h === "online") renderOnline();
   }
   window.addEventListener("hashchange", function () { route(); window.scrollTo(0, 0); });
 
@@ -745,6 +806,7 @@
   if (location.hash === "#groceries" || Object.keys(me().s).length) loadGroceries(); else setTimeout(loadGroceries, 2500);
   renderForYou();
   getJSON("data/api-prices.json", function (a) { API = a; });
+  getJSON("data/online-deals.json", applyOnline);
   getJSON("data/status.json", renderStatus);
 
   if (GOATCOUNTER_CODE) {

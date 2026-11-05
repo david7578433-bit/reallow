@@ -214,3 +214,16 @@ h2{font-size:1.15rem}
 .ls-acts .chip{min-height:36px;padding:6px 12px;font-size:.85rem;text-decoration:none}
 .ls-note{font-size:.8rem;color:var(--mut)}
 #ls-city{font:inherit;padding:8px 10px;border-radius:10px;border:1.5px solid var(--line);margin:4px 0 6px;min-height:40px}
+
+/* ---------- Online deals tab (added Nov 5 2026) ---------- */
+.tab-long{display:inline}
+@media (max-width:480px){.tabs{gap:6px}.tab{font-size:.88rem;padding:10px 4px}.tab-long{display:none}}
+@media (min-width:700px){.tabs{max-width:640px}}
+.on-intro{color:var(--mut);margin:6px 0 10px;font-size:.95rem}
+.on-teaser{display:block;text-decoration:none;color:var(--ink);margin-top:14px;padding:14px 16px;border-left:4px solid var(--g)}
+.on-teaser b{color:var(--g)}
+.on-arrow{float:right;font-weight:800;color:var(--g)}
+.b-amazon{background:#fff3e0;color:#8a4b00}
+.b-walmart{background:#e6f0ff;color:#0b4aa2}
+.b-target{background:#ffe8e8;color:#a40000}
+.f-off{color:#b42318;font-weight:700}

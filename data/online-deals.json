@@ -1,0 +1,449 @@
+{
+ "site": "RealLow",
+ "updated": "2026-11-05T02:27:39Z",
+ "how_checked": "Every price here was read on the store's own product page (Amazon.com, Walmart.com) at the time shown. Prices online change fast; the store's page is the final word.",
+ "stores": {
+  "Amazon": "Amazon links carry RealLow's Amazon Associates tag.",
+  "Walmart": "Plain Walmart.com link."
+ },
+ "deals": [
+  {
+   "id": "amz-b0bqn7ymtn",
+   "title": "Johnson's Baby Sensitive Care Wash & Shampoo, 13.6 oz",
+   "store": "Amazon",
+   "price": 4.49,
+   "was": 8.44,
+   "was_label": "List Price",
+   "pct_off": 47,
+   "image": "https://m.media-amazon.com/images/I/6174ost2LtL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0BQN7YMTN?tag=reallow-20",
+   "checked_at": "2026-11-05T02:03:41Z",
+   "cats": [
+    "kids",
+    "health"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Johnson's Baby Sensitive Care Baby Wash & Shampoo, Light Scent, 13.6 fl oz"
+  },
+  {
+   "id": "amz-b01fsy4yko",
+   "title": "Hefty Ultra Strong 13 Gal Kitchen Trash Bags, 110 count",
+   "store": "Amazon",
+   "price": 14.52,
+   "was": 26.89,
+   "was_label": "List Price",
+   "pct_off": 46,
+   "image": "https://m.media-amazon.com/images/I/815MAWkG8EL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B01FSY4YKO?tag=reallow-20",
+   "checked_at": "2026-11-05T02:01:18Z",
+   "cats": [
+    "home",
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Hefty Ultra Strong 13 Gal Kitchen Trash Bags, Lavender Vanilla, 110ct"
+  },
+  {
+   "id": "amz-b089n1tt4v",
+   "title": "Glad Paper Bowls, 16 oz, 50 count",
+   "store": "Amazon",
+   "price": 5.88,
+   "was": 10.99,
+   "was_label": "List Price",
+   "pct_off": 46,
+   "image": "https://m.media-amazon.com/images/I/81cfL0OpjmL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B089N1TT4V?tag=reallow-20",
+   "checked_at": "2026-11-05T02:03:57Z",
+   "cats": [
+    "kitchen",
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Glad Paper Bowls, Disposable, Soak Proof, Microwavable, 16 oz, 50 Count"
+  },
+  {
+   "id": "amz-b07fdnpk7k",
+   "title": "Pampers Swaddlers Active Diapers, Size 5, 19 count",
+   "store": "Amazon",
+   "price": 6.14,
+   "was": 9.99,
+   "was_label": "List Price",
+   "pct_off": 39,
+   "image": "https://m.media-amazon.com/images/I/71Neu1wNMVL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B07FDNPK7K?tag=reallow-20",
+   "checked_at": "2026-11-05T02:00:14Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Pampers Swaddlers Active Baby Diapers Size 5 19 Count"
+  },
+  {
+   "id": "amz-b0d6z814y7",
+   "title": "MAM Original Baby Pacifier 0-6 months, 4 pack",
+   "store": "Amazon",
+   "price": 8.85,
+   "was": 14.38,
+   "was_label": "List Price",
+   "pct_off": 38,
+   "image": "https://m.media-amazon.com/images/I/71C2S8520GL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0D6Z814Y7?tag=reallow-20",
+   "checked_at": "2026-11-05T02:02:42Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "MAM Original Baby Pacifier 0-6 Mths, Skin Soft Silicone Nipple, 4 Pack"
+  },
+  {
+   "id": "amz-b07wd9pf7t",
+   "title": "Reynolds Kitchens Clear Plastic Wrap with Slide Cutter, 225 sq ft",
+   "store": "Amazon",
+   "price": 4.67,
+   "was": 7.39,
+   "was_label": "List Price",
+   "pct_off": 37,
+   "image": "https://m.media-amazon.com/images/I/71ISqzFOwML._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B07WD9PF7T?tag=reallow-20",
+   "checked_at": "2026-11-05T02:01:32Z",
+   "cats": [
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Reynolds Kitchens Clear Plastic Wrap, Built-In Slide Cutter, 225sq ft"
+  },
+  {
+   "id": "amz-b0d5p9fwnv",
+   "title": "Downy Calm Scent Booster Beads, Lavender & Vanilla, 30.1 oz",
+   "store": "Amazon",
+   "price": 12.06,
+   "was": 18.99,
+   "was_label": "List Price",
+   "pct_off": 36,
+   "image": "https://m.media-amazon.com/images/I/81FpRVZ8r9L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0D5P9FWNV?tag=reallow-20",
+   "checked_at": "2026-11-05T02:01:09Z",
+   "cats": [
+    "cleaning",
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Downy Calm In-Wash Laundry Scent Booster Beads, Soothing Lavender and Vanilla Bean Scent, 30.1 oz, Laundry Scent Beads, Long-Lasting Freshness"
+  },
+  {
+   "id": "amz-b00qit9ndw",
+   "title": "Lysol All Purpose Cleaner Spray, Lemon, 32 oz",
+   "store": "Amazon",
+   "price": 3.84,
+   "was": 5.99,
+   "was_label": "List Price",
+   "pct_off": 36,
+   "image": "https://m.media-amazon.com/images/I/71KhddMxKUL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B00QIT9NDW?tag=reallow-20",
+   "checked_at": "2026-11-05T02:01:57Z",
+   "cats": [
+    "cleaning"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Lysol All Purpose Cleaner Spray, Disinfectant, Lemon, 32oz"
+  },
+  {
+   "id": "amz-b009itr4ey",
+   "title": "Tylenol Cold + Flu Severe Caplets, 24 count",
+   "store": "Amazon",
+   "price": 6.88,
+   "was": 10.67,
+   "was_label": "List Price",
+   "pct_off": 36,
+   "image": "https://m.media-amazon.com/images/I/811U+rnTO6L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B009ITR4EY?tag=reallow-20",
+   "checked_at": "2026-11-05T02:04:15Z",
+   "cats": [
+    "health"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Tylenol Cold + Flu Severe Caplets, Acetaminophen, 24 ct"
+  },
+  {
+   "id": "amz-b0dqyqysxy",
+   "title": "Bounty Select-A-Size Paper Towels, 2 Mega Rolls (= 8 regular)",
+   "store": "Amazon",
+   "price": 7.96,
+   "was": 12.29,
+   "was_label": "List Price",
+   "pct_off": 35,
+   "image": "https://m.media-amazon.com/images/I/817Th972VoL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0DQYQYSXY?tag=reallow-20",
+   "checked_at": "2026-11-05T02:00:00Z",
+   "cats": [
+    "home",
+    "cleaning"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Bounty Select-A-Size Paper Towels, White, 2 Mega Rolls = 8 Regular Rolls"
+  },
+  {
+   "id": "amz-b0d148bxw4",
+   "title": "MAM 9 oz Glass Anti-Colic Baby Bottles, 3 pack",
+   "store": "Amazon",
+   "price": 23.99,
+   "was": 35.99,
+   "was_label": "List Price",
+   "pct_off": 33,
+   "image": "https://m.media-amazon.com/images/I/71C8ExwH5AL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0D148BXW4?tag=reallow-20",
+   "checked_at": "2026-11-05T02:02:49Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "MAM 9oz Pure Glass Feel Good Anti-Colic 2+ Months Baby Bottle, 3 Pk, Unisex"
+  },
+  {
+   "id": "amz-b00hl458d2",
+   "title": "Desitin Daily Defense Diaper Rash Cream, 2 oz",
+   "store": "Amazon",
+   "price": 4.48,
+   "was": 6.73,
+   "was_label": "List Price",
+   "pct_off": 33,
+   "image": "https://m.media-amazon.com/images/I/71FkOrdYrKL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B00HL458D2?tag=reallow-20",
+   "checked_at": "2026-11-05T02:03:50Z",
+   "cats": [
+    "kids",
+    "health"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Desitin Daily Defense Diaper Rash Cream, 13% Zinc Oxide, 2 oz"
+  },
+  {
+   "id": "amz-b0h31x1td4",
+   "title": "Palmolive Ultra Strength Dish Soap, Original, 90 oz",
+   "store": "Amazon",
+   "price": 9.61,
+   "was": 13.99,
+   "was_label": "List Price",
+   "pct_off": 31,
+   "image": "https://m.media-amazon.com/images/I/71w74zNXR8L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0H31X1TD4?tag=reallow-20",
+   "checked_at": "2026-11-05T02:02:34Z",
+   "cats": [
+    "cleaning",
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Palmolive Ultra Strength Liquid Dish Soap, Original Green, 90 Fluid Ounce"
+  },
+  {
+   "id": "amz-b0dgmy14gn",
+   "title": "Ziploc Sandwich & Snack Bags, 105 count",
+   "store": "Amazon",
+   "price": 4.19,
+   "was": 5.99,
+   "was_label": "List Price",
+   "pct_off": 30,
+   "image": "https://m.media-amazon.com/images/I/81VMO3lFDCL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0DGMY14GN?tag=reallow-20",
+   "checked_at": "2026-11-05T02:01:48Z",
+   "cats": [
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Ziploc Sandwich & Snack Bags, Food Storage, Easy Open & Close, 105 Count"
+  },
+  {
+   "id": "amz-b000vcfb0g",
+   "title": "Bounty Paper Napkins, White, 200 count",
+   "store": "Amazon",
+   "price": 3.06,
+   "was": 4.29,
+   "was_label": "List Price",
+   "pct_off": 29,
+   "image": "https://m.media-amazon.com/images/I/713W0aBBUbL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B000VCFB0G?tag=reallow-20",
+   "checked_at": "2026-11-05T02:05:00Z",
+   "cats": [
+    "home",
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Bounty Paper Napkins, White, 200 Count, Packaging may vary"
+  },
+  {
+   "id": "wmt-656268866",
+   "title": "Pampers Cruisers 360 Pull-On Diapers, Size 3, 78 count",
+   "store": "Walmart",
+   "price": 22.97,
+   "was": 31.99,
+   "was_label": "Was",
+   "pct_off": 28,
+   "image": "https://i5.walmartimages.com/seo/Pampers-Cruisers-360-Pull-On-Baby-Diapers-Size-3-78-Count-Select-for-More-Options_1dc703e6-0bb4-4f83-a1b2-6749a5d0aa03.036fedbd6e7b185da3e2502299791584.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/Pampers-Cruisers-360-Pull-On-Baby-Diapers-Size-3-78-Count-Select-for-More-Options/656268866",
+   "checked_at": "2026-11-05T02:22:23Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Walmart.com",
+   "product_title": "Pampers Cruisers 360 Baby Diapers Size 3, 78 Count (Select for More Options)"
+  },
+  {
+   "id": "amz-b0hdrbfnyf",
+   "title": "Charmin Ultra Strong Toilet Paper, 6 Mega Rolls (= 24 regular)",
+   "store": "Amazon",
+   "price": 7.99,
+   "was": 10.99,
+   "was_label": "List Price",
+   "pct_off": 27,
+   "image": "https://m.media-amazon.com/images/I/71SH2KsMCHL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0HDRBFNYF?tag=reallow-20",
+   "checked_at": "2026-11-05T02:00:07Z",
+   "cats": [
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Charmin Toilet Paper Ultra Strong, 6 Mega Rolls = 24 Regular Rolls, 2-ply Bath Tissue"
+  },
+  {
+   "id": "amz-b07531hm8q",
+   "title": "Rubbermaid Brilliance 12-Cup Airtight Food Storage Container",
+   "store": "Amazon",
+   "price": 15.29,
+   "was": 20.99,
+   "was_label": "List Price",
+   "pct_off": 27,
+   "image": "https://m.media-amazon.com/images/I/61uQh8TBVtL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B07531HM8Q?tag=reallow-20",
+   "checked_at": "2026-11-05T02:02:56Z",
+   "cats": [
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Rubbermaid Brilliance 12-Cup Airtight Food Storage Container, Perfect for Pantry Staples, Clear/Grey"
+  },
+  {
+   "id": "amz-b0bg1g3pfn",
+   "title": "Quaker Oatmeal Squares Cereal, Brown Sugar, 21 oz",
+   "store": "Amazon",
+   "price": 3.22,
+   "was": 4.42,
+   "was_label": "Typical price",
+   "pct_off": 27,
+   "image": "https://m.media-amazon.com/images/I/81hXJSZNcNL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0BG1G3PFN?tag=reallow-20",
+   "checked_at": "2026-11-05T02:03:26Z",
+   "cats": [
+    "food"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Quaker Oatmeal Squares Breakfast Cereal, Brown Sugar, 21oz Box"
+  },
+  {
+   "id": "amz-b0dfnrlhvy",
+   "title": "Huggies Snug & Dry Diapers, Size 1, 44 count",
+   "store": "Amazon",
+   "price": 8.94,
+   "was": 11.99,
+   "was_label": "List Price",
+   "pct_off": 25,
+   "image": "https://m.media-amazon.com/images/I/718G+yDyWlL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0DFNRLHVY?tag=reallow-20",
+   "checked_at": "2026-11-05T02:00:30Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Huggies Snug & Dry Diapers Size 1, 44 Count"
+  },
+  {
+   "id": "amz-b0bjm1mxg5",
+   "title": "Tide Hygienic Clean Power PODS, 45 count",
+   "store": "Amazon",
+   "price": 14.99,
+   "was": 19.99,
+   "was_label": "List Price",
+   "pct_off": 25,
+   "image": "https://m.media-amazon.com/images/I/81X-Ulov0yL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0BJM1MXG5?tag=reallow-20",
+   "checked_at": "2026-11-05T02:00:45Z",
+   "cats": [
+    "cleaning",
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Tide Hygienic Clean Power PODS Laundry Detergent Pacs, Original Scent, 45 Count, Removes Visible and Invisible Dirt"
+  },
+  {
+   "id": "amz-b0gml8m1vk",
+   "title": "Cascade Free & Clear Dishwasher Pods, Unscented, 62 count",
+   "store": "Amazon",
+   "price": 19.77,
+   "was": 26.3,
+   "was_label": "Typical price",
+   "pct_off": 25,
+   "image": "https://m.media-amazon.com/images/I/71d29mf4KDL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0GML8M1VK?tag=reallow-20",
+   "checked_at": "2026-11-05T02:02:19Z",
+   "cats": [
+    "cleaning",
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Cascade Free & Clear Dishwasher Pods, Dishwasher Detergent, Dish Detergent Soap, Unscented, 62ct"
+  },
+  {
+   "id": "wmt-14600519745",
+   "title": "Persil Deep Clean Intense Fresh Laundry Detergent, 126 oz (96 loads)",
+   "store": "Walmart",
+   "price": 17.97,
+   "was": 23.96,
+   "was_label": "Was",
+   "pct_off": 25,
+   "image": "https://i5.walmartimages.com/seo/Persil-Intense-Fresh-Everyday-Clean-Liquid-Laundry-Detergent-126-fl-oz-96-loads_4c08f495-7398-479a-aadc-7db8f3264234.6e08736e0b592cb1f7da7341d7849e0d.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/Persil-Intense-Fresh-Everyday-Clean-Liquid-Laundry-Detergent-126-fl-oz-96-loads/14600519745",
+   "checked_at": "2026-11-05T02:22:42Z",
+   "cats": [
+    "cleaning",
+    "home"
+   ],
+   "sold_by": "Walmart.com",
+   "product_title": "Persil Deep Clean Intense Fresh Liquid Laundry Detergent, 126 fl oz, 96 Loads"
+  },
+  {
+   "id": "wmt-20871464462",
+   "title": "Tide & Downy Laundry Bundle (Tide PODs + Downy Rinse + Downy Light beads)",
+   "store": "Walmart",
+   "price": 24.67,
+   "was": 32.91,
+   "was_label": "Was",
+   "pct_off": 25,
+   "image": "https://i5.walmartimages.com/seo/Tide-Downy-Ultra-Clean-Fresh-Laundry-Bundle-with-Tide-Power-PODs-Downy-Fabric-Rinse-and-Downy-Laundry-Scent-Beads_38b6d8c2-1a88-49ab-9d88-36da95d00a94.3885e5e76f7748ef71a5cc6456a6e3d3.png?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/Tide-Downy-Ultra-Clean-Fresh-Laundry-Bundle-with-Tide-Power-PODs-Downy-Fabric-Rinse-and-Downy-Laundry-Scent-Beads/20871464462",
+   "checked_at": "2026-11-05T02:22:36Z",
+   "cats": [
+    "cleaning",
+    "home"
+   ],
+   "sold_by": "Walmart.com",
+   "product_title": "Tide & Downy Ultra Clean & Fresh Laundry Bundle with Tide Power PODs, Downy Fabric Rinse, and Downy Laundry Scent Beads"
+  },
+  {
+   "id": "wmt-20327254020",
+   "title": "Gain Ultimate Clean Laundry Bundle (liquid + beads + dryer sheets)",
+   "store": "Walmart",
+   "price": 25.07,
+   "was": 33.41,
+   "was_label": "Was",
+   "pct_off": 25,
+   "image": "https://i5.walmartimages.com/seo/Gain-Ultimate-Clean-Laundry-Bundle-with-Gain-Plus-Original-Liquid-Gain-Original-Beads-and-Gain-Original-Sheets_8a8d2828-5a3b-44eb-ac71-43400d9489d8.a561acd289c7189c01c31dd17cdaf605.png?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/Gain-Ultimate-Clean-Laundry-Bundle-with-Gain-Plus-Original-Liquid-Gain-Original-Beads-and-Gain-Original-Sheets/20327254020",
+   "checked_at": "2026-11-05T02:22:30Z",
+   "cats": [
+    "cleaning",
+    "home"
+   ],
+   "sold_by": "Walmart.com",
+   "product_title": "Gain Ultimate Clean Laundry Bundle with Gain Plus Original Liquid, Gain Original Beads, and Gain Original Sheets"
+  }
+ ]
+}

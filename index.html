@@ -22,6 +22,7 @@
   <a class="tab" href="#deals" id="tab-deals" aria-current="page">🔥 Deals</a>
   <a class="tab" href="#groceries" id="tab-groceries">🛒 Groceries</a>
   <a class="tab" href="#stores" id="tab-stores">🏬 Stores</a>
+  <a class="tab" href="#online" id="tab-online">🛍️ Online<span class="tab-long"> deals</span></a>
 </nav>
 
 <main class="wrap" id="main">
@@ -73,6 +74,8 @@
       <a class="btn btn-wa" id="potd-wa" href="#" target="_blank" rel="noopener">Post to WhatsApp</a>
     </div>
   </section>
+
+  <a class="card on-teaser" id="on-teaser" href="#online" hidden><span aria-hidden="true">🛍️</span> <b>Online deals today:</b> <span id="on-teaser-n"></span> from Amazon &amp; Walmart, checked on the store's page <span class="on-arrow" aria-hidden="true">→</span></a>
 
   <section aria-labelledby="deals-h">
     <div class="deals-head">
@@ -136,6 +139,20 @@
     </form>
     <div id="local-shops"></div>
     <div id="dir"></div>
+  </section>
+</div>
+
+<div id="view-online" hidden>
+  <section aria-labelledby="on-h">
+    <div class="deals-head">
+      <h1 id="on-h">🛍️ Online deals</h1>
+      <p class="checked" id="on-count"></p>
+    </div>
+    <p class="on-intro">Today's best deals on Amazon and Walmart for the house, the kitchen and the baby. Every price was read on the store's own page. Price when checked <span id="on-time">today</span>; may change.</p>
+    <div class="chips" id="on-chips" role="toolbar" aria-label="Online stores"></div>
+    <ol class="deals" id="on-list"></ol>
+    <p class="empty" id="on-empty" hidden>No online deals right now. Check back tomorrow.</p>
+    <p class="note">Online prices change fast, sometimes within hours. The store's page is always the final word. Amazon links are RealLow's Amazon Associates links.</p>
   </section>
 </div>
 </main>
