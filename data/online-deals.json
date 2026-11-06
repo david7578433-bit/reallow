@@ -1,6 +1,6 @@
 {
  "site": "RealLow",
- "updated": "2026-11-05T12:30:04Z",
+ "updated": "2026-11-06T12:15:59Z",
  "how_checked": "Every price here was read on the store's own product page (Amazon.com, Walmart.com) at the time shown. Prices online change fast; the store's page is the final word.",
  "stores": {
   "Amazon": "Amazon links carry RealLow's Amazon Associates tag.",
@@ -8,39 +8,22 @@
  },
  "deals": [
   {
-   "id": "amz-b07szg9mgh",
-   "title": "Clorox Scentiva Dish Soap, Pacific Breeze, 26 oz",
+   "id": "amz-b0bb3dx1qn",
+   "title": "Seventh Generation Foaming Dish Spray, Orange",
    "store": "Amazon",
-   "price": 2.98,
-   "was": 7.79,
-   "was_label": "List Price",
-   "pct_off": 62,
-   "image": "https://m.media-amazon.com/images/I/61Ev0l4dXSL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B07SZG9MGH?tag=reallow-20",
-   "checked_at": "2026-11-05T12:25:54Z",
+   "price": 6.39,
+   "was": 13.49,
+   "was_label": "Typical price",
+   "pct_off": 53,
+   "image": "https://m.media-amazon.com/images/I/61qFGB3A+DL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0BB3DX1QN?tag=reallow-20",
+   "checked_at": "2026-11-06T12:12:17Z",
    "cats": [
     "kitchen",
     "cleaning"
    ],
    "sold_by": "Amazon.com",
-   "product_title": "Clorox Scentiva Liquid Dish Soap, Pacific Breeze and Coconut, 26 Fl Oz"
-  },
-  {
-   "id": "amz-b0014e1d34",
-   "title": "Life Cinnamon Cereal, 18 oz",
-   "store": "Amazon",
-   "price": 4.46,
-   "was": 8.99,
-   "was_label": "Typical price",
-   "pct_off": 50,
-   "image": "https://m.media-amazon.com/images/I/815R9KL-5OL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0014E1D34?tag=reallow-20",
-   "checked_at": "2026-11-05T12:26:32Z",
-   "cats": [
-    "food"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Life Breakfast Cereal, Cinnamon, 18oz Box"
+   "product_title": "Seventh Generation Foaming Dish Spray, Orange"
   },
   {
    "id": "wmt-3954363187",
@@ -52,7 +35,7 @@
    "pct_off": 50,
    "image": "https://i5.walmartimages.com/seo/Suavitel-Complete-Liquid-Fabric-Softener-and-Conditioner-Morning-Sun-46-oz-46-Small-Loads_13810ad8-e15d-4687-aac8-58d728949745.85f28c6d2fea407f108cb49e1c5b6a48.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
    "url": "https://www.walmart.com/ip/Suavitel-Complete-Liquid-Fabric-Softener-and-Conditioner-Morning-Sun-46-oz-46-Small-Loads/3954363187",
-   "checked_at": "2026-11-05T12:27:30Z",
+   "checked_at": "2026-11-06T12:08:25Z",
    "cats": [
     "cleaning"
    ],
@@ -60,16 +43,33 @@
    "product_title": "Suavitel Complete Liquid Fabric Softener & Fabric Protection, Morning Sun Scent, 46 fl oz"
   },
   {
+   "id": "amz-b00j7odicm",
+   "title": "Rice Chex Cereal, Gluten Free, 12 oz",
+   "store": "Amazon",
+   "price": 3.0,
+   "was": 5.99,
+   "was_label": "List Price",
+   "pct_off": 50,
+   "image": "https://m.media-amazon.com/images/I/71o3GfMx5VL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B00J7ODICM?tag=reallow-20",
+   "checked_at": "2026-11-06T12:12:32Z",
+   "cats": [
+    "food"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Rice Chex Breakfast Cereal, Gluten Free, Holiday Chex Mix Ingredient, 12 oz"
+  },
+  {
    "id": "amz-b07mqnwt29",
    "title": "Mr. Clean Clean Freak Deep Cleaning Mist Spray",
    "store": "Amazon",
    "price": 5.99,
-   "was": 11.74,
+   "was": 11.84,
    "was_label": "Typical price",
    "pct_off": 49,
    "image": "https://m.media-amazon.com/images/I/81dpqBmBsmL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B07MQNWT29?tag=reallow-20",
-   "checked_at": "2026-11-05T12:27:04Z",
+   "checked_at": "2026-11-06T12:05:35Z",
    "cats": [
     "cleaning"
    ],
@@ -86,7 +86,7 @@
    "pct_off": 47,
    "image": "https://m.media-amazon.com/images/I/6174ost2LtL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0BQN7YMTN?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:03Z",
+   "checked_at": "2026-11-06T12:05:42Z",
    "cats": [
     "kids",
     "health"
@@ -104,7 +104,7 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/815MAWkG8EL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B01FSY4YKO?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:10Z",
+   "checked_at": "2026-11-06T12:05:50Z",
    "cats": [
     "home",
     "kitchen"
@@ -122,7 +122,7 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/81cfL0OpjmL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B089N1TT4V?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:19Z",
+   "checked_at": "2026-11-06T12:05:58Z",
    "cats": [
     "kitchen",
     "home"
@@ -140,12 +140,29 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/71DisS3UEfL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00J7ODHWI?tag=reallow-20",
-   "checked_at": "2026-11-05T12:26:41Z",
+   "checked_at": "2026-11-06T12:06:06Z",
    "cats": [
     "food"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Honey Nut Chex Cereal, Gluten Free,12.5 oz"
+  },
+  {
+   "id": "amz-b08wv69c9b",
+   "title": "Seventh Generation EasyDose Laundry Detergent, 23 oz",
+   "store": "Amazon",
+   "price": 7.95,
+   "was": 13.99,
+   "was_label": "List Price",
+   "pct_off": 43,
+   "image": "https://m.media-amazon.com/images/I/81aQDFy3gqL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B08WV69C9B?tag=reallow-20",
+   "checked_at": "2026-11-06T12:14:11Z",
+   "cats": [
+    "cleaning"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Seventh Generation, EasyDose Laundry Detergent, Power+ Clean Scent, 23 oz"
   },
   {
    "id": "amz-b00j0b416y",
@@ -157,7 +174,7 @@
    "pct_off": 41,
    "image": "https://m.media-amazon.com/images/I/81tADEeSVnL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00J0B416Y?tag=reallow-20",
-   "checked_at": "2026-11-05T12:26:57Z",
+   "checked_at": "2026-11-06T12:06:14Z",
    "cats": [
     "cleaning"
    ],
@@ -174,7 +191,7 @@
    "pct_off": 39,
    "image": "https://m.media-amazon.com/images/I/71Neu1wNMVL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B07FDNPK7K?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:25Z",
+   "checked_at": "2026-11-06T12:06:21Z",
    "cats": [
     "kids"
    ],
@@ -191,12 +208,29 @@
    "pct_off": 38,
    "image": "https://m.media-amazon.com/images/I/71C2S8520GL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0D6Z814Y7?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:33Z",
+   "checked_at": "2026-11-06T12:06:29Z",
    "cats": [
     "kids"
    ],
    "sold_by": "Amazon.com",
    "product_title": "MAM Original Baby Pacifier 0-6 Mths, Skin Soft Silicone Nipple, 4 Pack"
+  },
+  {
+   "id": "amz-b0dhhgl8p9",
+   "title": "Puffs Ultra Soft Facial Tissues, 4 family boxes",
+   "store": "Amazon",
+   "price": 6.79,
+   "was": 10.99,
+   "was_label": "List Price",
+   "pct_off": 38,
+   "image": "",
+   "url": "https://www.amazon.com/dp/B0DHHGL8P9?tag=reallow-20",
+   "checked_at": "2026-11-06T12:07:13Z",
+   "cats": [
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Puffs Facial Tissues Ultra Soft, 4 Family Boxes, 124 Facial Tissues per Box, Allergies and Colds"
   },
   {
    "id": "amz-b07wd9pf7t",
@@ -208,7 +242,7 @@
    "pct_off": 37,
    "image": "https://m.media-amazon.com/images/I/71ISqzFOwML._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B07WD9PF7T?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:40Z",
+   "checked_at": "2026-11-06T12:06:37Z",
    "cats": [
     "kitchen"
    ],
@@ -225,7 +259,7 @@
    "pct_off": 36,
    "image": "https://m.media-amazon.com/images/I/81FpRVZ8r9L._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0D5P9FWNV?tag=reallow-20",
-   "checked_at": "2026-11-05T12:16:46Z",
+   "checked_at": "2026-11-06T12:06:46Z",
    "cats": [
     "cleaning",
     "home"
@@ -243,7 +277,7 @@
    "pct_off": 36,
    "image": "https://m.media-amazon.com/images/I/71KhddMxKUL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00QIT9NDW?tag=reallow-20",
-   "checked_at": "2026-11-05T12:17:21Z",
+   "checked_at": "2026-11-06T12:06:54Z",
    "cats": [
     "cleaning"
    ],
@@ -260,29 +294,12 @@
    "pct_off": 36,
    "image": "https://m.media-amazon.com/images/I/811U+rnTO6L._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B009ITR4EY?tag=reallow-20",
-   "checked_at": "2026-11-05T12:17:31Z",
+   "checked_at": "2026-11-06T12:07:04Z",
    "cats": [
     "health"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Tylenol Cold + Flu Severe Caplets, Acetaminophen, 24 ct"
-  },
-  {
-   "id": "amz-b0dhhgl8p9",
-   "title": "Puffs Ultra Soft Facial Tissues, 4 family boxes",
-   "store": "Amazon",
-   "price": 6.98,
-   "was": 10.99,
-   "was_label": "List Price",
-   "pct_off": 36,
-   "image": "",
-   "url": "https://www.amazon.com/dp/B0DHHGL8P9?tag=reallow-20",
-   "checked_at": "2026-11-05T12:26:14Z",
-   "cats": [
-    "home"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Puffs Facial Tissues Ultra Soft, 4 Family Boxes, 124 Facial Tissues per Box, Allergies and Colds"
   },
   {
    "id": "amz-b0dqyqysxy",
@@ -294,7 +311,7 @@
    "pct_off": 35,
    "image": "https://m.media-amazon.com/images/I/817Th972VoL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0DQYQYSXY?tag=reallow-20",
-   "checked_at": "2026-11-05T12:17:37Z",
+   "checked_at": "2026-11-06T12:07:23Z",
    "cats": [
     "home",
     "cleaning"
@@ -312,12 +329,29 @@
    "pct_off": 35,
    "image": "https://m.media-amazon.com/images/I/61OOTsk+AzL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00279LYL6?tag=reallow-20",
-   "checked_at": "2026-11-05T12:27:21Z",
+   "checked_at": "2026-11-06T12:07:32Z",
    "cats": [
     "kitchen"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Reynolds Wrap Heavy Duty Aluminum Foil Roll, 12 Inch Wide, 50sq ft"
+  },
+  {
+   "id": "amz-b00hnw8cxa",
+   "title": "Hefty Strong 30 Gal Trash Bags, 56 count",
+   "store": "Amazon",
+   "price": 13.37,
+   "was": 20.6,
+   "was_label": "List Price",
+   "pct_off": 35,
+   "image": "https://m.media-amazon.com/images/I/81z7--3dDML._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B00HNW8CXA?tag=reallow-20",
+   "checked_at": "2026-11-06T12:13:01Z",
+   "cats": [
+    "home"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Hefty Strong 30 Gallon Trash Bags, Large Trash Bags 30 Gallon Size, Durable Drawstring Enclosure, Resists Punctures, Leaks, and Tears, Black, Unscented, 56 Bags"
   },
   {
    "id": "amz-b0d148bxw4",
@@ -329,7 +363,7 @@
    "pct_off": 33,
    "image": "https://m.media-amazon.com/images/I/71C8ExwH5AL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0D148BXW4?tag=reallow-20",
-   "checked_at": "2026-11-05T12:17:44Z",
+   "checked_at": "2026-11-06T12:07:40Z",
    "cats": [
     "kids"
    ],
@@ -346,7 +380,7 @@
    "pct_off": 33,
    "image": "https://m.media-amazon.com/images/I/71FkOrdYrKL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00HL458D2?tag=reallow-20",
-   "checked_at": "2026-11-05T12:17:53Z",
+   "checked_at": "2026-11-06T12:07:49Z",
    "cats": [
     "kids",
     "health"
@@ -364,7 +398,7 @@
    "pct_off": 33,
    "image": "https://i5.walmartimages.com/seo/Great-Value-25-Plant-Based-Compostable-Sandwich-Bags-50-Count_b074f96a-f482-423b-912f-2d255ab3c5ce.74883fcdcb85eb7aa428e224acd6e5d6.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
    "url": "https://www.walmart.com/ip/Great-Value-25-Plant-Based-Compostable-Sandwich-Bags-50-Count/5126097034",
-   "checked_at": "2026-11-05T12:27:43Z",
+   "checked_at": "2026-11-06T12:08:33Z",
    "cats": [
     "kitchen"
    ],
@@ -381,7 +415,7 @@
    "pct_off": 31,
    "image": "https://m.media-amazon.com/images/I/71w74zNXR8L._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0H31X1TD4?tag=reallow-20",
-   "checked_at": "2026-11-05T12:18:02Z",
+   "checked_at": "2026-11-06T12:07:58Z",
    "cats": [
     "cleaning",
     "kitchen"
@@ -390,55 +424,21 @@
    "product_title": "Palmolive Ultra Strength Liquid Dish Soap, Original Green, 90 Fluid Ounce"
   },
   {
-   "id": "amz-b0014cvfac",
-   "title": "Folgers Classic Decaf Instant Coffee, 8 oz",
+   "id": "amz-b0dgmy14gn",
+   "title": "Ziploc Sandwich & Snack Bags, 105 count",
    "store": "Amazon",
-   "price": 9.97,
-   "was": 13.99,
-   "was_label": "Typical price",
-   "pct_off": 29,
-   "image": "https://m.media-amazon.com/images/I/71F0WLmVwDL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0014CVFAC?tag=reallow-20",
-   "checked_at": "2026-11-05T12:26:49Z",
+   "price": 4.19,
+   "was": 5.99,
+   "was_label": "List Price",
+   "pct_off": 30,
+   "image": "https://m.media-amazon.com/images/I/81VMO3lFDCL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0DGMY14GN?tag=reallow-20",
+   "checked_at": "2026-11-06T12:13:32Z",
    "cats": [
-    "food"
+    "kitchen"
    ],
    "sold_by": "Amazon.com",
-   "product_title": "Folgers Classic Decaf Instant Coffee, 8 Oz. Jar"
-  },
-  {
-   "id": "wmt-636682242",
-   "title": "Great Value Dry Sweeping Cloth Refills, 52 count",
-   "store": "Walmart",
-   "price": 7.76,
-   "was": 10.96,
-   "was_label": "Was",
-   "pct_off": 29,
-   "image": "https://i5.walmartimages.com/seo/Great-Value-Dry-Sweeping-Cloth-Refills-52-Count_cfcdc212-35f6-47af-8912-5184392903a1.4ca61d58191037983b3225788e7e2adb.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
-   "url": "https://www.walmart.com/ip/Great-Value-Dry-Sweeping-Cloth-Refills-52-Count/636682242",
-   "checked_at": "2026-11-05T12:27:50Z",
-   "cats": [
-    "cleaning"
-   ],
-   "sold_by": "Sold and shipped by Walmart.com",
-   "product_title": "Great Value Dry Sweeping Cloth Refills, 52 Count"
-  },
-  {
-   "id": "wmt-656268866",
-   "title": "Pampers Cruisers 360 Pull-On Diapers, Size 3, 78 count",
-   "store": "Walmart",
-   "price": 22.97,
-   "was": 31.99,
-   "was_label": "Was",
-   "pct_off": 28,
-   "image": "https://i5.walmartimages.com/seo/Pampers-Cruisers-360-Pull-On-Baby-Diapers-Size-3-78-Count-Select-for-More-Options_1dc703e6-0bb4-4f83-a1b2-6749a5d0aa03.036fedbd6e7b185da3e2502299791584.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
-   "url": "https://www.walmart.com/ip/Pampers-Cruisers-360-Pull-On-Baby-Diapers-Size-3-78-Count-Select-for-More-Options/656268866",
-   "checked_at": "2026-11-05T12:19:13Z",
-   "cats": [
-    "kids"
-   ],
-   "sold_by": "Walmart.com",
-   "product_title": "Pampers Cruisers 360 Baby Diapers Size 3, 78 Count (Select for More Options)"
+   "product_title": "Ziploc Sandwich & Snack Bags, Food Storage, Easy Open & Close, 105 Count"
   }
  ]
 }
