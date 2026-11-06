@@ -1,22 +1,22 @@
 {
- "run_at": "2026-11-06T21:39:19.063Z",
+ "run_at": "2026-11-06T21:40:03.094Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-06T21:38:59.763Z",
+  "updated": "2026-11-06T21:40:02.492Z",
   "stores_ok": 22,
   "stores_total": 23,
-  "items": 117853,
-  "rows": 266898,
-  "multi_store_items": 39929,
-  "reused_stores": 1,
-  "name_matched_offers": 8052,
-  "merge_only": false,
+  "items": 117804,
+  "rows": 268225,
+  "multi_store_items": 39958,
+  "reused_stores": 15,
+  "name_matched_offers": 9499,
+  "merge_only": true,
   "stores": [
    {
     "name": "Landau's Supermarket",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 10867,
+    "count": 10863,
     "checked": "2026-11-06T21:32:01.340Z",
     "stale": false
    },
@@ -24,7 +24,7 @@
     "name": "Rockland Kosher",
     "city": "Monsey",
     "status": "ok",
-    "count": 31006,
+    "count": 30954,
     "checked": "2026-11-06T21:38:58.632Z",
     "stale": false
    },
@@ -32,7 +32,7 @@
     "name": "Breadberry",
     "city": "Boro Park",
     "status": "ok",
-    "count": 18278,
+    "count": 18275,
     "checked": "2026-11-06T21:36:20.080Z",
     "stale": false
    },
@@ -40,7 +40,7 @@
     "name": "Mega 53",
     "city": "Boro Park",
     "status": "ok",
-    "count": 10771,
+    "count": 10387,
     "checked": "2026-11-06T21:32:32.460Z",
     "stale": false
    },
@@ -48,7 +48,7 @@
     "name": "Mountain Fruit",
     "city": "Flatbush",
     "status": "ok",
-    "count": 8355,
+    "count": 8350,
     "checked": "2026-11-06T21:31:22.795Z",
     "stale": false
    },
@@ -56,7 +56,7 @@
     "name": "Empire Kosher",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 9859,
+    "count": 9835,
     "checked": "2026-11-06T21:31:32.276Z",
     "stale": false
    },
@@ -64,7 +64,7 @@
     "name": "The Market Place (KosherFamily)",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 11445,
+    "count": 11438,
     "checked": "2026-11-06T21:32:15.192Z",
     "stale": false
    },
@@ -72,7 +72,7 @@
     "name": "Koshertown",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 6405,
+    "count": 6403,
     "checked": "2026-11-06T21:30:48.166Z",
     "stale": false
    },
@@ -88,7 +88,7 @@
     "name": "Seasons Lakewood",
     "city": "Lakewood",
     "status": "ok",
-    "count": 11136,
+    "count": 10896,
     "checked": "2026-11-06T21:32:23.919Z",
     "stale": false
    },
@@ -96,7 +96,7 @@
     "name": "Nutmeg Kosher Market",
     "city": "Lakewood",
     "status": "ok",
-    "count": 10350,
+    "count": 10349,
     "checked": "2026-11-06T21:31:38.732Z",
     "stale": false
    },
@@ -104,7 +104,7 @@
     "name": "Seasons Lawrence",
     "city": "Five Towns",
     "status": "ok",
-    "count": 8966,
+    "count": 8935,
     "checked": "2026-11-06T21:34:31.715Z",
     "stale": false
    },
@@ -112,63 +112,63 @@
     "name": "Refresh Supermarket",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 11100,
-    "checked": "2026-11-06T11:04:03.283Z",
+    "count": 11296,
+    "checked": "2026-11-06T21:04:37.212Z",
     "stale": false
    },
    {
     "name": "Shlomie's",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 8343,
-    "checked": "2026-11-06T11:06:32.160Z",
+    "count": 8414,
+    "checked": "2026-11-06T21:07:13.869Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Monsey)",
     "city": "Monsey",
     "status": "ok",
-    "count": 15337,
-    "checked": "2026-11-06T11:16:22.491Z",
+    "count": 15748,
+    "checked": "2026-11-06T21:17:52.816Z",
     "stale": false
    },
    {
     "name": "Wesley Kosher",
     "city": "Monsey",
     "status": "ok",
-    "count": 16399,
-    "checked": "2026-11-06T11:11:24.501Z",
+    "count": 16460,
+    "checked": "2026-11-06T21:12:01.998Z",
     "stale": false
    },
    {
     "name": "Hatzlacha Kosher",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 8943,
-    "checked": "2026-11-06T11:23:46.322Z",
+    "count": 9111,
+    "checked": "2026-11-06T21:25:43.512Z",
     "stale": false
    },
    {
     "name": "Kahan's Superette",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 7311,
-    "checked": "2026-11-06T11:26:25.029Z",
+    "count": 7336,
+    "checked": "2026-11-06T21:28:03.364Z",
     "stale": false
    },
    {
     "name": "Evergreen Kosher (Lakewood)",
     "city": "Lakewood",
     "status": "ok",
-    "count": 12885,
-    "checked": "2026-11-06T11:20:28.416Z",
+    "count": 13164,
+    "checked": "2026-11-06T21:22:43.480Z",
     "stale": false
    },
    {
     "name": "Rosemary Kosher Supermarket",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 12805,
+    "count": 12788,
     "checked": "2026-11-06T21:32:09.285Z",
     "stale": false
    },
@@ -176,8 +176,8 @@
     "name": "Foodoo Kosher",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 10388,
-    "checked": "2026-11-06T11:29:57.842Z",
+    "count": 10505,
+    "checked": "2026-11-06T21:31:02.617Z",
     "stale": false
    },
    {
@@ -191,7 +191,7 @@
    {
     "name": "Grand Food Market",
     "city": "Monroe / Kiryas Joel",
-    "status": "error",
+    "status": "blocked",
     "count": 17553,
     "checked": "2026-11-04T16:21:50.534Z",
     "stale": true
