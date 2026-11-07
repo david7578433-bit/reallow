@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:29:03.186Z",
+ "updated": "2026-11-07T21:31:30.032Z",
  "note": "Prices read in a real browser from each store's own online catalog (these stores block simple robots). Rows: [name, size, regularPrice, salePrice(0=none), catalogProductId, unit, imagePath (after https://d226b0iufwcjmj.cloudfront.net/product-images/), saleText]. Product page: {site}/?catalogProduct={id}.",
  "stores": {
   "refresh": {
@@ -7,7 +7,7 @@
    "city": "Monroe / Kiryas Joel",
    "site": "https://www.refreshsupermarket.com",
    "status": "ok",
-   "checked": "2026-11-07T11:05:37.922Z",
+   "checked": "2026-11-07T21:04:19.978Z",
    "count": 11271,
    "on_sale": 639,
    "files": [
@@ -22,8 +22,8 @@
    "city": "Monroe / Kiryas Joel",
    "site": "https://www.shlomies.com",
    "status": "ok",
-   "checked": "2026-11-07T11:08:06.366Z",
-   "count": 8357,
+   "checked": "2026-11-07T21:07:10.010Z",
+   "count": 8349,
    "on_sale": 267,
    "files": [
     "shlomies-0.json",
@@ -36,7 +36,7 @@
    "city": "Monsey",
    "site": "https://www.wesleykosheronline.com",
    "status": "ok",
-   "checked": "2026-11-07T11:12:31.461Z",
+   "checked": "2026-11-07T21:12:43.291Z",
    "count": 16453,
    "on_sale": 1261,
    "files": [
@@ -53,7 +53,7 @@
    "city": "Monsey",
    "site": "https://www.shopevergreenkosher.com",
    "status": "ok",
-   "checked": "2026-11-07T11:17:09.645Z",
+   "checked": "2026-11-07T21:18:07.550Z",
    "count": 15765,
    "on_sale": 188,
    "files": [
@@ -70,7 +70,7 @@
    "city": "Lakewood",
    "site": "https://www.shopevergreenkosher.com",
    "status": "ok",
-   "checked": "2026-11-07T11:21:06.011Z",
+   "checked": "2026-11-07T21:22:29.808Z",
    "count": 13237,
    "on_sale": 178,
    "files": [
@@ -86,7 +86,7 @@
    "city": "Williamsburg",
    "site": "https://www.hatzlachakosher.com",
    "status": "ok",
-   "checked": "2026-11-07T11:23:39.722Z",
+   "checked": "2026-11-07T21:25:27.845Z",
    "count": 8908,
    "on_sale": 314,
    "files": [
@@ -100,7 +100,7 @@
    "city": "Crown Heights",
    "site": "https://www.kahanskosher.com",
    "status": "ok",
-   "checked": "2026-11-07T11:25:59.476Z",
+   "checked": "2026-11-07T21:28:05.279Z",
    "count": 7320,
    "on_sale": 85,
    "files": [
@@ -114,7 +114,7 @@
    "city": "Williamsburg",
    "site": "https://www.foodookosher.com",
    "status": "ok",
-   "checked": "2026-11-07T11:28:59.430Z",
+   "checked": "2026-11-07T21:31:26.610Z",
    "count": 10316,
    "on_sale": 147,
    "files": [
