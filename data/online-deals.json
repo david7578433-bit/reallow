@@ -1,6 +1,6 @@
 {
  "site": "RealLow",
- "updated": "2026-11-06T12:15:59Z",
+ "updated": "2026-11-08T12:10:29Z",
  "how_checked": "Every price here was read on the store's own product page (Amazon.com, Walmart.com) at the time shown. Prices online change fast; the store's page is the final word.",
  "stores": {
   "Amazon": "Amazon links carry RealLow's Amazon Associates tag.",
@@ -17,7 +17,7 @@
    "pct_off": 53,
    "image": "https://m.media-amazon.com/images/I/61qFGB3A+DL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0BB3DX1QN?tag=reallow-20",
-   "checked_at": "2026-11-06T12:12:17Z",
+   "checked_at": "2026-11-08T12:07:23Z",
    "cats": [
     "kitchen",
     "cleaning"
@@ -35,7 +35,7 @@
    "pct_off": 50,
    "image": "https://i5.walmartimages.com/seo/Suavitel-Complete-Liquid-Fabric-Softener-and-Conditioner-Morning-Sun-46-oz-46-Small-Loads_13810ad8-e15d-4687-aac8-58d728949745.85f28c6d2fea407f108cb49e1c5b6a48.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
    "url": "https://www.walmart.com/ip/Suavitel-Complete-Liquid-Fabric-Softener-and-Conditioner-Morning-Sun-46-oz-46-Small-Loads/3954363187",
-   "checked_at": "2026-11-06T12:08:25Z",
+   "checked_at": "2026-11-08T12:10:21Z",
    "cats": [
     "cleaning"
    ],
@@ -52,47 +52,12 @@
    "pct_off": 50,
    "image": "https://m.media-amazon.com/images/I/71o3GfMx5VL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00J7ODICM?tag=reallow-20",
-   "checked_at": "2026-11-06T12:12:32Z",
+   "checked_at": "2026-11-08T12:07:31Z",
    "cats": [
     "food"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Rice Chex Breakfast Cereal, Gluten Free, Holiday Chex Mix Ingredient, 12 oz"
-  },
-  {
-   "id": "amz-b07mqnwt29",
-   "title": "Mr. Clean Clean Freak Deep Cleaning Mist Spray",
-   "store": "Amazon",
-   "price": 5.99,
-   "was": 11.84,
-   "was_label": "Typical price",
-   "pct_off": 49,
-   "image": "https://m.media-amazon.com/images/I/81dpqBmBsmL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B07MQNWT29?tag=reallow-20",
-   "checked_at": "2026-11-06T12:05:35Z",
-   "cats": [
-    "cleaning"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Mr. Clean Clean Freak Deep Cleaning Mist Multi-Surface Spray, Gain Original, 16 Oz Spray Bottle"
-  },
-  {
-   "id": "amz-b0bqn7ymtn",
-   "title": "Johnson's Baby Sensitive Care Wash & Shampoo, 13.6 oz",
-   "store": "Amazon",
-   "price": 4.49,
-   "was": 8.44,
-   "was_label": "List Price",
-   "pct_off": 47,
-   "image": "https://m.media-amazon.com/images/I/6174ost2LtL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0BQN7YMTN?tag=reallow-20",
-   "checked_at": "2026-11-06T12:05:42Z",
-   "cats": [
-    "kids",
-    "health"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Johnson's Baby Sensitive Care Baby Wash & Shampoo, Light Scent, 13.6 fl oz"
   },
   {
    "id": "amz-b01fsy4yko",
@@ -104,7 +69,7 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/815MAWkG8EL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B01FSY4YKO?tag=reallow-20",
-   "checked_at": "2026-11-06T12:05:50Z",
+   "checked_at": "2026-11-08T12:07:51Z",
    "cats": [
     "home",
     "kitchen"
@@ -122,7 +87,7 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/81cfL0OpjmL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B089N1TT4V?tag=reallow-20",
-   "checked_at": "2026-11-06T12:05:58Z",
+   "checked_at": "2026-11-08T12:07:58Z",
    "cats": [
     "kitchen",
     "home"
@@ -140,12 +105,30 @@
    "pct_off": 46,
    "image": "https://m.media-amazon.com/images/I/71DisS3UEfL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00J7ODHWI?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:06Z",
+   "checked_at": "2026-11-08T12:08:06Z",
    "cats": [
     "food"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Honey Nut Chex Cereal, Gluten Free,12.5 oz"
+  },
+  {
+   "id": "amz-b0bqn7ymtn",
+   "title": "Johnson's Baby Sensitive Care Wash & Shampoo, 13.6 oz",
+   "store": "Amazon",
+   "price": 4.79,
+   "was": 8.44,
+   "was_label": "List Price",
+   "pct_off": 43,
+   "image": "https://m.media-amazon.com/images/I/6174ost2LtL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0BQN7YMTN?tag=reallow-20",
+   "checked_at": "2026-11-08T12:07:44Z",
+   "cats": [
+    "kids",
+    "health"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Johnson's Baby Sensitive Care Baby Wash & Shampoo, Light Scent, 13.6 fl oz"
   },
   {
    "id": "amz-b08wv69c9b",
@@ -157,12 +140,30 @@
    "pct_off": 43,
    "image": "https://m.media-amazon.com/images/I/81aQDFy3gqL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B08WV69C9B?tag=reallow-20",
-   "checked_at": "2026-11-06T12:14:11Z",
+   "checked_at": "2026-11-08T12:08:14Z",
    "cats": [
     "cleaning"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Seventh Generation, EasyDose Laundry Detergent, Power+ Clean Scent, 23 oz"
+  },
+  {
+   "id": "amz-b0h31x1td4",
+   "title": "Palmolive Ultra Strength Dish Soap, Original, 90 oz",
+   "store": "Amazon",
+   "price": 9.61,
+   "was": 16.75,
+   "was_label": "Typical price",
+   "pct_off": 43,
+   "image": "https://m.media-amazon.com/images/I/71w74zNXR8L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0H31X1TD4?tag=reallow-20",
+   "checked_at": "2026-11-08T12:10:02Z",
+   "cats": [
+    "cleaning",
+    "kitchen"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Palmolive Ultra Strength Liquid Dish Soap, Original Green, 90 Fluid Ounce"
   },
   {
    "id": "amz-b00j0b416y",
@@ -174,7 +175,7 @@
    "pct_off": 41,
    "image": "https://m.media-amazon.com/images/I/81tADEeSVnL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00J0B416Y?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:14Z",
+   "checked_at": "2026-11-08T12:08:21Z",
    "cats": [
     "cleaning"
    ],
@@ -182,21 +183,39 @@
    "product_title": "Swiffer Dusters Heavy Duty Multi-Surface Refills, Unscented, 6 Count"
   },
   {
-   "id": "amz-b07fdnpk7k",
-   "title": "Pampers Swaddlers Active Diapers, Size 5, 19 count",
-   "store": "Amazon",
-   "price": 6.14,
-   "was": 9.99,
-   "was_label": "List Price",
-   "pct_off": 39,
-   "image": "https://m.media-amazon.com/images/I/71Neu1wNMVL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B07FDNPK7K?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:21Z",
+   "id": "wmt-217308564",
+   "title": "Kleenex Lotion 3-Ply Facial Tissues, 4 cube boxes",
+   "store": "Walmart",
+   "price": 5.88,
+   "was": 9.92,
+   "was_label": "Was",
+   "pct_off": 41,
+   "image": "https://i5.walmartimages.com/seo/Kleenex-Lotion-with-Coconut-Oil-3-Ply-Cube-Box-Facial-Tissues-4-Pack-240-Total-Tissues_40afab77-a02b-406c-a15a-b0a8974e541e.946608db44cd2d685d2fcfaeac559abb.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/217308564",
+   "checked_at": "2026-11-08T12:21:29Z",
    "cats": [
-    "kids"
+    "home"
+   ],
+   "sold_by": "Sold and shipped by Walmart.com",
+   "product_title": "Kleenex Lotion with Coconut Oil 3-Ply Cube Box Facial Tissues, 4 Pack (240 Total Tissues)"
+  },
+  {
+   "id": "amz-b00t7pevhc",
+   "title": "Mrs. Meyer's Liquid Dish Soap, Basil, 16 oz",
+   "store": "Amazon",
+   "price": 3.87,
+   "was": 6.49,
+   "was_label": "List Price",
+   "pct_off": 40,
+   "image": "https://m.media-amazon.com/images/I/61tL+abCBGL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B00T7PEVHC?tag=reallow-20",
+   "checked_at": "2026-11-08T12:18:37Z",
+   "cats": [
+    "kitchen",
+    "cleaning"
    ],
    "sold_by": "Amazon.com",
-   "product_title": "Pampers Swaddlers Active Baby Diapers Size 5 19 Count"
+   "product_title": "MRS. MEYER'S CLEAN DAY Liquid Dish Soap, Basil, 16 fl. oz"
   },
   {
    "id": "amz-b0d6z814y7",
@@ -208,7 +227,7 @@
    "pct_off": 38,
    "image": "https://m.media-amazon.com/images/I/71C2S8520GL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0D6Z814Y7?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:29Z",
+   "checked_at": "2026-11-08T12:08:35Z",
    "cats": [
     "kids"
    ],
@@ -225,7 +244,7 @@
    "pct_off": 38,
    "image": "",
    "url": "https://www.amazon.com/dp/B0DHHGL8P9?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:13Z",
+   "checked_at": "2026-11-08T12:08:42Z",
    "cats": [
     "home"
    ],
@@ -233,39 +252,21 @@
    "product_title": "Puffs Facial Tissues Ultra Soft, 4 Family Boxes, 124 Facial Tissues per Box, Allergies and Colds"
   },
   {
-   "id": "amz-b07wd9pf7t",
-   "title": "Reynolds Kitchens Clear Plastic Wrap with Slide Cutter, 225 sq ft",
-   "store": "Amazon",
-   "price": 4.67,
-   "was": 7.39,
-   "was_label": "List Price",
-   "pct_off": 37,
-   "image": "https://m.media-amazon.com/images/I/71ISqzFOwML._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B07WD9PF7T?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:37Z",
+   "id": "wmt-18879112683",
+   "title": "Pampers Amore Diapers Size 4, 58 count",
+   "store": "Walmart",
+   "price": 24.97,
+   "was": 39.99,
+   "was_label": "Was",
+   "pct_off": 38,
+   "image": "https://i5.walmartimages.com/seo/Pampers-Amore-Baby-Diapers-Size-4-58-Count-Select-for-More-Options_f7c4adbd-24f7-4369-b198-8a49af2079f3.e975a22438acce290a133c958a933a3b.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
+   "url": "https://www.walmart.com/ip/18879112683",
+   "checked_at": "2026-11-08T12:21:44Z",
    "cats": [
-    "kitchen"
+    "kids"
    ],
-   "sold_by": "Amazon.com",
-   "product_title": "Reynolds Kitchens Clear Plastic Wrap, Built-In Slide Cutter, 225sq ft"
-  },
-  {
-   "id": "amz-b0d5p9fwnv",
-   "title": "Downy Calm Scent Booster Beads, Lavender & Vanilla, 30.1 oz",
-   "store": "Amazon",
-   "price": 12.06,
-   "was": 18.99,
-   "was_label": "List Price",
-   "pct_off": 36,
-   "image": "https://m.media-amazon.com/images/I/81FpRVZ8r9L._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0D5P9FWNV?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:46Z",
-   "cats": [
-    "cleaning",
-    "home"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Downy Calm In-Wash Laundry Scent Booster Beads, Soothing Lavender and Vanilla Bean Scent, 30.1 oz, Laundry Scent Beads, Long-Lasting Freshness"
+   "sold_by": "Sold and shipped by Walmart.com",
+   "product_title": "Pampers Amore Baby Diapers Size 4, 58 Count (Select for More Options)"
   },
   {
    "id": "amz-b00qit9ndw",
@@ -277,7 +278,7 @@
    "pct_off": 36,
    "image": "https://m.media-amazon.com/images/I/71KhddMxKUL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00QIT9NDW?tag=reallow-20",
-   "checked_at": "2026-11-06T12:06:54Z",
+   "checked_at": "2026-11-08T12:09:06Z",
    "cats": [
     "cleaning"
    ],
@@ -294,7 +295,7 @@
    "pct_off": 36,
    "image": "https://m.media-amazon.com/images/I/811U+rnTO6L._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B009ITR4EY?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:04Z",
+   "checked_at": "2026-11-08T12:09:15Z",
    "cats": [
     "health"
    ],
@@ -311,30 +312,13 @@
    "pct_off": 35,
    "image": "https://m.media-amazon.com/images/I/817Th972VoL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0DQYQYSXY?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:23Z",
+   "checked_at": "2026-11-08T12:09:22Z",
    "cats": [
     "home",
     "cleaning"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Bounty Select-A-Size Paper Towels, White, 2 Mega Rolls = 8 Regular Rolls"
-  },
-  {
-   "id": "amz-b00279lyl6",
-   "title": "Reynolds Wrap Heavy Duty Aluminum Foil, 50 sq ft",
-   "store": "Amazon",
-   "price": 5.39,
-   "was": 8.29,
-   "was_label": "List Price",
-   "pct_off": 35,
-   "image": "https://m.media-amazon.com/images/I/61OOTsk+AzL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B00279LYL6?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:32Z",
-   "cats": [
-    "kitchen"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Reynolds Wrap Heavy Duty Aluminum Foil Roll, 12 Inch Wide, 50sq ft"
   },
   {
    "id": "amz-b00hnw8cxa",
@@ -346,12 +330,46 @@
    "pct_off": 35,
    "image": "https://m.media-amazon.com/images/I/81z7--3dDML._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00HNW8CXA?tag=reallow-20",
-   "checked_at": "2026-11-06T12:13:01Z",
+   "checked_at": "2026-11-08T12:09:40Z",
    "cats": [
     "home"
    ],
    "sold_by": "Amazon.com",
    "product_title": "Hefty Strong 30 Gallon Trash Bags, Large Trash Bags 30 Gallon Size, Durable Drawstring Enclosure, Resists Punctures, Leaks, and Tears, Black, Unscented, 56 Bags"
+  },
+  {
+   "id": "amz-b0dghpxmrx",
+   "title": "Seventh Generation Laundry Detergent Sheets, 64 loads",
+   "store": "Amazon",
+   "price": 9.91,
+   "was": 14.99,
+   "was_label": "List Price",
+   "pct_off": 34,
+   "image": "https://m.media-amazon.com/images/I/71Bfoh0MV2L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B0DGHPXMRX?tag=reallow-20",
+   "checked_at": "2026-11-08T12:19:03Z",
+   "cats": [
+    "cleaning"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Seventh Generation Laundry Detergent Sheets, Fresh Lavender, 64 Loads"
+  },
+  {
+   "id": "amz-b07fdnpk7k",
+   "title": "Pampers Swaddlers Active Diapers, Size 5, 19 count",
+   "store": "Amazon",
+   "price": 6.67,
+   "was": 9.99,
+   "was_label": "List Price",
+   "pct_off": 33,
+   "image": "https://m.media-amazon.com/images/I/71Neu1wNMVL._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B07FDNPK7K?tag=reallow-20",
+   "checked_at": "2026-11-08T12:08:28Z",
+   "cats": [
+    "kids"
+   ],
+   "sold_by": "Amazon.com",
+   "product_title": "Pampers Swaddlers Active Baby Diapers Size 5 19 Count"
   },
   {
    "id": "amz-b0d148bxw4",
@@ -363,7 +381,7 @@
    "pct_off": 33,
    "image": "https://m.media-amazon.com/images/I/71C8ExwH5AL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B0D148BXW4?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:40Z",
+   "checked_at": "2026-11-08T12:09:47Z",
    "cats": [
     "kids"
    ],
@@ -380,7 +398,7 @@
    "pct_off": 33,
    "image": "https://m.media-amazon.com/images/I/71FkOrdYrKL._AC_SL300_.jpg",
    "url": "https://www.amazon.com/dp/B00HL458D2?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:49Z",
+   "checked_at": "2026-11-08T12:09:55Z",
    "cats": [
     "kids",
     "health"
@@ -398,7 +416,7 @@
    "pct_off": 33,
    "image": "https://i5.walmartimages.com/seo/Great-Value-25-Plant-Based-Compostable-Sandwich-Bags-50-Count_b074f96a-f482-423b-912f-2d255ab3c5ce.74883fcdcb85eb7aa428e224acd6e5d6.jpeg?odnHeight=300&odnWidth=300&odnBg=FFFFFF",
    "url": "https://www.walmart.com/ip/Great-Value-25-Plant-Based-Compostable-Sandwich-Bags-50-Count/5126097034",
-   "checked_at": "2026-11-06T12:08:33Z",
+   "checked_at": "2026-11-08T12:10:28Z",
    "cats": [
     "kitchen"
    ],
@@ -406,39 +424,21 @@
    "product_title": "Great Value Compostable Sandwich Bags, 50 Count"
   },
   {
-   "id": "amz-b0h31x1td4",
-   "title": "Palmolive Ultra Strength Dish Soap, Original, 90 oz",
+   "id": "amz-b01bz0n69u",
+   "title": "Hefty Strong 30 Gal Trash Bags, 74 count",
    "store": "Amazon",
-   "price": 9.61,
-   "was": 13.99,
+   "price": 17.67,
+   "was": 26.33,
    "was_label": "List Price",
-   "pct_off": 31,
-   "image": "https://m.media-amazon.com/images/I/71w74zNXR8L._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0H31X1TD4?tag=reallow-20",
-   "checked_at": "2026-11-06T12:07:58Z",
+   "pct_off": 33,
+   "image": "https://m.media-amazon.com/images/I/81bEhweIS5L._AC_SL300_.jpg",
+   "url": "https://www.amazon.com/dp/B01BZ0N69U?tag=reallow-20",
+   "checked_at": "2026-11-08T12:19:09Z",
    "cats": [
-    "cleaning",
-    "kitchen"
+    "home"
    ],
    "sold_by": "Amazon.com",
-   "product_title": "Palmolive Ultra Strength Liquid Dish Soap, Original Green, 90 Fluid Ounce"
-  },
-  {
-   "id": "amz-b0dgmy14gn",
-   "title": "Ziploc Sandwich & Snack Bags, 105 count",
-   "store": "Amazon",
-   "price": 4.19,
-   "was": 5.99,
-   "was_label": "List Price",
-   "pct_off": 30,
-   "image": "https://m.media-amazon.com/images/I/81VMO3lFDCL._AC_SL300_.jpg",
-   "url": "https://www.amazon.com/dp/B0DGMY14GN?tag=reallow-20",
-   "checked_at": "2026-11-06T12:13:32Z",
-   "cats": [
-    "kitchen"
-   ],
-   "sold_by": "Amazon.com",
-   "product_title": "Ziploc Sandwich & Snack Bags, Food Storage, Easy Open & Close, 105 Count"
+   "product_title": "Hefty Strong 30 Gallon Trash Bags with Drawstrings, Black, Unscented, 74ct"
   }
  ]
 }
