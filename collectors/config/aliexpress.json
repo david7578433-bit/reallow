@@ -1,0 +1,55 @@
+{
+ "note": "AliExpress searches for 'Top deals today' (used only once AliExpress API keys are in GitHub secrets). Clean, practical categories only.",
+ "min_pct_off": 30,
+ "max": 20,
+ "queries": [
+  {
+   "q": "kitchen gadgets",
+   "cat": "kitchen"
+  },
+  {
+   "q": "silicone baking mat",
+   "cat": "kitchen"
+  },
+  {
+   "q": "usb c charger",
+   "cat": "tech"
+  },
+  {
+   "q": "bluetooth earbuds",
+   "cat": "tech"
+  },
+  {
+   "q": "phone holder car",
+   "cat": "tech"
+  },
+  {
+   "q": "led flashlight",
+   "cat": "tools"
+  },
+  {
+   "q": "screwdriver set",
+   "cat": "tools"
+  },
+  {
+   "q": "storage organizer",
+   "cat": "home"
+  },
+  {
+   "q": "cleaning brush",
+   "cat": "cleaning"
+  },
+  {
+   "q": "baby bottle",
+   "cat": "kids"
+  },
+  {
+   "q": "building blocks toy",
+   "cat": "kids"
+  },
+  {
+   "q": "luggage scale",
+   "cat": "travel"
+  }
+ ]
+}

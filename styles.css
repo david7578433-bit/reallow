@@ -237,3 +237,19 @@ h2{font-size:1.15rem}
 .join-txt small{color:var(--mut);font-size:.85rem;margin-top:2px}
 .join-go{flex:none;background:var(--wa);color:#fff;font-weight:700;border-radius:12px;padding:9px 16px;min-height:40px;display:inline-flex;align-items:center}
 #view-online .join-wa{margin-top:10px}
+
+/* live online prices (live-deals.js, Nov 11 2026) */
+.live-wrap{margin:14px 0}
+.live-wrap .deals-head h2{font-size:1.15rem}
+.live-wrap .on-intro{margin:4px 0 10px;color:#475467;font-size:.92rem}
+.live-list{margin-top:10px}
+.live-thumb{display:flex;flex-direction:column;gap:4px;background:#fff4e5}
+.live-pct{font-size:1.45rem;font-weight:800;color:#b42318}
+.live-store{font-size:.8rem;font-weight:700;color:#344054;background:#fff;border-radius:999px;padding:2px 8px}
+.b-ebay{background:#fdecea;color:#a1260d}
+.b-ship{background:#e8f5ee;color:#0f5132}
+.live-when{color:#667085}
+.live-match{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px}
+.live-match .frow{border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff}
+.lm-for{font-weight:700;margin-bottom:2px}
+.live-match .f-title{display:block;margin-top:4px;font-size:.9rem;color:#175cd3;word-break:break-word}

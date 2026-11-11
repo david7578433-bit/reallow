@@ -78,6 +78,8 @@
 
   <a class="card on-teaser" id="on-teaser" href="#online" hidden><span aria-hidden="true">🛍️</span> <b>Online deals today:</b> <span id="on-teaser-n"></span> from Amazon &amp; Walmart, checked on the store's page <span class="on-arrow" aria-hidden="true">→</span></a>
 
+  <section class="card live-wrap" id="live-deals" aria-label="Top deals today, live prices" hidden></section>
+
   <section aria-labelledby="deals-h">
     <div class="deals-head">
       <h2 id="deals-h">Top deals right now</h2>
@@ -97,6 +99,7 @@
     <h2 id="how-h">How RealLow gets its prices</h2>
     <ul>
       <li><b>Robots every 4 hours:</b> they read the kosher stores' own online catalogs and public deal feeds, and every price shows when it was checked.</li>
+      <li><b>Live online prices:</b> every 2 hours we read eBay's own official price system, so those prices are real and show how many minutes ago they were checked.</li>
       <li><b>Top deals</b> were opened and checked on the store's own page. Feed deals show the price the deal site posted.</li>
       <li>If a store blocks robots, we never guess: you get a button to search on that store.</li>
       <li>Clean deals only: no Halloween, no holiday-themed junk, no immodest stuff. The store's page is always the final word.</li>
@@ -155,6 +158,8 @@
     <ol class="deals" id="on-list"></ol>
     <p class="empty" id="on-empty" hidden>No online deals right now. Check back tomorrow.</p>
     <p class="note">Online prices change fast, sometimes within hours. The store's page is always the final word. Amazon links are RealLow's Amazon Associates links.</p>
+    <section class="card live-wrap" id="live-matches" aria-label="Same items on eBay right now" hidden></section>
+    <section class="card live-wrap" id="live-deals-online" aria-label="Top deals today, live prices" hidden></section>
   </section>
 </div>
 </main>
@@ -172,5 +177,6 @@
 <script src="stores.js"></script>
 <script src="search.js"></script>
 <script src="script.js"></script>
+<script src="live-deals.js"></script>
 </body>
 </html>

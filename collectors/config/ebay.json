@@ -1,0 +1,536 @@
+{
+ "note": "eBay searches for the 'Top deals today' block and the 'same item on eBay' prices. Safe categories only (no clothing, no holiday items). Edit freely; each line is one eBay API call per run.",
+ "min_pct_off": 20,
+ "min_seller_feedback": 5000,
+ "max": 40,
+ "queries": [
+  {
+   "q": "ninja air fryer",
+   "cat": "kitchen"
+  },
+  {
+   "q": "instant pot",
+   "cat": "kitchen"
+  },
+  {
+   "q": "kitchenaid stand mixer",
+   "cat": "kitchen",
+   "require": [
+    "kitchenaid"
+   ]
+  },
+  {
+   "q": "kitchenaid attachment",
+   "cat": "kitchen",
+   "require": [
+    "kitchenaid"
+   ]
+  },
+  {
+   "q": "cuisinart",
+   "cat": "kitchen",
+   "require": [
+    "cuisinart"
+   ]
+  },
+  {
+   "q": "lodge cast iron",
+   "cat": "kitchen",
+   "require": [
+    "lodge"
+   ]
+  },
+  {
+   "q": "le creuset",
+   "cat": "kitchen",
+   "require": [
+    "le creuset"
+   ]
+  },
+  {
+   "q": "keurig coffee maker",
+   "cat": "kitchen",
+   "require": [
+    "keurig"
+   ]
+  },
+  {
+   "q": "nespresso machine",
+   "cat": "kitchen",
+   "require": [
+    "nespresso"
+   ]
+  },
+  {
+   "q": "vitamix blender",
+   "cat": "kitchen",
+   "require": [
+    "vitamix"
+   ]
+  },
+  {
+   "q": "ninja blender",
+   "cat": "kitchen",
+   "require": [
+    "ninja"
+   ]
+  },
+  {
+   "q": "oxo",
+   "cat": "kitchen",
+   "require": [
+    "oxo"
+   ]
+  },
+  {
+   "q": "dewalt",
+   "cat": "tools",
+   "require": [
+    "dewalt"
+   ]
+  },
+  {
+   "q": "milwaukee m18",
+   "cat": "tools",
+   "require": [
+    "milwaukee"
+   ]
+  },
+  {
+   "q": "makita",
+   "cat": "tools",
+   "require": [
+    "makita"
+   ]
+  },
+  {
+   "q": "ryobi",
+   "cat": "tools",
+   "require": [
+    "ryobi"
+   ]
+  },
+  {
+   "q": "black+decker",
+   "cat": "tools"
+  },
+  {
+   "q": "apple airpods",
+   "cat": "tech",
+   "require": [
+    "airpods"
+   ]
+  },
+  {
+   "q": "apple ipad",
+   "cat": "tech",
+   "require": [
+    "ipad"
+   ]
+  },
+  {
+   "q": "sony headphones",
+   "cat": "tech",
+   "require": [
+    "sony"
+   ]
+  },
+  {
+   "q": "bose headphones",
+   "cat": "tech",
+   "require": [
+    "bose"
+   ]
+  },
+  {
+   "q": "samsung tv",
+   "cat": "tech",
+   "require": [
+    "samsung"
+   ]
+  },
+  {
+   "q": "lg tv",
+   "cat": "tech",
+   "require": [
+    "lg"
+   ]
+  },
+  {
+   "q": "logitech",
+   "cat": "tech",
+   "require": [
+    "logitech"
+   ]
+  },
+  {
+   "q": "anker charger",
+   "cat": "tech",
+   "require": [
+    "anker"
+   ]
+  },
+  {
+   "q": "hp printer",
+   "cat": "tech",
+   "require": [
+    "hp"
+   ]
+  },
+  {
+   "q": "nintendo switch",
+   "cat": "tech",
+   "require": [
+    "nintendo"
+   ]
+  },
+  {
+   "q": "xbox controller",
+   "cat": "tech",
+   "require": [
+    "xbox"
+   ]
+  },
+  {
+   "q": "ring doorbell",
+   "cat": "home",
+   "require": [
+    "ring"
+   ]
+  },
+  {
+   "q": "google nest",
+   "cat": "home",
+   "require": [
+    "nest"
+   ]
+  },
+  {
+   "q": "dyson vacuum",
+   "cat": "cleaning",
+   "require": [
+    "dyson"
+   ]
+  },
+  {
+   "q": "shark vacuum",
+   "cat": "cleaning",
+   "require": [
+    "shark"
+   ]
+  },
+  {
+   "q": "bissell",
+   "cat": "cleaning",
+   "require": [
+    "bissell"
+   ]
+  },
+  {
+   "q": "roborock",
+   "cat": "cleaning",
+   "require": [
+    "roborock"
+   ]
+  },
+  {
+   "q": "irobot roomba",
+   "cat": "cleaning",
+   "require": [
+    "roomba"
+   ]
+  },
+  {
+   "q": "lego",
+   "cat": "kids",
+   "require": [
+    "lego"
+   ]
+  },
+  {
+   "q": "magna-tiles",
+   "cat": "kids",
+   "require": [
+    "magna"
+   ]
+  },
+  {
+   "q": "graco car seat",
+   "cat": "kids",
+   "require": [
+    "graco"
+   ]
+  },
+  {
+   "q": "baby monitor",
+   "cat": "kids",
+   "require": [
+    "monitor"
+   ]
+  },
+  {
+   "q": "fisher-price",
+   "cat": "kids",
+   "require": [
+    "fisher"
+   ]
+  },
+  {
+   "q": "melissa doug",
+   "cat": "kids",
+   "require": [
+    "melissa"
+   ]
+  },
+  {
+   "q": "philips sonicare",
+   "cat": "health",
+   "require": [
+    "sonicare"
+   ]
+  },
+  {
+   "q": "oral-b electric toothbrush",
+   "cat": "health",
+   "require": [
+    "oral"
+   ]
+  },
+  {
+   "q": "brita",
+   "cat": "home",
+   "require": [
+    "brita"
+   ]
+  },
+  {
+   "q": "rubbermaid",
+   "cat": "home",
+   "require": [
+    "rubbermaid"
+   ]
+  },
+  {
+   "q": "samsonite luggage",
+   "cat": "travel",
+   "require": [
+    "samsonite"
+   ]
+  },
+  {
+   "q": "yeti",
+   "cat": "travel",
+   "require": [
+    "yeti"
+   ]
+  },
+  {
+   "q": "stanley tumbler",
+   "cat": "travel",
+   "require": [
+    "stanley"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "for_id": "amz-b0bb3dx1qn",
+   "for_title": "Seventh Generation Foaming Dish Spray, Orange",
+   "q": "seventh generation foaming dish spray",
+   "require": [
+    "seventh",
+    "foam",
+    "dish"
+   ]
+  },
+  {
+   "for_id": "wmt-3954363187",
+   "for_title": "Suavitel Complete Fabric Softener, Morning Sun, 46 oz",
+   "q": "suavitel complete fabric softener 46 oz",
+   "require": [
+    "suavitel",
+    "complete"
+   ]
+  },
+  {
+   "for_id": "amz-b01fsy4yko",
+   "for_title": "Hefty Ultra Strong 13 Gal Kitchen Trash Bags, 110 count",
+   "q": "hefty ultra strong 13 gallon trash bags 110",
+   "require": [
+    "hefty",
+    "ultra",
+    "13"
+   ]
+  },
+  {
+   "for_id": "amz-b089n1tt4v",
+   "for_title": "Glad Paper Bowls, 16 oz, 50 count",
+   "q": "glad paper bowls 16 oz",
+   "require": [
+    "glad",
+    "bowl"
+   ]
+  },
+  {
+   "for_id": "amz-b0bqn7ymtn",
+   "for_title": "Johnson's Baby Sensitive Care Wash & Shampoo, 13.6 oz",
+   "q": "johnson's baby wash shampoo 13.6 oz",
+   "require": [
+    "johnson",
+    "baby",
+    "13.6"
+   ]
+  },
+  {
+   "for_id": "amz-b08wv69c9b",
+   "for_title": "Seventh Generation EasyDose Laundry Detergent, 23 oz",
+   "q": "seventh generation easydose laundry detergent",
+   "require": [
+    "seventh",
+    "easydose"
+   ]
+  },
+  {
+   "for_id": "amz-b0h31x1td4",
+   "for_title": "Palmolive Ultra Strength Dish Soap, Original, 90 oz",
+   "q": "palmolive ultra strength dish soap 90 oz",
+   "require": [
+    "palmolive",
+    "90"
+   ]
+  },
+  {
+   "for_id": "amz-b00j0b416y",
+   "for_title": "Swiffer Dusters Heavy Duty Refills, 6 count",
+   "q": "swiffer dusters heavy duty refills",
+   "require": [
+    "swiffer",
+    "heavy",
+    "refill"
+   ]
+  },
+  {
+   "for_id": "wmt-217308564",
+   "for_title": "Kleenex Lotion 3-Ply Facial Tissues, 4 cube boxes",
+   "q": "kleenex lotion facial tissues 4 boxes",
+   "require": [
+    "kleenex",
+    "lotion"
+   ]
+  },
+  {
+   "for_id": "amz-b00t7pevhc",
+   "for_title": "Mrs. Meyer's Liquid Dish Soap, Basil, 16 oz",
+   "q": "mrs meyers dish soap basil",
+   "require": [
+    "meyer",
+    "dish",
+    "basil"
+   ]
+  },
+  {
+   "for_id": "amz-b0d6z814y7",
+   "for_title": "MAM Original Baby Pacifier 0-6 months, 4 pack",
+   "q": "mam original pacifier 0-6 months",
+   "require": [
+    "mam",
+    "original",
+    "pacifier"
+   ]
+  },
+  {
+   "for_id": "amz-b0dhhgl8p9",
+   "for_title": "Puffs Ultra Soft Facial Tissues, 4 family boxes",
+   "q": "puffs ultra soft facial tissues family",
+   "require": [
+    "puffs",
+    "ultra"
+   ]
+  },
+  {
+   "for_id": "wmt-18879112683",
+   "for_title": "Pampers Amore Diapers Size 4, 58 count",
+   "q": "pampers amore diapers size 4",
+   "require": [
+    "pampers",
+    "size 4"
+   ]
+  },
+  {
+   "for_id": "amz-b00qit9ndw",
+   "for_title": "Lysol All Purpose Cleaner Spray, Lemon, 32 oz",
+   "q": "lysol all purpose cleaner lemon 32 oz",
+   "require": [
+    "lysol",
+    "all purpose"
+   ]
+  },
+  {
+   "for_id": "amz-b009itr4ey",
+   "for_title": "Tylenol Cold + Flu Severe Caplets, 24 count",
+   "q": "tylenol cold flu severe caplets 24",
+   "require": [
+    "tylenol",
+    "cold",
+    "flu",
+    "severe"
+   ]
+  },
+  {
+   "for_id": "amz-b0dqyqysxy",
+   "for_title": "Bounty Select-A-Size Paper Towels, 2 Mega Rolls (= 8 regular)",
+   "q": "bounty select-a-size paper towels mega rolls",
+   "require": [
+    "bounty",
+    "select"
+   ]
+  },
+  {
+   "for_id": "amz-b00hnw8cxa",
+   "for_title": "Hefty Strong 30 Gal Trash Bags, 56 count",
+   "q": "hefty strong 30 gallon trash bags",
+   "require": [
+    "hefty",
+    "30"
+   ]
+  },
+  {
+   "for_id": "amz-b0dghpxmrx",
+   "for_title": "Seventh Generation Laundry Detergent Sheets, 64 loads",
+   "q": "seventh generation laundry detergent sheets",
+   "require": [
+    "seventh",
+    "sheets"
+   ]
+  },
+  {
+   "for_id": "amz-b07fdnpk7k",
+   "for_title": "Pampers Swaddlers Active Diapers, Size 5, 19 count",
+   "q": "pampers swaddlers active size 5",
+   "require": [
+    "pampers",
+    "swaddlers",
+    "5"
+   ]
+  },
+  {
+   "for_id": "amz-b0d148bxw4",
+   "for_title": "MAM 9 oz Glass Anti-Colic Baby Bottles, 3 pack",
+   "q": "mam glass anti-colic bottle 9 oz",
+   "require": [
+    "mam",
+    "glass",
+    "bottle"
+   ]
+  },
+  {
+   "for_id": "amz-b00hl458d2",
+   "for_title": "Desitin Daily Defense Diaper Rash Cream, 2 oz",
+   "q": "desitin daily defense diaper rash cream",
+   "require": [
+    "desitin",
+    "daily"
+   ]
+  }
+ ]
+}
