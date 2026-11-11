@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-11T22:52:39.182Z",
+ "run_at": "2026-11-11T23:12:48.767Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
   "updated": "2026-11-11T22:52:19.807Z",
@@ -263,6 +263,15 @@
   {
    "id": "ebay",
    "name": "eBay",
+   "state": "ok",
+   "offers": 100,
+   "top_deals": 40,
+   "matches": 21,
+   "api_calls": 94
+  },
+  {
+   "id": "aliexpress",
+   "name": "AliExpress",
    "state": "waiting for keys"
   },
   {
