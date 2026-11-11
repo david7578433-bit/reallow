@@ -8,7 +8,7 @@
   var PAGES = "https://david7578433-bit.github.io/reallow/";
   var BASES = /github\.io$/.test(location.hostname) ? ["./"] : [PAGES, "./"];
   var CATS = [["all", "All"], ["tech", "Tech"], ["kitchen", "Kitchen"], ["home", "Home"], ["cleaning", "Cleaning"], ["tools", "Tools"], ["kids", "Kids & Baby"], ["health", "Health"], ["travel", "Travel"]];
-  var D = null, cat = "all", showAll = false;
+  var D = null, ON = {}, cat = "all", showAll = false;
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function ext(a, href) { a.href = href; a.target = "_blank"; a.rel = "noopener nofollow sponsored"; return a; }
@@ -89,10 +89,17 @@
     ms.forEach(function (m) {
       var li = el("li", "frow");
       li.appendChild(el("div", "lm-for", m.for_title || m.q));
+      var src = ON[m.for_id], eb = m.price + (m.ship || 0);
+      if (src && src.price > 0) {
+        var r0 = el("div", "f-meta"); r0.appendChild(el("b", "f-price", money(src.price))); r0.appendChild(el("span", "f-store", src.store));
+        if (src.price <= eb) r0.appendChild(el("span", "f-off lm-best", "cheapest"));
+        li.appendChild(r0);
+      }
       var row = el("div", "f-meta");
       row.appendChild(el("b", "f-price", money(m.price)));
       row.appendChild(el("span", "f-store", "eBay"));
       if (m.free_ship) row.appendChild(el("span", "f-off", "free shipping")); else if (m.ship) row.appendChild(el("span", "f-when", "+ " + money(m.ship) + " shipping"));
+      if (src && src.price > eb) row.appendChild(el("span", "f-off lm-best", "cheapest"));
       li.appendChild(row);
       li.appendChild(ext(el("a", "f-title", m.title + " \u2192"), m.url));
       ul.appendChild(li);
@@ -102,5 +109,6 @@
   function renderAll() { renderDeals($("live-deals")); renderDeals($("live-deals-online")); renderMatches($("live-matches")); }
   function tick() { var xs = document.querySelectorAll(".live-ago[data-t]"); for (var i = 0; i < xs.length; i++) xs[i].textContent = ago(xs[i].getAttribute("data-t")); }
   getJSON("data/api-prices.json", function (j) { if (!j) return; D = j; renderAll(); });
+  getJSON("data/online-deals.json", function (j) { if (!j || !j.deals) return; j.deals.forEach(function (o) { ON[o.id] = o; }); if (D) renderMatches($("live-matches")); });
   setInterval(tick, 60000);
 })();

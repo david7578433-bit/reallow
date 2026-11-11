@@ -253,3 +253,4 @@ h2{font-size:1.15rem}
 .live-match .frow{border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff}
 .lm-for{font-weight:700;margin-bottom:2px}
 .live-match .f-title{display:block;margin-top:4px;font-size:.9rem;color:#175cd3;word-break:break-word}
+.lm-best{background:#e8f5ee;color:#0f5132;border-radius:999px;padding:1px 8px;font-weight:700}
