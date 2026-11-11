@@ -349,7 +349,11 @@
    "q": "suavitel complete fabric softener 46 oz",
    "require": [
     "suavitel",
-    "complete"
+    "complete",
+    "46"
+   ],
+   "exclude": [
+    "sheets"
    ]
   },
   {
@@ -359,7 +363,8 @@
    "require": [
     "hefty",
     "ultra",
-    "13"
+    "13",
+    "110"
    ]
   },
   {
@@ -368,7 +373,8 @@
    "q": "glad paper bowls 16 oz",
    "require": [
     "glad",
-    "bowl"
+    "bowl",
+    "16"
    ]
   },
   {
@@ -396,6 +402,7 @@
    "q": "palmolive ultra strength dish soap 90 oz",
    "require": [
     "palmolive",
+    "ultra",
     "90"
    ]
   },
@@ -404,9 +411,14 @@
    "for_title": "Swiffer Dusters Heavy Duty Refills, 6 count",
    "q": "swiffer dusters heavy duty refills",
    "require": [
-    "swiffer",
+    "swiffer duster",
     "heavy",
     "refill"
+   ],
+   "exclude": [
+    "for swiffer",
+    "compatible",
+    "fits"
    ]
   },
   {
@@ -415,7 +427,8 @@
    "q": "kleenex lotion facial tissues 4 boxes",
    "require": [
     "kleenex",
-    "lotion"
+    "lotion",
+    "4"
    ]
   },
   {
@@ -425,7 +438,8 @@
    "require": [
     "meyer",
     "dish",
-    "basil"
+    "basil",
+    "16"
    ]
   },
   {
@@ -444,7 +458,8 @@
    "q": "puffs ultra soft facial tissues family",
    "require": [
     "puffs",
-    "ultra"
+    "ultra",
+    "4 family"
    ]
   },
   {
@@ -462,7 +477,9 @@
    "q": "lysol all purpose cleaner lemon 32 oz",
    "require": [
     "lysol",
-    "all purpose"
+    "all purpose",
+    "lemon",
+    "32"
    ]
   },
   {
@@ -473,7 +490,12 @@
     "tylenol",
     "cold",
     "flu",
-    "severe"
+    "severe",
+    "24"
+   ],
+   "exclude": [
+    "equate",
+    "compare"
    ]
   },
   {
@@ -482,7 +504,8 @@
    "q": "bounty select-a-size paper towels mega rolls",
    "require": [
     "bounty",
-    "select"
+    "select",
+    "2 mega"
    ]
   },
   {
@@ -491,6 +514,7 @@
    "q": "hefty strong 30 gallon trash bags",
    "require": [
     "hefty",
+    "strong",
     "30"
    ]
   },
@@ -510,7 +534,7 @@
    "require": [
     "pampers",
     "swaddlers",
-    "5"
+    "size 5"
    ]
   },
   {
@@ -520,7 +544,7 @@
    "require": [
     "mam",
     "glass",
-    "bottle"
+    "9"
    ]
   },
   {

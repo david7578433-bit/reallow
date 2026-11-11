@@ -85,7 +85,7 @@ export async function deals(cfg) {
 export async function matches(cfg) {
   const out = [];
   for (const m of cfg.matches) {
-    const its = (await find(m.q)).filter((it) => trusted(it, 300) && m.require.every((w) => low(it.title).includes(w)));
+    const its = (await find(m.q)).filter((it) => trusted(it, 300) && m.require.every((w) => low(it.title).includes(w)) && !(m.exclude || []).some((w) => low(it.title).includes(w)));
     if (!its.length) continue;
     its.sort((a, b) => Number(a.price.value) - Number(b.price.value));
     out.push(offer(its[0], { for_id: m.for_id, for_title: m.for_title || null, q: m.q, listings: its.length }));

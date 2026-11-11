@@ -81,10 +81,10 @@
     if (!box) return; box.innerHTML = "";
     var ms = (D && D.matches) || []; if (!ms.length) { box.hidden = true; return; }
     box.hidden = false;
-    var head = el("div", "deals-head"); head.appendChild(el("h2", null, "\uD83D\uDCCA Same items on eBay right now"));
+    var head = el("div", "deals-head"); head.appendChild(el("h2", null, "\uD83D\uDCCA The same items on eBay right now"));
     var line = el("p", "checked"); line.appendChild(document.createTextNode("live, checked ")); var w = el("span", "live-ago", ago(D.updated)); w.setAttribute("data-t", D.updated); line.appendChild(w); head.appendChild(line);
     box.appendChild(head);
-    box.appendChild(el("p", "on-intro", "The cheapest new listing on eBay for the items above, from a well-rated US seller. Pack sizes can differ, so check the count."));
+    box.appendChild(el("p", "on-intro", "The cheapest new eBay listing we found for each item above, from a well-rated US seller. The size or count can be different, so check before you buy."));
     var ul = el("ul", "live-match");
     ms.forEach(function (m) {
       var li = el("li", "frow");
