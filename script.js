@@ -210,6 +210,7 @@
   }
   function dealRow(x) {
     var d = x.d, li = el("li", "frow");
+    if (x.api && d.img && window.RLPhoto) { li.className = "frow ph-row"; li.appendChild(window.RLPhoto(d.img)); } // live eBay photo (Nov 12 2026)
     var row = el("div", "f-top");
     var a = ext(el("a", "f-title", d.title), tagAmazon(d.url));
     row.appendChild(a); if (d.id) row.appendChild(starBtn("d" + d.id, { kind: "d", n: d.title, p: d.price })); li.appendChild(row);

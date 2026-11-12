@@ -12,6 +12,13 @@ test('live prices file: real https links, positive prices, checked times, clean 
     assert.ok(!/hallowe+n|christmas|lingerie|bikini|refurbished|for parts/i.test(o.title), o.title);
   }
   for (const o of a.top_deals || []) assert.ok(o.was > o.price && o.pct_off >= 15, o.title);
+  // product photos (Nov 12 2026): only eBay's own image host, https
+  for (const k of ['offers', 'top_deals', 'matches']) for (const o of a[k] || []) if (o.img) assert.match(o.img, /^https:\/\/i\.ebayimg\.com\//, o.title);
+});
+test('photos: fixed square, lazy, with a placeholder', () => {
+  const js = read('live-deals.js');
+  assert.ok(js.includes('im.loading = "lazy"') && js.includes('"error"') && js.includes('no photo'));
+  assert.match(read('styles.css'), /\.ph-box\{width:64px;height:64px/);
 });
 test('live deals wired into the page, keys only from secrets', () => {
   const html = read('index.html');

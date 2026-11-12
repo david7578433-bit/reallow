@@ -3,7 +3,8 @@
    (eBay Browse API today; AliExpress when its keys arrive). Shows:
    - "Top deals today": new items with a real discount vs the listing's list / was price, clean categories only
    - "Same items on eBay": the Online-deals items, priced live on eBay
-   Text only (no product photos) so nothing immodest can slip in. Never invents a price. No trackers. */
+   Product photos (David asked Nov 11 2026: "Add photos"): each item's own eBay listing photo (i.ebayimg.com, small size),
+   in a fixed square box, lazy-loaded, with a plain placeholder if a photo fails. Never invents a price. No trackers. */
 (function () {
   var PAGES = "https://david7578433-bit.github.io/reallow/";
   var BASES = /github\.io$/.test(location.hostname) ? ["./"] : [PAGES, "./"];
@@ -25,6 +26,21 @@
       fetch(BASES[i++] + path + bust).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(cb, next);
     })();
   }
+  // A fixed square photo box: lazy, async decode, no layout shift; on error the photo is removed and onFail runs.
+  function photo(src, cls, onFail) {
+    if (!/^https:\/\/i\.ebayimg\.com\//.test(src || "")) return null;
+    var im = document.createElement("img");
+    im.className = cls || "ph-img"; im.alt = ""; im.loading = "lazy"; im.decoding = "async";
+    im.width = 225; im.height = 225; im.referrerPolicy = "no-referrer";
+    im.addEventListener("error", function () { var p = im.parentNode; if (p) p.removeChild(im); if (onFail) onFail(); });
+    im.src = src; return im;
+  }
+  function phBox(src) { // square box for rows (Online tab, search): photo, or a plain placeholder
+    var b = el("div", "ph-box"); var im = photo(src, "ph-img", function () { b.classList.add("ph-none"); b.textContent = "no photo"; });
+    if (im) b.appendChild(im); else { b.classList.add("ph-none"); b.textContent = "no photo"; }
+    return b;
+  }
+  window.RLPhoto = phBox;
   function waLink(o) {
     var t = o.title + "\n" + money(o.price) + (o.was ? " (" + (o.was_label || "was") + " " + money(o.was) + ", " + o.pct_off + "% off)" : "") + " on " + o.store + "\n" + o.url + "\n\nPrice when checked; may change. More real deals: https://reallow.sites.tab.bot/";
     return "https://wa.me/?text=" + encodeURIComponent(t);
@@ -34,6 +50,8 @@
     var th = el("div", "thumb live-thumb");
     th.appendChild(el("span", "live-pct", o.pct_off ? "-" + o.pct_off + "%" : "\u26A1"));
     th.appendChild(el("span", "live-store", o.store));
+    var im = photo(o.img, "live-img", function () { th.classList.remove("has-photo"); });
+    if (im) { th.classList.add("has-photo"); th.insertBefore(im, th.firstChild); }
     var body = el("div", "d-body"), badges = el("div", "badges");
     if (o.pct_off) badges.appendChild(el("span", "b b-off", o.pct_off + "% OFF"));
     badges.appendChild(el("span", "b b-store b-" + String(o.store).toLowerCase(), o.store));
@@ -87,7 +105,8 @@
     box.appendChild(el("p", "on-intro", "The cheapest new eBay listing we found for each item above, from a well-rated US seller. The size or count can be different, so check before you buy."));
     var ul = el("ul", "live-match");
     ms.forEach(function (m) {
-      var li = el("li", "frow");
+      var li = el("li", "frow ph-row");
+      li.appendChild(phBox(m.img));
       li.appendChild(el("div", "lm-for", m.for_title || m.q));
       var src = ON[m.for_id], eb = m.price + (m.ship || 0);
       if (src && src.price > 0) {

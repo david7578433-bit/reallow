@@ -43,12 +43,20 @@ function cleanUrl(it) {
   const id = it.legacyItemId || (String(it.itemId).split('|')[1]);
   return id ? `https://www.ebay.com/itm/${id}` : it.itemWebUrl;
 }
+// Product photo (David, Nov 11 2026: "Add photos"): eBay's own listing photo on i.ebayimg.com, at the small
+// 225 px size (fast on phones). Only https i.ebayimg.com URLs are kept.
+function photo(it) {
+  const cands = [it.image && it.image.imageUrl, ...(it.thumbnailImages || []).map((x) => x && x.imageUrl)];
+  for (const u of cands) if (/^https:\/\/i\.ebayimg\.com\//.test(u || '')) return u.replace(/\/s-l\d+\.(jpg|jpeg|png|webp)$/i, '/s-l225.$1');
+  return null;
+}
 const TREAT = { LIST_PRICE: 'List price', MINIMUM_ADVERTISED_PRICE: 'Regular price', STRIKETHROUGH: 'Was', MARKDOWN: 'Was' };
 function offer(it, extra = {}) {
   const price = Number(it.price.value); const mp = it.marketingPrice; const was = mp && mp.originalPrice ? Number(mp.originalPrice.value) : null;
   const ship = it.shippingOptions && it.shippingOptions[0] && it.shippingOptions[0].shippingCost ? Number(it.shippingOptions[0].shippingCost.value) : null;
   const o = { id: 'ebay-' + (it.legacyItemId || it.itemId), title: it.title, store: 'eBay', seller: it.seller && it.seller.username, price, url: cleanUrl(it), src: 'eBay API' };
   if (was && was > price) { o.was = was; o.was_label = TREAT[mp.priceTreatment] || 'Was'; o.pct_off = Math.round((1 - price / was) * 100); }
+  const img = photo(it); if (img) o.img = img;
   if (ship === 0) o.free_ship = true; else if (ship > 0) o.ship = ship;
   return { ...o, ...extra };
 }
