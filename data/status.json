@@ -1,79 +1,79 @@
 {
- "run_at": "2026-11-11T23:12:48.767Z",
+ "run_at": "2026-11-12T07:20:39.169Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
-  "updated": "2026-11-11T22:52:19.807Z",
+  "updated": "2026-11-12T07:18:55.199Z",
   "stores_ok": 22,
   "stores_total": 23,
-  "items": 118670,
-  "rows": 268747,
-  "multi_store_items": 40364,
+  "items": 118765,
+  "rows": 268796,
+  "multi_store_items": 40448,
   "reused_stores": 1,
-  "name_matched_offers": 8167,
+  "name_matched_offers": 8147,
   "merge_only": false,
   "stores": [
    {
     "name": "Landau's Supermarket",
     "city": "Monroe / Kiryas Joel",
     "status": "ok",
-    "count": 13349,
-    "checked": "2026-11-11T22:45:36.420Z",
+    "count": 13207,
+    "checked": "2026-11-12T07:12:58.531Z",
     "stale": false
    },
    {
     "name": "Rockland Kosher",
     "city": "Monsey",
     "status": "ok",
-    "count": 31069,
-    "checked": "2026-11-11T22:52:18.434Z",
+    "count": 31111,
+    "checked": "2026-11-12T07:18:53.917Z",
     "stale": false
    },
    {
     "name": "Breadberry",
     "city": "Boro Park",
     "status": "ok",
-    "count": 18244,
-    "checked": "2026-11-11T22:49:59.325Z",
+    "count": 18597,
+    "checked": "2026-11-12T07:16:15.651Z",
     "stale": false
    },
    {
     "name": "Mega 53",
     "city": "Boro Park",
     "status": "ok",
-    "count": 10768,
-    "checked": "2026-11-11T22:44:41.012Z",
+    "count": 10721,
+    "checked": "2026-11-12T07:12:01.370Z",
     "stale": false
    },
    {
     "name": "Mountain Fruit",
     "city": "Flatbush",
     "status": "ok",
-    "count": 8327,
-    "checked": "2026-11-11T22:44:16.557Z",
+    "count": 8359,
+    "checked": "2026-11-12T07:11:34.064Z",
     "stale": false
    },
    {
     "name": "Empire Kosher",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 9856,
-    "checked": "2026-11-11T22:44:12.514Z",
+    "count": 9817,
+    "checked": "2026-11-12T07:11:39.231Z",
     "stale": false
    },
    {
     "name": "The Market Place (KosherFamily)",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 11449,
-    "checked": "2026-11-11T22:45:21.872Z",
+    "count": 11456,
+    "checked": "2026-11-12T07:12:35.427Z",
     "stale": false
    },
    {
     "name": "Koshertown",
     "city": "Crown Heights",
     "status": "ok",
-    "count": 6472,
-    "checked": "2026-11-11T22:43:28.276Z",
+    "count": 6451,
+    "checked": "2026-11-12T07:10:56.460Z",
     "stale": false
    },
    {
@@ -81,31 +81,31 @@
     "city": "Crown Heights",
     "status": "ok",
     "count": 717,
-    "checked": "2026-11-11T22:42:07.859Z",
+    "checked": "2026-11-12T07:09:42.145Z",
     "stale": false
    },
    {
     "name": "Seasons Lakewood",
     "city": "Lakewood",
     "status": "ok",
-    "count": 11079,
-    "checked": "2026-11-11T22:45:54.387Z",
+    "count": 11108,
+    "checked": "2026-11-12T07:12:46.969Z",
     "stale": false
    },
    {
     "name": "Nutmeg Kosher Market",
     "city": "Lakewood",
     "status": "ok",
-    "count": 10137,
-    "checked": "2026-11-11T22:44:09.359Z",
+    "count": 10026,
+    "checked": "2026-11-12T07:11:41.500Z",
     "stale": false
    },
    {
     "name": "Seasons Lawrence",
     "city": "Five Towns",
     "status": "ok",
-    "count": 8887,
-    "checked": "2026-11-11T22:48:31.032Z",
+    "count": 8914,
+    "checked": "2026-11-12T07:14:45.636Z",
     "stale": false
    },
    {
@@ -168,8 +168,8 @@
     "name": "Rosemary Kosher Supermarket",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 12851,
-    "checked": "2026-11-11T22:44:56.787Z",
+    "count": 12773,
+    "checked": "2026-11-12T07:12:18.480Z",
     "stale": false
    },
    {
@@ -184,8 +184,8 @@
     "name": "Chestnut Supermarket",
     "city": "Williamsburg",
     "status": "ok",
-    "count": 8770,
-    "checked": "2026-11-11T22:45:19.376Z",
+    "count": 8783,
+    "checked": "2026-11-12T07:12:48.566Z",
     "stale": false
    },
    {
@@ -199,27 +199,27 @@
   ]
  },
  "deals": {
-  "updated": "2026-11-11T22:52:20.302Z",
+  "updated": "2026-11-12T07:18:55.733Z",
   "verified": 0,
-  "feed": 600,
+  "feed": 615,
   "sources": [
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/?rss=1&sort=time",
     "ok": true,
-    "kept": 29
+    "kept": 30
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/?rss=1&sort=hotness",
     "ok": true,
-    "kept": 19
+    "kept": 20
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c142/Electronics/?rss=1",
     "ok": true,
-    "kept": 28
+    "kept": 24
    },
    {
     "src": "DealNews",
@@ -231,19 +231,19 @@
     "src": "DealNews",
     "url": "https://www.dealnews.com/c196/Home-Garden/?rss=1",
     "ok": true,
-    "kept": 41
+    "kept": 40
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c206/Home-Garden/Kitchen/?rss=1",
     "ok": true,
-    "kept": 18
+    "kept": 19
    },
    {
     "src": "DealNews",
     "url": "https://www.dealnews.com/c238/Tools-Hardware/?rss=1",
     "ok": true,
-    "kept": 17
+    "kept": 18
    },
    {
     "src": "DealNews",
@@ -255,7 +255,7 @@
     "src": "TechBargains",
     "url": "https://www.techbargains.com/rss.xml",
     "ok": true,
-    "kept": 457
+    "kept": 470
    }
   ]
  },
@@ -266,7 +266,7 @@
    "state": "ok",
    "offers": 100,
    "top_deals": 40,
-   "matches": 21,
+   "matches": 20,
    "api_calls": 94
   },
   {
