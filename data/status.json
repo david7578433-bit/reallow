@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-14T11:36:59.978Z",
+ "run_at": "2026-11-14T16:45:32.318Z",
  "schedule": "every 4 hours (00:17, 04:17, 08:17, 12:17, 16:17, 20:17 UTC) + manual",
  "groceries": {
   "updated": "2026-11-14T11:35:15.981Z",
@@ -266,7 +266,7 @@
    "state": "ok",
    "offers": 100,
    "top_deals": 40,
-   "matches": 21,
+   "matches": 19,
    "api_calls": 94
   },
   {
